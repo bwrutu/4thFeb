@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>F:\maven_practise1\target\surefire-reports\TEST-TestCases.LoginPageTest.xml</file>
+      <name>TestCases.LoginPageTest</name>
+      <duration>0.661</duration>
+      <time>0.661</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.661</duration>
+          <className>TestCases.LoginPageTest</className>
+          <testName>VerifyLogin</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.661</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

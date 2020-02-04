@@ -1,0 +1,20 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\t
+[t] $ cmd /c call C:\Windows\TEMP\jenkins4573201853848526521.bat
+
+C:\Program Files (x86)\Jenkins\workspace\t>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat-Jthreads=10 -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx -l TestResults=10 Test.csv 
+'C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat-Jthreads' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Program Files (x86)\Jenkins\workspace\t>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Test.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\t\Test.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\t\builds\13\performance-reports\JMeter\Test.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\t\builds\13\performance-reports\JMeter\Test.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Test.csv reported 13.469% of errors [SUCCESS]. Build status is: FAILURE
+Finished: FAILURE

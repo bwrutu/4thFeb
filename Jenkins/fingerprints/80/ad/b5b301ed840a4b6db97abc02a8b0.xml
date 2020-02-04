@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:02.838 UTC</timestamp>
+  <md5sum>80adb5b301ed840a4b6db97abc02a8b0</md5sum>
+  <fileName>org.jsoup:jsoup-1.8.3.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

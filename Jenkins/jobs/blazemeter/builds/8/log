@@ -1,0 +1,47 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\blazemeter
+[2020-01-16 17:02:38]: BlazemeterJenkins plugin v.null
+[2020-01-16 17:02:38]: CiBuild is started.
+[2020-01-16 17:02:39]: Start test id : 6693175, name : March_18_3:35 PM
+[2020-01-16 17:02:40]: Test has been started successfully at Thu Jan 16 17:02:40 IST 2020. Master id=24914562
+[2020-01-16 17:02:40]: Test report will be available at https://a.blazemeter.com/app/?public-token=Zimdcu6JgSWhhU4aELaLNKZlZJdSzIniD4SIOXVVPzIKgGjpCm#/masters/24914562/summary
+[2020-01-16 17:03:53]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-16 17:04:15]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-16 17:04:15]: Trying to get functional summary from server
+[2020-01-16 17:04:15]: Trying to get aggregate summary from server
+[2020-01-16 17:04:16]: WARN: Failed to get aggregate summary for master net.sf.json.JSONException: JSONObject["avg"] is not a number.
+[2020-01-16 17:04:16]: {}
+Build step 'BlazeMeter' changed build result to SUCCESS
+[blazemeter] $ cmd /c call C:\Windows\TEMP\jenkins5638492229654077512.bat
+
+C:\Program Files (x86)\Jenkins\workspace\blazemeter>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx -l Pending_Live_Campaign.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx
+Starting the test @ Thu Jan 16 17:04:18 IST 2020 (1579174458151)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      6 in 00:00:13 =    0.5/s Avg:  3125 Min:  1851 Max:  7694 Err:     1 (16.67%) Active: 5 Started: 5 Finished: 0
+summary +     20 in 00:00:29 =    0.7/s Avg:  6840 Min:  1699 Max: 13103 Err:    20 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     26 in 00:00:42 =    0.6/s Avg:  5983 Min:  1699 Max: 13103 Err:    21 (80.77%)
+summary +     20 in 00:00:32 =    0.6/s Avg:  2577 Min:   117 Max:  6452 Err:    18 (90.00%) Active: 5 Started: 5 Finished: 0
+summary =     46 in 00:01:13 =    0.6/s Avg:  4502 Min:   117 Max: 13103 Err:    39 (84.78%)
+summary +     20 in 00:00:30 =    0.7/s Avg:  1502 Min:   101 Max:  3799 Err:    16 (80.00%) Active: 5 Started: 5 Finished: 0
+summary =     66 in 00:01:44 =    0.6/s Avg:  3593 Min:   101 Max: 13103 Err:    55 (83.33%)
+summary +     26 in 00:00:28 =    0.9/s Avg:  2294 Min:   166 Max:  5806 Err:    22 (84.62%) Active: 5 Started: 5 Finished: 0
+summary =     92 in 00:02:12 =    0.7/s Avg:  3226 Min:   101 Max: 13103 Err:    77 (83.70%)
+summary +     23 in 00:00:32 =    0.7/s Avg:  1891 Min:    91 Max:  4307 Err:    19 (82.61%) Active: 5 Started: 5 Finished: 0
+summary =    115 in 00:02:44 =    0.7/s Avg:  2959 Min:    91 Max: 13103 Err:    96 (83.48%)
+summary +     35 in 00:00:58 =    0.6/s Avg:  1070 Min:    57 Max:  3954 Err:    14 (40.00%) Active: 1 Started: 5 Finished: 4
+summary =    150 in 00:03:42 =    0.7/s Avg:  2518 Min:    57 Max: 13103 Err:   110 (73.33%)
+summary =    150 in 00:03:42 =    0.7/s Avg:  2518 Min:    57 Max: 13103 Err:   110 (73.33%)
+Tidying up ...    @ Thu Jan 16 17:08:00 IST 2020 (1579174680561)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Pending_Live_Campaign.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\blazemeter\Pending_Live_Campaign.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\blazemeter\builds\8\performance-reports\JMeter\Pending_Live_Campaign.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\blazemeter\builds\8\performance-reports\JMeter\Pending_Live_Campaign.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Pending_Live_Campaign.csv reported 74.194% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

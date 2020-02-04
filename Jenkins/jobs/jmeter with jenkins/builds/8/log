@@ -1,0 +1,22 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\t
+[t] $ cmd /c call C:\Windows\TEMP\jenkins4253205421878882161.bat
+
+C:\Program Files (x86)\Jenkins\workspace\t>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx -l Test.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx
+Starting the test @ Tue Jan 14 15:19:48 IST 2020 (1578995388076)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =    950 in 00:00:10 =   93.9/s Avg:    97 Min:     1 Max:  2187 Err:   130 (13.68%)
+Tidying up ...    @ Tue Jan 14 15:19:58 IST 2020 (1578995398651)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Test.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\t\Test.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\t\builds\8\performance-reports\JMeter\Test.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\t\builds\8\performance-reports\JMeter\Test.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Test.csv reported 13.267% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

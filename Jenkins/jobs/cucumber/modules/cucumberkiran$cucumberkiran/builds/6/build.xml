@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.4">
+  <actions/>
+  <queueId>-1</queueId>
+  <timestamp>1566823733649</timestamp>
+  <startTime>1566823754111</startTime>
+  <result>ABORTED</result>
+  <duration>3</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>F:\cucumberkiran</workspace>
+</hudson.maven.MavenBuild>

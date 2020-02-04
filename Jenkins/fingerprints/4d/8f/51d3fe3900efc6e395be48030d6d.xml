@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:05.296 UTC</timestamp>
+  <md5sum>4d8f51d3fe3900efc6e395be48030d6d</md5sum>
+  <fileName>dom4j:dom4j-1.6.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

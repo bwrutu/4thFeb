@@ -1,0 +1,14 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\t
+[t] $ cmd /c call C:\Windows\TEMP\jenkins4262072063738318354.bat
+
+C:\Program Files (x86)\Jenkins\workspace\t>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Test.jmx -l Test1.jtl 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Test.jmx
+Starting the test @ Tue Jan 14 14:46:41 IST 2020 (1578993401483)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     30 in 00:00:03 =   10.6/s Avg:   217 Min:   100 Max:   350 Err:     2 (6.67%)
+Tidying up ...    @ Tue Jan 14 14:46:44 IST 2020 (1578993404687)
+... end of run
+Finished: SUCCESS

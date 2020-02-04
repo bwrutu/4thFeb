@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:02.4 UTC</timestamp>
+  <md5sum>353cf6a2bdba09595ccfa073b78c7fcb</md5sum>
+  <fileName>commons-codec:commons-codec-1.10.jar</fileName>
+  <usages>
+    <entry>
+      <string>cucumber/cucumberkiran:cucumberkiran</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>cucumber</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

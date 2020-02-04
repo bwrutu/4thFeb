@@ -1,0 +1,32 @@
+Started by upstream project "[8mha:////4LRM0NszfsGZEPlseNE9M+qCHoZY3E95lnIvv+8SlqwlAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP30zJL4ktTiEn0Anm6SBcMAAAA=[0mgit_test" build number [8mha:////4MTWGi5cSYh5McsZaGoFw0Ijf7w8LKuC2zaYq+5pGpTjAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwk/fTMkviS1OISfVMAzwso48QAAAA=[0m5
+originally caused by:
+ Started by upstream project "[8mha:////4C8r1uVSa2R6zx/+L4izt8qm8wbPSL87yld5dPRKkeEEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH2X1Nx8LyANAPyuEqDCAAAA[0mDemoJob" build number [8mha:////4CgPeRR1NF6Z+hdyhOJYMXzzqqn2QgBwslryYnGTAO8pAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ+/az8JH2X1Nx8LyBtaAAAdA0QkcQAAAA=[0m10
+ originally caused by:
+  Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\hello world
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kriru/firstJava.git # timeout=10
+Fetching upstream changes from https://github.com/kriru/firstJava.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress -- https://github.com/kriru/firstJava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 01a47017cd52f221fcaa157e1597fa3fb72b2267 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 01a47017cd52f221fcaa157e1597fa3fb72b2267 # timeout=10
+Commit message: "Update HelloWorld.java"
+ > git.exe rev-list --no-walk 01a47017cd52f221fcaa157e1597fa3fb72b2267 # timeout=10
+[hello world] $ cmd /c call C:\Windows\TEMP\jenkins2132763220502849389.bat
+
+C:\Program Files (x86)\Jenkins\workspace\hello world>javac HelloWorld.java 
+
+C:\Program Files (x86)\Jenkins\workspace\hello world>java HelloWorld 
+Hello, World
+
+C:\Program Files (x86)\Jenkins\workspace\hello world>exit 0 
+Triggering a new build of [8mha:////4Ex2AWvjzX9ZiooMTE7MOljviYJATX/btMZk01KluqP5AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZx/az8JP2Q1OKS4FSg6ZmluW6ZRcUl+gAQVM3gzAAAAA==[0mtest_home
+Triggering a new build of [8mha:////4Nb+FbHJhW+9FarMMjYxtX8ubpC3cHpSN46++Dm0Ot8rAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2S1OKS+JTU3Pz4gtKigvziVH0AMhD9XMwAAAA=[0mtest_demo_purpose
+Finished: SUCCESS

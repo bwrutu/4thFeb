@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:01.831 UTC</timestamp>
+  <md5sum>467c2a1f64319c99b5faf03fc78572af</md5sum>
+  <fileName>commons-io:commons-io-2.6.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

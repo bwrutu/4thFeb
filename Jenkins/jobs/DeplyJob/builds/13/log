@@ -1,0 +1,19 @@
+Started by upstream project "[8mha:////4C8r1uVSa2R6zx/+L4izt8qm8wbPSL87yld5dPRKkeEEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH2X1Nx8LyANAPyuEqDCAAAA[0mDemoJob" build number [8mha:////4CgPeRR1NF6Z+hdyhOJYMXzzqqn2QgBwslryYnGTAO8pAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ+/az8JH2X1Nx8LyBtaAAAdA0QkcQAAAA=[0m10
+originally caused by:
+ Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\DeplyJob
+[DeplyJob] $ cmd /c call C:\Windows\TEMP\jenkins542348295412675283.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>echo "deployjob executed successfully" 
+"deployjob executed successfully"
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>exit 0 
+[DeplyJob] $ cmd /c call C:\Windows\TEMP\jenkins959490795613413021.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>echo "deployjob executed successfully" 
+"deployjob executed successfully"
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>exit 0 
+Triggering a new build of [8mha:////4E3o7foF1ioc2ZMlNhpQxIU7ocVsMHGKgDkL8JdQvgMOAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP3ixNyCnFQvIAsAy0V178QAAAA=[0msampleJob
+Finished: SUCCESS

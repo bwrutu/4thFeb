@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.4">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>cucumberkiran:cucumberkiran:pom.xml</string>
+          <string>c83221db8f4f594e7d527284d7456e0b</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>cucumberkiran</groupId>
+        <artifactId>cucumberkiran</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>cucumberkiran-0.0.1-SNAPSHOT.pom</canonicalName>
+        <md5sum>c83221db8f4f594e7d527284d7456e0b</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1566823822381</timestamp>
+  <startTime>1566823827128</startTime>
+  <result>FAILURE</result>
+  <duration>86259</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>F:\cucumberkiran</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.5</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>6012</duration>
+      <digest>9a18e4d3f6e6495ed92b7d4694b41e66</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-resources-plugin</artifactId>
+      <version>2.6</version>
+      <goal>resources</goal>
+      <executionId>default-resources</executionId>
+      <duration>25672</duration>
+      <digest>e7cc4bbb6888e6c9dd5acdad08cf4bd3</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.1</version>
+      <goal>compile</goal>
+      <executionId>default-compile</executionId>
+      <duration>50147</duration>
+      <digest>4a14a33ab69db9dadfb4d41449ebc651</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

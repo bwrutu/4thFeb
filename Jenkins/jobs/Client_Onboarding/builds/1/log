@@ -1,0 +1,63 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Client_Onboarding
+[2020-01-17 17:17:09]: BlazemeterJenkins plugin v.null
+[2020-01-17 17:17:09]: CiBuild is started.
+[2020-01-17 17:17:11]: Start test id : 7615820, name : Client OnBoarding
+[2020-01-17 17:17:12]: Test has been started successfully at Fri Jan 17 17:17:12 IST 2020. Master id=24944171
+[2020-01-17 17:17:13]: Test report will be available at https://a.blazemeter.com/app/?public-token=1Mm4IRQToOONd9Qn6dj5lmiUpIJOIHQPrc0a7iHTx7ntPFSUE7#/masters/24944171/summary
+[2020-01-17 17:18:26]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-17 17:19:28]: Check if the test is still running. Time passed since start: 2 minutes.
+[2020-01-17 17:20:31]: Check if the test is still running. Time passed since start: 3 minutes.
+[2020-01-17 17:21:33]: Check if the test is still running. Time passed since start: 4 minutes.
+[2020-01-17 17:22:35]: Check if the test is still running. Time passed since start: 5 minutes.
+[2020-01-17 17:23:38]: Check if the test is still running. Time passed since start: 6 minutes.
+[2020-01-17 17:24:40]: Check if the test is still running. Time passed since start: 7 minutes.
+[2020-01-17 17:25:43]: Check if the test is still running. Time passed since start: 8 minutes.
+[2020-01-17 17:26:45]: Check if the test is still running. Time passed since start: 9 minutes.
+[2020-01-17 17:27:48]: Check if the test is still running. Time passed since start: 10 minutes.
+[2020-01-17 17:28:50]: Check if the test is still running. Time passed since start: 11 minutes.
+[2020-01-17 17:29:53]: Check if the test is still running. Time passed since start: 12 minutes.
+[2020-01-17 17:30:55]: Check if the test is still running. Time passed since start: 13 minutes.
+[2020-01-17 17:31:58]: Check if the test is still running. Time passed since start: 14 minutes.
+[2020-01-17 17:33:00]: Check if the test is still running. Time passed since start: 15 minutes.
+[2020-01-17 17:34:03]: Check if the test is still running. Time passed since start: 16 minutes.
+[2020-01-17 17:35:06]: Check if the test is still running. Time passed since start: 17 minutes.
+[2020-01-17 17:36:08]: Check if the test is still running. Time passed since start: 18 minutes.
+[2020-01-17 17:37:11]: Check if the test is still running. Time passed since start: 19 minutes.
+[2020-01-17 17:38:13]: Check if the test is still running. Time passed since start: 20 minutes.
+[2020-01-17 17:39:16]: Check if the test is still running. Time passed since start: 21 minutes.
+[2020-01-17 17:40:18]: Check if the test is still running. Time passed since start: 22 minutes.
+[2020-01-17 17:41:00]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-17 17:41:00]: Trying to get functional summary from server
+[2020-01-17 17:41:01]: Trying to get aggregate summary from server
+[2020-01-17 17:41:02]: Got aggregated report from server
+[2020-01-17 17:41:02]: {"avg":8703.8,"min":0,"max":108543,"tp90":18175,"errorPercentage":90,"hits":1524,"avgthrpt":1.42}
+Build step 'BlazeMeter' changed build result to SUCCESS
+[Client_Onboarding] $ cmd /c call C:\Windows\TEMP\jenkins5940488144167113011.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Client_Onboarding>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Client-OnBoarding.jmx -l Client-OnBoarding.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Client-OnBoarding.jmx
+Starting the test @ Fri Jan 17 17:41:03 IST 2020 (1579263063853)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:00 =    4.7/s Avg:    48 Min:    48 Max:    48 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +      4 in 00:00:30 =    0.1/s Avg:  5475 Min:     4 Max: 11541 Err:     3 (75.00%) Active: 1 Started: 1 Finished: 0
+summary =      5 in 00:00:30 =    0.2/s Avg:  4389 Min:     4 Max: 11541 Err:     4 (80.00%)
+summary +      3 in 00:00:26 =    0.1/s Avg:  1579 Min:   240 Max:  4247 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      8 in 00:00:56 =    0.1/s Avg:  3336 Min:     4 Max: 11541 Err:     7 (87.50%)
+summary +      9 in 00:02:03 =    0.1/s Avg:  1832 Min:   178 Max:  6994 Err:     9 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     17 in 00:02:59 =    0.1/s Avg:  2540 Min:     4 Max: 11541 Err:    16 (94.12%)
+summary +      2 in 00:00:10 =    0.2/s Avg:   530 Min:   216 Max:   845 Err:     1 (50.00%) Active: 0 Started: 1 Finished: 1
+summary =     19 in 00:03:08 =    0.1/s Avg:  2328 Min:     4 Max: 11541 Err:    17 (89.47%)
+Tidying up ...    @ Fri Jan 17 17:44:12 IST 2020 (1579263252592)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Client-OnBoarding.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\Client_Onboarding\Client-OnBoarding.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\Client_Onboarding\builds\1\performance-reports\JMeter\Client-OnBoarding.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\Client_Onboarding\builds\1\performance-reports\JMeter\Client-OnBoarding.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Client-OnBoarding.csv reported 90.0% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

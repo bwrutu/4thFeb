@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<results>
+<absoluteDefinition>
+	<unstable>-1</unstable>
+	<failed>-1</failed>
+	<calculated>6.667</calculated>
+</absoluteDefinition>
+<average>
+	<Sample 1>
+		<currentBuildAvg>235</currentBuildAvg>
+	</Sample 1>
+	<Sample 2>
+		<currentBuildAvg>212</currentBuildAvg>
+	</Sample 2>
+</average>
+<median>
+	<Sample 1>
+		<currentBuildMed>246</currentBuildMed>
+	</Sample 1>
+	<Sample 2>
+		<currentBuildMed>203</currentBuildMed>
+	</Sample 2>
+</median>
+<percentile>
+	<Sample 1>
+		<currentBuild90Line>329</currentBuild90Line>
+	</Sample 1>
+	<Sample 2>
+		<currentBuild90Line>307</currentBuild90Line>
+	</Sample 2>
+</percentile>
+</results>

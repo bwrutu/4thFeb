@@ -1,0 +1,16 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose
+[test_demo_purpose] $ cmd /c call C:\Windows\TEMP\jenkins2076423304288009111.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>echo "Test" 
+"Test"
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>exit 0 
+[test_demo_purpose] $ cmd /c call C:\Windows\TEMP\jenkins6512885967916619464.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>echo "test" 
+"test"
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>exit 0 
+Finished: SUCCESS

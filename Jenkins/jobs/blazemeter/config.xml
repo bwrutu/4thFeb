@@ -1,0 +1,80 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.11"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>threads</name>
+          <description></description>
+          <defaultValue>10</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.blazemeter.PerformanceBuilder plugin="BlazeMeterJenkinsPlugin@4.7">
+      <jobApiKey></jobApiKey>
+      <credentialsId>46ab46ed-c2f4-4714-aa62-b6d7454c9402</credentialsId>
+      <workspaceId>297749</workspaceId>
+      <serverUrl></serverUrl>
+      <testId>6693202.taurus</testId>
+      <notes></notes>
+      <sessionProperties></sessionProperties>
+      <jtlPath></jtlPath>
+      <junitPath></junitPath>
+      <getJtl>false</getJtl>
+      <getJunit>false</getJunit>
+      <reportLinkName></reportLinkName>
+      <mainTestFile></mainTestFile>
+      <additionalTestFiles></additionalTestFiles>
+      <abortJob>false</abortJob>
+    </hudson.plugins.blazemeter.PerformanceBuilder>
+    <hudson.tasks.BatchFile>
+      <command>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx -l Pending_Live_Campaign.csv</command>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers>
+    <hudson.plugins.performance.PerformancePublisher plugin="performance@3.17">
+      <errorFailedThreshold>-1</errorFailedThreshold>
+      <errorUnstableThreshold>-1</errorUnstableThreshold>
+      <errorUnstableResponseTimeThreshold></errorUnstableResponseTimeThreshold>
+      <relativeFailedThresholdPositive>-1.0</relativeFailedThresholdPositive>
+      <relativeFailedThresholdNegative>-1.0</relativeFailedThresholdNegative>
+      <relativeUnstableThresholdPositive>-1.0</relativeUnstableThresholdPositive>
+      <relativeUnstableThresholdNegative>-1.0</relativeUnstableThresholdNegative>
+      <nthBuildNumber>0</nthBuildNumber>
+      <configType>ART</configType>
+      <graphType>ART</graphType>
+      <modeOfThreshold>false</modeOfThreshold>
+      <failBuildIfNoResultFile>true</failBuildIfNoResultFile>
+      <compareBuildPrevious>false</compareBuildPrevious>
+      <optionType>ART</optionType>
+      <modePerformancePerTestCase>true</modePerformancePerTestCase>
+      <excludeResponseTime>false</excludeResponseTime>
+      <modeThroughput>true</modeThroughput>
+      <modeEvaluation>false</modeEvaluation>
+      <constraints class="empty-list"/>
+      <ignoreFailedBuilds>false</ignoreFailedBuilds>
+      <ignoreUnstableBuilds>false</ignoreUnstableBuilds>
+      <persistConstraintLog>false</persistConstraintLog>
+      <sourceDataFiles>Pending_Live_Campaign.csv</sourceDataFiles>
+      <filterRegex></filterRegex>
+      <junitOutput></junitOutput>
+      <percentiles>0,50,90,100</percentiles>
+      <baselineBuild>20</baselineBuild>
+    </hudson.plugins.performance.PerformancePublisher>
+  </publishers>
+  <buildWrappers/>
+</project>

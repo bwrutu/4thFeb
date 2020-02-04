@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 13:14:03.309 UTC</timestamp>
+  <original>
+    <name>cucumber/cucumberkiran:cucumberkiran</name>
+    <number>9</number>
+  </original>
+  <md5sum>ef87c7a07ec3f536e2e6e998d557b6bb</md5sum>
+  <fileName>cucumberkiran:cucumberkiran:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>cucumber</string>
+      <ranges>9</ranges>
+    </entry>
+    <entry>
+      <string>cucumber/cucumberkiran:cucumberkiran</string>
+      <ranges>9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

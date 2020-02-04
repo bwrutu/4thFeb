@@ -1,0 +1,20 @@
+Started by upstream project "[8mha:////4ENxbFCywExU7fR9rSXkYb2Ze4csz92pcMSfZNjtT47PAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2X1IKcSi8gAwC9AIWWwwAAAA==[0mDeplyJob" build number [8mha:////4OLpbbNixdPSqRI4gV6pXd6pfYpassMtHIrH1jbYdH8sAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2X1IKcSi8gw9AYAP7zX2jFAAAA[0m13
+originally caused by:
+ Started by upstream project "[8mha:////4C8r1uVSa2R6zx/+L4izt8qm8wbPSL87yld5dPRKkeEEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH2X1Nx8LyANAPyuEqDCAAAA[0mDemoJob" build number [8mha:////4CgPeRR1NF6Z+hdyhOJYMXzzqqn2QgBwslryYnGTAO8pAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ+/az8JH2X1Nx8LyBtaAAAdA0QkcQAAAA=[0m10
+ originally caused by:
+  Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\sampleJob
+[sampleJob] $ cmd /c call C:\Windows\TEMP\jenkins8901528518999439571.bat
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>echo "sampleJob" 
+"sampleJob"
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>exit 0 
+[sampleJob] $ cmd /c call C:\Windows\TEMP\jenkins2266212887241277362.bat
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>echo "sampleJob" 
+"sampleJob"
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>exit 0 
+Finished: SUCCESS

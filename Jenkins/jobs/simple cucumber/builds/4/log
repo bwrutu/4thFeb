@@ -1,0 +1,12 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace F:\eclipse\Tech cucumbe
+[Tech cucumbe] $ cmd /c call C:\Windows\TEMP\jenkins748167037002175762.bat
+
+F:\eclipse\Tech cucumbe>run.bat
+'run.bat' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\eclipse\Tech cucumbe>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

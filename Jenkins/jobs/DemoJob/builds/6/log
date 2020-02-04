@@ -1,0 +1,17 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\DemoJob
+[DemoJob] $ cmd /c call C:\Windows\TEMP\jenkins7961068643986284735.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DemoJob>echo "demojob" 
+"demojob"
+
+C:\Program Files (x86)\Jenkins\workspace\DemoJob>exit 0 
+[DemoJob] $ cmd /c call C:\Windows\TEMP\jenkins2927928984433668199.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DemoJob>echo "demojob" 
+"demojob"
+
+C:\Program Files (x86)\Jenkins\workspace\DemoJob>exit 0 
+Triggering a new build of [8mha:////4ENxbFCywExU7fR9rSXkYb2Ze4csz92pcMSfZNjtT47PAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2X1IKcSi8gAwC9AIWWwwAAAA==[0mDeplyJob
+Finished: SUCCESS

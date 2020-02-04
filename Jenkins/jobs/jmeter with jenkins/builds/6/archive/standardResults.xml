@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<results>
+<api>
+	<uri>Sample 1</uri>
+	<samples>15</samples>
+	<average>216</average>
+	<min>101</min>
+	<median>213</median>
+	<ninetieth>286</ninetieth>
+	<max>344</max>
+	<httpCode>200</httpCode>
+	<errors>13.333</errors>
+</api>
+<api>
+	<uri>Sample 2</uri>
+	<samples>15</samples>
+	<average>196</average>
+	<min>119</min>
+	<median>182</median>
+	<ninetieth>237</ninetieth>
+	<max>317</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+</results>

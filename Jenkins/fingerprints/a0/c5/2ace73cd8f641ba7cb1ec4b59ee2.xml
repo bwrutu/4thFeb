@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:05.869 UTC</timestamp>
+  <md5sum>a0c52ace73cd8f641ba7cb1ec4b59ee2</md5sum>
+  <fileName>org.testng:testng-6.11.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

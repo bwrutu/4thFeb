@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:04.89 UTC</timestamp>
+  <md5sum>b6fb2610dacd211a3e2c3d8af1b60d0f</md5sum>
+  <fileName>org.checkerframework:checker-compat-qual-2.0.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>cucumber/cucumberkiran:cucumberkiran</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>cucumber</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

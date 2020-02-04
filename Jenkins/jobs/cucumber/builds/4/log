@@ -1,0 +1,5 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\cucumber
+ERROR: A Maven installation needs to be available for this project to be built.Either your server has no Maven installations defined, or the requested Maven version does not exist.
+Finished: FAILURE

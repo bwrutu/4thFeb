@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="336" it="0" lt="0" ct="0" ts="1578993401923" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="149" it="0" lt="0" ct="0" ts="1578993402244" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="190" it="0" lt="0" ct="0" ts="1578993402285" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="17" sby="7" ng="2" na="2"/>
+<sample t="124" it="0" lt="0" ct="0" ts="1578993402476" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="299" it="0" lt="0" ct="0" ts="1578993402394" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="225" it="0" lt="0" ct="0" ts="1578993402577" s="false" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /3/</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="250" it="0" lt="0" ct="0" ts="1578993402601" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="198" it="0" lt="0" ct="0" ts="1578993402803" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="344" it="0" lt="0" ct="0" ts="1578993402694" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="246" it="0" lt="0" ct="0" ts="1578993402851" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="140" it="0" lt="0" ct="0" ts="1578993403002" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="177" it="0" lt="0" ct="0" ts="1578993403039" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="100" it="0" lt="0" ct="0" ts="1578993403217" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="238" it="0" lt="0" ct="0" ts="1578993403098" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="282" it="0" lt="0" ct="0" ts="1578993403143" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="203" it="0" lt="0" ct="0" ts="1578993403318" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="221" it="0" lt="0" ct="0" ts="1578993403336" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="151" it="0" lt="0" ct="0" ts="1578993403521" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="311" it="0" lt="0" ct="0" ts="1578993403426" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="188" it="0" lt="0" ct="0" ts="1578993403558" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="112" it="0" lt="0" ct="0" ts="1578993403738" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="121" it="0" lt="0" ct="0" ts="1578993403746" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="303" it="0" lt="0" ct="0" ts="1578993403673" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="225" it="0" lt="0" ct="0" ts="1578993403850" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="241" it="0" lt="0" ct="0" ts="1578993403868" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="196" it="0" lt="0" ct="0" ts="1578993404076" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="2" na="2"/>
+<sample t="350" it="0" lt="0" ct="0" ts="1578993403977" s="false" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="16" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /3/</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="136" it="0" lt="0" ct="0" ts="1578993404273" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="191" it="0" lt="0" ct="0" ts="1578993404328" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21" sby="7" ng="2" na="2"/>
+<sample t="275" it="0" lt="0" ct="0" ts="1578993404410" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="1" na="1"/>
+
+<sample t="266" it="0" lt="0" ct="0" ts="1578994319597" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12" sby="7" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="307" it="0" lt="0" ct="0" ts="1578994319892" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="17" sby="7" ng="2" na="2"/>
+<sample t="331" it="0" lt="0" ct="0" ts="1578994319918" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="105" it="0" lt="0" ct="0" ts="1578994320202" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="153" it="0" lt="0" ct="0" ts="1578994320250" s="false" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /3/</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="155" it="0" lt="0" ct="0" ts="1578994320250" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="213" it="0" lt="0" ct="0" ts="1578994320308" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="170" it="0" lt="0" ct="0" ts="1578994320522" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="309" it="0" lt="0" ct="0" ts="1578994320404" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="309" it="0" lt="0" ct="0" ts="1578994320406" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="107" it="0" lt="0" ct="0" ts="1578994320714" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="109" it="0" lt="0" ct="0" ts="1578994320716" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="341" it="0" lt="0" ct="0" ts="1578994320693" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="217" it="0" lt="0" ct="0" ts="1578994320822" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="219" it="0" lt="0" ct="0" ts="1578994320826" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="173" it="0" lt="0" ct="0" ts="1578994321035" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="178" it="0" lt="0" ct="0" ts="1578994321040" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="184" it="0" lt="0" ct="0" ts="1578994321046" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="102" it="0" lt="0" ct="0" ts="1578994321219" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="114" it="0" lt="0" ct="0" ts="1578994321231" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="205" it="0" lt="0" ct="0" ts="1578994321322" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="349" it="0" lt="0" ct="0" ts="1578994321209" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="231" it="0" lt="0" ct="0" ts="1578994321346" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="158" it="0" lt="0" ct="0" ts="1578994321528" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="187" it="0" lt="0" ct="0" ts="1578994321559" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="206" it="0" lt="0" ct="0" ts="1578994321578" s="false" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /3/</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="120" it="0" lt="0" ct="0" ts="1578994321747" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="160" it="0" lt="0" ct="0" ts="1578994321785" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21" sby="7" ng="2" na="2"/>
+<sample t="315" it="0" lt="0" ct="0" ts="1578994321687" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="121" it="0" lt="0" ct="0" ts="1578994322003" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="1" na="1"/>
+
+<sample t="118" it="0" lt="0" ct="0" ts="1578994483668" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12" sby="7" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="263" it="0" lt="0" ct="0" ts="1578994483813" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="17" sby="7" ng="2" na="2"/>
+<sample t="182" it="0" lt="0" ct="0" ts="1578994483987" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="110" it="0" lt="0" ct="0" ts="1578994484170" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="2" na="2"/>
+<sample t="271" it="0" lt="0" ct="0" ts="1578994484076" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="220" it="0" lt="0" ct="0" ts="1578994484280" s="false" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /3/</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="258" it="0" lt="0" ct="0" ts="1578994484318" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="287" it="0" lt="0" ct="0" ts="1578994484347" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="186" it="0" lt="0" ct="0" ts="1578994484501" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="117" it="0" lt="0" ct="0" ts="1578994484687" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="261" it="0" lt="0" ct="0" ts="1578994484576" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="319" it="0" lt="0" ct="0" ts="1578994484634" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="235" it="0" lt="0" ct="0" ts="1578994484804" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="128" it="0" lt="0" ct="0" ts="1578994484953" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="267" it="0" lt="0" ct="0" ts="1578994484837" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="214" it="0" lt="0" ct="0" ts="1578994485039" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="256" it="0" lt="0" ct="0" ts="1578994485081" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="280" it="0" lt="0" ct="0" ts="1578994485105" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="173" it="0" lt="0" ct="0" ts="1578994485253" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="257" it="0" lt="0" ct="0" ts="1578994485337" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20" sby="7" ng="3" na="3"/>
+<sample t="305" it="0" lt="0" ct="0" ts="1578994485385" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="346" it="0" lt="0" ct="0" ts="1578994485426" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="101" it="0" lt="0" ct="0" ts="1578994485691" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="259" it="0" lt="0" ct="0" ts="1578994485594" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="16" sby="7" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="182" it="0" lt="0" ct="0" ts="1578994485772" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21" sby="7" ng="3" na="3"/>
+<sample t="202" it="0" lt="0" ct="0" ts="1578994485792" s="false" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /3/</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="263" it="0" lt="0" ct="0" ts="1578994485853" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21" sby="7" ng="2" na="2"/>
+<sample t="150" it="0" lt="0" ct="0" ts="1578994485995" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="1" na="1"/>
+<sample t="300" it="0" lt="0" ct="0" ts="1578994486145" s="true" lb="Sample 1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="16" sby="7" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="344" it="0" lt="0" ct="0" ts="1578994486446" s="true" lb="Sample 2" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21" sby="7" ng="1" na="1"/>
+
+</testResults>

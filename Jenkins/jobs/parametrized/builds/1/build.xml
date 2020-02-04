@@ -1,0 +1,170 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.6.0"/>
+    <hudson.plugins.parameterizedtrigger.CapturedEnvironmentAction plugin="parameterized-trigger@2.35.2">
+      <env serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="hudson.util.CaseInsensitiveComparator"/>
+          </default>
+          <int>63</int>
+          <string>ALLUSERSPROFILE</string>
+          <string>C:\ProgramData</string>
+          <string>ANDROID_HOME</string>
+          <string>C:\Users\Trigen\AppData\Local\Android\Sdk</string>
+          <string>APPDATA</string>
+          <string>C:\Windows\system32\config\systemprofile\AppData\Roaming</string>
+          <string>BASE</string>
+          <string>C:\Program Files (x86)\Jenkins</string>
+          <string>BUILD_DISPLAY_NAME</string>
+          <string>#1</string>
+          <string>BUILD_ID</string>
+          <string>1</string>
+          <string>BUILD_NUMBER</string>
+          <string>1</string>
+          <string>BUILD_TAG</string>
+          <string>jenkins-parametrized-1</string>
+          <string>BUILD_URL</string>
+          <string>http://45.112.2.195:8080/job/parametrized/1/</string>
+          <string>CLASSPATH</string>
+          <string></string>
+          <string>CommonProgramFiles</string>
+          <string>C:\Program Files (x86)\Common Files</string>
+          <string>CommonProgramFiles(x86)</string>
+          <string>C:\Program Files (x86)\Common Files</string>
+          <string>CommonProgramW6432</string>
+          <string>C:\Program Files\Common Files</string>
+          <string>COMPUTERNAME</string>
+          <string>TRIGEN-PC</string>
+          <string>ComSpec</string>
+          <string>C:\Windows\system32\cmd.exe</string>
+          <string>EXECUTOR_NUMBER</string>
+          <string>0</string>
+          <string>FP_NO_HOST_CHECK</string>
+          <string>NO</string>
+          <string>HUDSON_HOME</string>
+          <string>C:\Program Files (x86)\Jenkins</string>
+          <string>HUDSON_SERVER_COOKIE</string>
+          <string>3db4a10ef18ad2f9</string>
+          <string>HUDSON_URL</string>
+          <string>http://45.112.2.195:8080/</string>
+          <string>JAVA_HOME</string>
+          <string>C:\Program Files\Java\jdk1.8.0_201</string>
+          <string>JENKINS_HOME</string>
+          <string>C:\Program Files (x86)\Jenkins</string>
+          <string>JENKINS_SERVER_COOKIE</string>
+          <string>3db4a10ef18ad2f9</string>
+          <string>JENKINS_URL</string>
+          <string>http://45.112.2.195:8080/</string>
+          <string>JenkinsHome</string>
+          <string>C:\Program Files (x86)\Jenkins</string>
+          <string>JOB_BASE_NAME</string>
+          <string>parametrized</string>
+          <string>JOB_DISPLAY_URL</string>
+          <string>http://45.112.2.195:8080/job/parametrized/display/redirect</string>
+          <string>JOB_NAME</string>
+          <string>parametrized</string>
+          <string>JOB_URL</string>
+          <string>http://45.112.2.195:8080/job/parametrized/</string>
+          <string>LOCALAPPDATA</string>
+          <string>C:\Windows\system32\config\systemprofile\AppData\Local</string>
+          <string>NODE_LABELS</string>
+          <string>master</string>
+          <string>NODE_NAME</string>
+          <string>master</string>
+          <string>NUMBER_OF_PROCESSORS</string>
+          <string>4</string>
+          <string>OS</string>
+          <string>Windows_NT</string>
+          <string>Path</string>
+          <string>C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\Trigen\AppData\Local\Android\Sdk\platform-tools;C:\Users\Trigen\AppData\Local\Android\Sdk\tools;C:\Users\Trigen\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Utilities 1.6\;</string>
+          <string>PATH+JDK</string>
+          <string>C:\Program Files\Java\jdk1.8.0_201/bin</string>
+          <string>PATHEXT</string>
+          <string>.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</string>
+          <string>PROCESSOR_ARCHITECTURE</string>
+          <string>x86</string>
+          <string>PROCESSOR_ARCHITEW6432</string>
+          <string>AMD64</string>
+          <string>PROCESSOR_IDENTIFIER</string>
+          <string>Intel64 Family 6 Model 42 Stepping 7, GenuineIntel</string>
+          <string>PROCESSOR_LEVEL</string>
+          <string>6</string>
+          <string>PROCESSOR_REVISION</string>
+          <string>2a07</string>
+          <string>ProgramData</string>
+          <string>C:\ProgramData</string>
+          <string>ProgramFiles</string>
+          <string>C:\Program Files (x86)</string>
+          <string>ProgramFiles(x86)</string>
+          <string>C:\Program Files (x86)</string>
+          <string>ProgramW6432</string>
+          <string>C:\Program Files</string>
+          <string>PSModulePath</string>
+          <string>C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</string>
+          <string>PUBLIC</string>
+          <string>C:\Users\Public</string>
+          <string>RUN_CHANGES_DISPLAY_URL</string>
+          <string>http://45.112.2.195:8080/job/parametrized/1/display/redirect?page=changes</string>
+          <string>RUN_DISPLAY_URL</string>
+          <string>http://45.112.2.195:8080/job/parametrized/1/display/redirect</string>
+          <string>SERVICE_ID</string>
+          <string>Jenkins</string>
+          <string>SystemDrive</string>
+          <string>C:</string>
+          <string>SystemRoot</string>
+          <string>C:\Windows</string>
+          <string>TEMP</string>
+          <string>C:\Windows\TEMP</string>
+          <string>TMP</string>
+          <string>C:\Windows\TEMP</string>
+          <string>USERDOMAIN</string>
+          <string>WORKGROUP</string>
+          <string>USERNAME</string>
+          <string>TRIGEN-PC$</string>
+          <string>USERPROFILE</string>
+          <string>C:\Windows\system32\config\systemprofile</string>
+          <string>windir</string>
+          <string>C:\Windows</string>
+          <string>WINSW_EXECUTABLE</string>
+          <string>C:\Program Files (x86)\Jenkins\jenkins.exe</string>
+          <string>WINSW_SERVICE_ID</string>
+          <string>Jenkins</string>
+          <string>WORKSPACE</string>
+          <string>C:\Program Files (x86)\Jenkins\workspace\parametrized</string>
+          <string>WORKSPACE_TMP</string>
+          <string>C:\Program Files (x86)\Jenkins\workspace\parametrized@tmp</string>
+        </tree-map>
+        <hudson.EnvVars>
+          <default>
+            <platform>WINDOWS</platform>
+          </default>
+        </hudson.EnvVars>
+      </env>
+    </hudson.plugins.parameterizedtrigger.CapturedEnvironmentAction>
+  </actions>
+  <queueId>11</queueId>
+  <timestamp>1579245691742</timestamp>
+  <startTime>1579245691790</startTime>
+  <result>SUCCESS</result>
+  <duration>248</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Program Files (x86)\Jenkins\workspace\parametrized</workspace>
+  <hudsonVersion>2.214</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

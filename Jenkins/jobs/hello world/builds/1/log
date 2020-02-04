@@ -1,0 +1,31 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\hello world
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kriru/firstJava.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\hello world # timeout=10
+Fetching upstream changes from https://github.com/kriru/firstJava.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress https://github.com/kriru/firstJava.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/kriru/firstJava.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/kriru/firstJava.git # timeout=10
+Fetching upstream changes from https://github.com/kriru/firstJava.git
+ > git.exe fetch --tags --force --progress https://github.com/kriru/firstJava.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 01a47017cd52f221fcaa157e1597fa3fb72b2267 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 01a47017cd52f221fcaa157e1597fa3fb72b2267
+Commit message: "Update HelloWorld.java"
+First time build. Skipping changelog.
+[hello world] $ cmd /c call C:\Windows\TEMP\jenkins4823945449108602881.bat
+
+C:\Program Files (x86)\Jenkins\workspace\hello world>javac HelloWorld.java 
+
+C:\Program Files (x86)\Jenkins\workspace\hello world>java HelloWorld 
+Hello, World
+
+C:\Program Files (x86)\Jenkins\workspace\hello world>exit 0 
+Finished: SUCCESS

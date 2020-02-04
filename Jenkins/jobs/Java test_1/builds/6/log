@@ -1,0 +1,20 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace F:\ToolsQA
+[ToolsQA] $ cmd /c call C:\Windows\TEMP\jenkins1986630498427050242.bat
+
+F:\ToolsQA>run.bat
+
+F:\ToolsQA>java -cp bin;lib\* org.testng.TestNG testng.xml 
+[TestNG] Running:
+  F:\ToolsQA\testng.xml
+
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 10544
+Only local connections are allowed.
+
+===============================================
+Suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+Finished: SUCCESS

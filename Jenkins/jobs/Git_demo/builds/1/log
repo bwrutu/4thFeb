@@ -1,0 +1,35 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Git_demo
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/buddy-works/simple-java-project.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\Git_demo # timeout=10
+Fetching upstream changes from https://github.com/buddy-works/simple-java-project.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress https://github.com/buddy-works/simple-java-project.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/buddy-works/simple-java-project.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/buddy-works/simple-java-project.git # timeout=10
+Fetching upstream changes from https://github.com/buddy-works/simple-java-project.git
+ > git.exe fetch --tags --force --progress https://github.com/buddy-works/simple-java-project.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 2c8575aebc79825a20fb95e180b4b932c40283bf (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2c8575aebc79825a20fb95e180b4b932c40283bf
+Commit message: "a"
+First time build. Skipping changelog.
+[Git_demo] $ cmd /c call C:\Windows\TEMP\jenkins4292471238890439773.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Git_demo>javac WorksWithHerokuServlet.java 
+javac: file not found: WorksWithHerokuServlet.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+C:\Program Files (x86)\Jenkins\workspace\Git_demo>java WorksWithHerokuServlet 
+Error: Could not find or load main class WorksWithHerokuServlet
+
+C:\Program Files (x86)\Jenkins\workspace\Git_demo>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

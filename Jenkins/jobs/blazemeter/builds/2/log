@@ -1,0 +1,18 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\blazemeter
+[2020-01-16 15:35:30]: BlazemeterJenkins plugin v.null
+[2020-01-16 15:35:30]: CiBuild is started.
+[2020-01-16 15:35:31]: Start test id : 6693175, name : March_18_3:35 PM
+[2020-01-16 15:35:32]: Test has been started successfully at Thu Jan 16 15:35:32 IST 2020. Master id=24912628
+[2020-01-16 15:35:32]: Test report will be available at https://a.blazemeter.com/app/?public-token=7zxnEjBSvFwhqTyvjF35WxvaEAKxB7pFBWhftAGlK3SXM5zyOn#/masters/24912628/summary
+[2020-01-16 15:36:45]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-16 15:37:38]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-16 15:37:42]: Saving junit report C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Report\24912628.xml
+[2020-01-16 15:37:44]: Saving jtl report C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Report\r-v4-5e2034c8eac6f
+[2020-01-16 15:37:44]: Trying to get functional summary from server
+[2020-01-16 15:37:45]: Trying to get aggregate summary from server
+[2020-01-16 15:37:46]: WARN: Failed to get aggregate summary for master net.sf.json.JSONException: JSONObject["avg"] is not a number.
+[2020-01-16 15:37:46]: {}
+Build step 'BlazeMeter' changed build result to SUCCESS
+Finished: SUCCESS

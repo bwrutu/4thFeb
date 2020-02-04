@@ -1,0 +1,24 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\t
+[t] $ cmd /c call C:\Windows\TEMP\jenkins870000898253030103.bat
+
+C:\Program Files (x86)\Jenkins\workspace\t>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Test.jmx -l Test.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Test.jmx
+Starting the test @ Tue Jan 14 15:14:58 IST 2020 (1578995098574)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      9 in 00:00:01 =    7.6/s Avg:   218 Min:   130 Max:   351 Err:     1 (11.11%) Active: 3 Started: 3 Finished: 0
+summary +     21 in 00:00:02 =   11.7/s Avg:   235 Min:   103 Max:   354 Err:     1 (4.76%) Active: 0 Started: 3 Finished: 3
+summary =     30 in 00:00:03 =   10.1/s Avg:   230 Min:   103 Max:   354 Err:     2 (6.67%)
+Tidying up ...    @ Tue Jan 14 15:15:01 IST 2020 (1578995101945)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Test.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\t\Test.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\t\builds\7\performance-reports\JMeter\Test.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\t\builds\7\performance-reports\JMeter\Test.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Test.csv reported 6.667% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

@@ -1,0 +1,19 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\DeplyJob
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+[DeplyJob] $ cmd /c call C:\Windows\TEMP\jenkins5962371236220885425.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>echo "deployjob executed successfully" 
+"deployjob executed successfully"
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>exit 0 
+[DeplyJob] $ cmd /c call C:\Windows\TEMP\jenkins7367635709849280897.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>echo "deployjob executed successfully" 
+"deployjob executed successfully"
+
+C:\Program Files (x86)\Jenkins\workspace\DeplyJob>exit 0 
+Finished: SUCCESS

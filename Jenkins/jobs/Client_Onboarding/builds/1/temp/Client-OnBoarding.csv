@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="48" it="0" lt="47" ct="33" ts="1579263064461" s="false" lb="http://localhost:8080/ajaxBuildQueue" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="852" sby="530" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/ajaxBuildQueue</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1579263064521" s="false" lb="http://localhost:8080/ajaxExecutors" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="762" sby="596" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/ajaxExecutors</java.net.URL>
+</httpSample>
+<httpSample t="2243" it="0" lt="89" ct="40" ts="1579263066302" s="true" lb="http://45.112.2.195:83/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2267005" sby="3605" ng="1" na="1">
+  <httpSample t="89" it="0" lt="89" ct="40" ts="1579263066302" s="true" lb="http://45.112.2.195:83/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5540" sby="357" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/</java.net.URL>
+  </httpSample>
+  <httpSample t="82" it="0" lt="82" ct="39" ts="1579263066482" s="true" lb="http://45.112.2.195:83/-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="3785" sby="478" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/favicon.png</java.net.URL>
+  </httpSample>
+  <httpSample t="2061" it="0" lt="1917" ct="1591" ts="1579263066484" s="true" lb="http://45.112.2.195:83/-2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55134" sby="388" ng="1" na="1">
+    <java.net.URL>https://use.fontawesome.com/releases/v5.7.0/css/all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="146" it="0" lt="85" ct="39" ts="1579263066484" s="true" lb="http://45.112.2.195:83/-3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="18559" sby="473" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/main-login.css</java.net.URL>
+  </httpSample>
+  <httpSample t="39" it="0" lt="39" ct="0" ts="1579263066483" s="true" lb="http://45.112.2.195:83/-4" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2535" sby="472" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/btn-hover.css</java.net.URL>
+  </httpSample>
+  <httpSample t="426" it="0" lt="84" ct="39" ts="1579263066483" s="true" lb="http://45.112.2.195:83/-5" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="145923" sby="472" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/bootstrap.css</java.net.URL>
+  </httpSample>
+  <httpSample t="387" it="0" lt="86" ct="39" ts="1579263066485" s="true" lb="http://45.112.2.195:83/-6" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="255747" sby="479" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/tc-logo1.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="1126" it="0" lt="118" ct="64" ts="1579263066566" s="true" lb="http://45.112.2.195:83/-7" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="1779782" sby="486" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/lead-generation.gif</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://45.112.2.195:83/</java.net.URL>
+</httpSample>
+<httpSample t="11541" it="0" lt="540" ct="41" ts="1579263074243" s="false" lb="http://45.112.2.195:83/" rc="200" rm="Embedded resource download error:http://45.112.2.195:83/media/media/company_logo/gplus.jpg code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/logo1.jpg code:404 message:Not Found, " tn="Thread Group 1-1" dt="text" by="9614457" sby="36444" ng="1" na="1">
+  <httpSample t="540" it="0" lt="540" ct="41" ts="1579263074243" s="true" lb="http://45.112.2.195:83/-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="574" sby="676" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/</java.net.URL>
+  </httpSample>
+  <httpSample t="374" it="0" lt="374" ct="0" ts="1579263074785" s="true" lb="http://45.112.2.195:83/-1" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="417" sby="573" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/</java.net.URL>
+  </httpSample>
+  <httpSample t="6023" it="0" lt="4655" ct="0" ts="1579263075159" s="true" lb="http://45.112.2.195:83/-2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2325311" sby="583" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/Dashboard/</java.net.URL>
+  </httpSample>
+  <httpSample t="104" it="0" lt="0" ct="54" ts="1579263081330" s="true" lb="http://45.112.2.195:83/-3" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="684" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/favicon.png</java.net.URL>
+  </httpSample>
+  <httpSample t="376" it="0" lt="355" ct="248" ts="1579263081327" s="true" lb="http://45.112.2.195:83/-4" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14371" sby="484" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900</java.net.URL>
+  </httpSample>
+  <httpSample t="204" it="0" lt="97" ct="49" ts="1579263081328" s="true" lb="http://45.112.2.195:83/-5" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="47732" sby="608" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="205" it="0" lt="98" ct="49" ts="1579263081329" s="true" lb="http://45.112.2.195:83/-6" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48797" sby="645" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome5/web-fonts-with-css/css/fontawesome-all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="210" it="0" lt="101" ct="49" ts="1579263081329" s="true" lb="http://45.112.2.195:83/-7" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="64412" sby="628" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome-free-5.5.0-web/css/all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="363" it="0" lt="361" ct="259" ts="1579263081330" s="true" lb="http://45.112.2.195:83/-8" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3125" sby="463" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Open+Sans</java.net.URL>
+  </httpSample>
+  <httpSample t="116" it="0" lt="116" ct="55" ts="1579263081435" s="true" lb="http://45.112.2.195:83/-9" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3570" sby="612" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/new-styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="95" it="0" lt="0" ct="48" ts="1579263081647" s="true" lb="http://45.112.2.195:83/-10" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="680" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/bootstrap.css</java.net.URL>
+  </httpSample>
+  <httpSample t="352" it="0" lt="99" ct="49" ts="1579263081649" s="true" lb="http://45.112.2.195:83/-11" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="160503" sby="592" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/core.css</java.net.URL>
+  </httpSample>
+  <httpSample t="574" it="0" lt="98" ct="49" ts="1579263081646" s="true" lb="http://45.112.2.195:83/-12" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="482613" sby="598" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/components.css</java.net.URL>
+  </httpSample>
+  <httpSample t="221" it="0" lt="106" ct="48" ts="1579263081662" s="true" lb="http://45.112.2.195:83/-13" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="47426" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/colors.css</java.net.URL>
+  </httpSample>
+  <httpSample t="233" it="0" lt="103" ct="48" ts="1579263081697" s="true" lb="http://45.112.2.195:83/-14" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55771" sby="606" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/extras/animate.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="133" it="0" lt="133" ct="52" ts="1579263081716" s="true" lb="http://45.112.2.195:83/-15" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1833" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/sticky.css</java.net.URL>
+  </httpSample>
+  <httpSample t="112" it="0" lt="53" ct="0" ts="1579263081743" s="true" lb="http://45.112.2.195:83/-16" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19111" sby="604" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/client/dashboard.css</java.net.URL>
+  </httpSample>
+  <httpSample t="298" it="0" lt="253" ct="192" ts="1579263081853" s="true" lb="http://45.112.2.195:83/-17" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="31709" sby="496" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="79" it="0" lt="67" ct="0" ts="1579263081879" s="true" lb="http://45.112.2.195:83/-18" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12770" sby="610" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/pace.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="122" it="0" lt="58" ct="0" ts="1579263081917" s="true" lb="http://45.112.2.195:83/-19" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="84609" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jquery.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="108" it="0" lt="70" ct="0" ts="1579263081959" s="true" lb="http://45.112.2.195:83/-20" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="37308" sby="614" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="51" it="0" lt="50" ct="0" ts="1579263082030" s="true" lb="http://45.112.2.195:83/-21" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9426" sby="613" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/blockui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="66" it="0" lt="52" ct="0" ts="1579263082039" s="true" lb="http://45.112.2.195:83/-22" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="35314" sby="615" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="58" it="0" lt="57" ct="0" ts="1579263082067" s="true" lb="http://45.112.2.195:83/-23" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13520" sby="618" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.ui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="59" it="0" lt="59" ct="0" ts="1579263082082" s="true" lb="http://45.112.2.195:83/-24" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4405" sby="610" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/spin.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="67" it="0" lt="67" ct="0" ts="1579263082109" s="true" lb="http://45.112.2.195:83/-25" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4096" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/ladda.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="60" it="0" lt="59" ct="0" ts="1579263082129" s="true" lb="http://45.112.2.195:83/-26" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14120" sby="617" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/wizards/steps.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="135" it="0" lt="59" ct="0" ts="1579263082142" s="true" lb="http://45.112.2.195:83/-27" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="75266" sby="619" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/selects/select2.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="62" it="0" lt="62" ct="0" ts="1579263082183" s="true" lb="http://45.112.2.195:83/-28" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8569" sby="619" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/styling/uniform.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="177" it="0" lt="120" ct="61" ts="1579263082184" s="true" lb="http://45.112.2.195:83/-29" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="18035" sby="620" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jasny_bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="58" it="0" lt="56" ct="0" ts="1579263082195" s="true" lb="http://45.112.2.195:83/-30" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="23333" sby="623" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/validation/validate.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="58" it="0" lt="58" ct="0" ts="1579263082246" s="true" lb="http://45.112.2.195:83/-31" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3389" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/extensions/cookie.js</java.net.URL>
+  </httpSample>
+  <httpSample t="166" it="0" lt="129" ct="68" ts="1579263082248" s="true" lb="http://45.112.2.195:83/-32" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="18670" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/app.js</java.net.URL>
+  </httpSample>
+  <httpSample t="49" it="0" lt="47" ct="0" ts="1579263082276" s="true" lb="http://45.112.2.195:83/-33" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20599" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/client_wizard_steps.js</java.net.URL>
+  </httpSample>
+  <httpSample t="71" it="0" lt="71" ct="0" ts="1579263082279" s="true" lb="http://45.112.2.195:83/-34" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5420" sby="607" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/ui/ripple.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="462" it="0" lt="317" ct="253" ts="1579263082381" s="true" lb="http://45.112.2.195:83/-35" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="42222" sby="936" ng="1" na="1">
+    <httpSample t="318" it="0" lt="317" ct="253" ts="1579263082381" s="true" lb="http://45.112.2.195:83/-0" rc="302" rm="Found" tn="" dt="text" by="697" sby="465" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <httpSample t="143" it="0" lt="57" ct="0" ts="1579263082700" s="true" lb="http://45.112.2.195:83/-1" rc="200" rm="OK" tn="ResDownload-Thread-5" dt="text" by="41525" sby="471" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="185" it="0" lt="49" ct="0" ts="1579263082384" s="true" lb="http://45.112.2.195:83/-36" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="83323" sby="626" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/tables/datatables/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="62" it="0" lt="62" ct="0" ts="1579263082383" s="true" lb="http://45.112.2.195:83/-37" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4094" sby="606" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/datatables_api.js</java.net.URL>
+  </httpSample>
+  <httpSample t="794" it="0" lt="195" ct="76" ts="1579263082382" s="true" lb="http://45.112.2.195:83/-38" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="540056" sby="479" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.js</java.net.URL>
+  </httpSample>
+  <httpSample t="549" it="0" lt="345" ct="292" ts="1579263082415" s="true" lb="http://45.112.2.195:83/-39" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="121563" sby="483" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="42" it="0" lt="42" ct="0" ts="1579263082447" s="true" lb="http://45.112.2.195:83/-40" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7394" sby="596" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.css</java.net.URL>
+  </httpSample>
+  <httpSample t="192" it="0" lt="62" ct="0" ts="1579263082587" s="true" lb="http://45.112.2.195:83/-41" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="140433" sby="599" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="76" it="0" lt="76" ct="0" ts="1579263082649" s="true" lb="http://45.112.2.195:83/-42" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15103" sby="609" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/extension_blockui.js</java.net.URL>
+  </httpSample>
+  <httpSample t="63" it="0" lt="60" ct="0" ts="1579263082727" s="true" lb="http://45.112.2.195:83/-43" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="32086" sby="627" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/notifications/pnotify.min.js?ver=1.1</java.net.URL>
+  </httpSample>
+  <httpSample t="249" it="0" lt="206" ct="149" ts="1579263082781" s="true" lb="http://45.112.2.195:83/-44" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="17212" sby="511" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="337" it="0" lt="185" ct="134" ts="1579263082781" s="true" lb="http://45.112.2.195:83/-45" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="61325" sby="515" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="54" it="0" lt="0" ct="0" ts="1579263082791" s="true" lb="http://45.112.2.195:83/-46" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="687" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/tc-logo1.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="45" it="0" lt="45" ct="0" ts="1579263082844" s="false" lb="http://45.112.2.195:83/-47" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="600" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/gplus.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="46" it="0" lt="46" ct="0" ts="1579263082845" s="true" lb="http://45.112.2.195:83/-48" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="10904" sby="593" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/company_logo/logo.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1579263082889" s="false" lb="http://45.112.2.195:83/-49" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="627" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</java.net.URL>
+  </httpSample>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1579263082892" s="false" lb="http://45.112.2.195:83/-50" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="600" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/logo1.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="61" it="0" lt="61" ct="0" ts="1579263082937" s="true" lb="http://45.112.2.195:83/-51" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="3459" sby="590" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/default_logo/E.png</java.net.URL>
+  </httpSample>
+  <httpSample t="227" it="0" lt="64" ct="0" ts="1579263082939" s="true" lb="http://45.112.2.195:83/-52" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="153958" sby="612" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/css/style.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="152" it="0" lt="74" ct="0" ts="1579263082964" s="true" lb="http://45.112.2.195:83/-53" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="16319" sby="619" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/css/fullcalendar.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="1302" it="0" lt="79" ct="0" ts="1579263082999" s="true" lb="http://45.112.2.195:83/-54" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1189753" sby="613" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/vendor-admin.js</java.net.URL>
+  </httpSample>
+  <httpSample t="1580" it="0" lt="76" ct="0" ts="1579263083054" s="true" lb="http://45.112.2.195:83/-55" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2068559" sby="615" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="543" it="0" lt="84" ct="0" ts="1579263083118" s="true" lb="http://45.112.2.195:83/-56" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="296777" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/moment.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2642" it="0" lt="1494" ct="1287" ts="1579263083143" s="true" lb="http://45.112.2.195:83/-57" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="962945" sby="452" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/core.js</java.net.URL>
+  </httpSample>
+  <httpSample t="1445" it="0" lt="981" ct="791" ts="1579263083177" s="true" lb="http://45.112.2.195:83/-58" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="143067" sby="454" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/charts.js</java.net.URL>
+  </httpSample>
+  <httpSample t="977" it="0" lt="976" ct="782" ts="1579263083365" s="true" lb="http://45.112.2.195:83/-59" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2318" sby="463" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/themes/animated.js</java.net.URL>
+  </httpSample>
+  <httpSample t="120" it="0" lt="120" ct="57" ts="1579263083662" s="true" lb="http://45.112.2.195:83/-60" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="3356" sby="578" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/bg.png</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://45.112.2.195:83/client/Dashboard/</java.net.URL>
+</httpSample>
+<httpSample t="8113" it="0" lt="378" ct="4" ts="1579263086370" s="false" lb="http://45.112.2.195:83/client/" rc="200" rm="Embedded resource download error:http://45.112.2.195:83/media/media/company_logo/gplus.jpg code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/logo1.jpg code:404 message:Not Found, " tn="Thread Group 1-1" dt="text" by="2359358" sby="40199" ng="1" na="1">
+  <httpSample t="378" it="0" lt="378" ct="4" ts="1579263086370" s="true" lb="http://45.112.2.195:83/client/-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="417" sby="573" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/</java.net.URL>
+  </httpSample>
+  <httpSample t="6743" it="0" lt="4733" ct="0" ts="1579263086749" s="true" lb="http://45.112.2.195:83/client/-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2325429" sby="583" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/Dashboard/</java.net.URL>
+  </httpSample>
+  <httpSample t="23" it="0" lt="0" ct="14" ts="1579263093578" s="true" lb="http://45.112.2.195:83/client/-2" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="684" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/favicon.png</java.net.URL>
+  </httpSample>
+  <httpSample t="117" it="0" lt="109" ct="29" ts="1579263093579" s="true" lb="http://45.112.2.195:83/client/-3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14371" sby="534" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900</java.net.URL>
+  </httpSample>
+  <httpSample t="21" it="0" lt="0" ct="14" ts="1579263093578" s="true" lb="http://45.112.2.195:83/client/-4" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="690" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="21" it="0" lt="0" ct="14" ts="1579263093579" s="true" lb="http://45.112.2.195:83/client/-5" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="727" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome5/web-fonts-with-css/css/fontawesome-all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="30" it="0" lt="0" ct="13" ts="1579263093580" s="true" lb="http://45.112.2.195:83/client/-6" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="710" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome-free-5.5.0-web/css/all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="209" it="0" lt="206" ct="120" ts="1579263093579" s="true" lb="http://45.112.2.195:83/client/-7" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3125" sby="513" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Open+Sans</java.net.URL>
+  </httpSample>
+  <httpSample t="12" it="0" lt="0" ct="7" ts="1579263093600" s="true" lb="http://45.112.2.195:83/client/-8" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="693" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/new-styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="10" it="0" lt="0" ct="6" ts="1579263093601" s="true" lb="http://45.112.2.195:83/client/-9" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="680" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/bootstrap.css</java.net.URL>
+  </httpSample>
+  <httpSample t="10" it="0" lt="0" ct="5" ts="1579263093602" s="true" lb="http://45.112.2.195:83/client/-10" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="675" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/core.css</java.net.URL>
+  </httpSample>
+  <httpSample t="11" it="0" lt="0" ct="5" ts="1579263093610" s="true" lb="http://45.112.2.195:83/client/-11" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="681" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/components.css</java.net.URL>
+  </httpSample>
+  <httpSample t="6" it="0" lt="0" ct="0" ts="1579263093612" s="true" lb="http://45.112.2.195:83/client/-12" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="676" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/colors.css</java.net.URL>
+  </httpSample>
+  <httpSample t="7" it="0" lt="0" ct="0" ts="1579263093612" s="true" lb="http://45.112.2.195:83/client/-13" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="688" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/extras/animate.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="7" it="0" lt="0" ct="0" ts="1579263093613" s="true" lb="http://45.112.2.195:83/client/-14" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="675" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/sticky.css</java.net.URL>
+  </httpSample>
+  <httpSample t="5" it="0" lt="0" ct="0" ts="1579263093618" s="true" lb="http://45.112.2.195:83/client/-15" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="686" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/client/dashboard.css</java.net.URL>
+  </httpSample>
+  <httpSample t="61" it="0" lt="0" ct="34" ts="1579263093619" s="true" lb="http://45.112.2.195:83/client/-16" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="580" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="5" it="0" lt="0" ct="0" ts="1579263093620" s="true" lb="http://45.112.2.195:83/client/-17" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="692" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/pace.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="5" it="0" lt="0" ct="0" ts="1579263093621" s="true" lb="http://45.112.2.195:83/client/-18" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="694" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jquery.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="5" it="0" lt="0" ct="0" ts="1579263093623" s="true" lb="http://45.112.2.195:83/client/-19" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="696" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="0" ts="1579263093625" s="true" lb="http://45.112.2.195:83/client/-20" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="695" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/blockui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263093626" s="true" lb="http://45.112.2.195:83/client/-21" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="697" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263093628" s="true" lb="http://45.112.2.195:83/client/-22" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="700" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.ui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="0" ts="1579263093629" s="true" lb="http://45.112.2.195:83/client/-23" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="692" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/spin.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="0" ts="1579263093629" s="true" lb="http://45.112.2.195:83/client/-24" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="692" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/ladda.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="0" ts="1579263093631" s="true" lb="http://45.112.2.195:83/client/-25" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="699" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/wizards/steps.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="6" it="0" lt="0" ct="0" ts="1579263093633" s="true" lb="http://45.112.2.195:83/client/-26" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="702" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/selects/select2.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="8" it="0" lt="0" ct="0" ts="1579263093633" s="true" lb="http://45.112.2.195:83/client/-27" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="701" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/styling/uniform.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="12" it="0" lt="0" ct="0" ts="1579263093635" s="true" lb="http://45.112.2.195:83/client/-28" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="702" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jasny_bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="10" it="0" lt="0" ct="0" ts="1579263093640" s="true" lb="http://45.112.2.195:83/client/-29" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="705" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/validation/validate.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="11" it="0" lt="0" ct="0" ts="1579263093641" s="true" lb="http://45.112.2.195:83/client/-30" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="692" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/extensions/cookie.js</java.net.URL>
+  </httpSample>
+  <httpSample t="12" it="0" lt="0" ct="0" ts="1579263093647" s="true" lb="http://45.112.2.195:83/client/-31" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="676" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/app.js</java.net.URL>
+  </httpSample>
+  <httpSample t="13" it="0" lt="0" ct="0" ts="1579263093651" s="true" lb="http://45.112.2.195:83/client/-32" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="693" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/client_wizard_steps.js</java.net.URL>
+  </httpSample>
+  <httpSample t="13" it="0" lt="0" ct="0" ts="1579263093652" s="true" lb="http://45.112.2.195:83/client/-33" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="689" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/ui/ripple.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="220" it="0" lt="121" ct="85" ts="1579263093660" s="true" lb="http://45.112.2.195:83/client/-34" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="1322" sby="1039" ng="1" na="1">
+    <httpSample t="121" it="0" lt="121" ct="85" ts="1579263093660" s="true" lb="http://45.112.2.195:83/client/-0" rc="302" rm="Found" tn="" dt="text" by="697" sby="465" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <httpSample t="99" it="0" lt="0" ct="68" ts="1579263093781" s="true" lb="http://45.112.2.195:83/client/-1" rc="304" rm="Not Modified" tn="ResDownload-Thread-6" dt="" by="625" sby="574" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263093665" s="true" lb="http://45.112.2.195:83/client/-35" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="709" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/tables/datatables/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263093665" s="true" lb="http://45.112.2.195:83/client/-36" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="687" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/datatables_api.js</java.net.URL>
+  </httpSample>
+  <httpSample t="25" it="0" lt="0" ct="0" ts="1579263093681" s="true" lb="http://45.112.2.195:83/client/-37" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="655" sby="564" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.js</java.net.URL>
+  </httpSample>
+  <httpSample t="73" it="0" lt="0" ct="41" ts="1579263093683" s="true" lb="http://45.112.2.195:83/client/-38" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="655" sby="568" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="15" it="0" lt="0" ct="0" ts="1579263093683" s="true" lb="http://45.112.2.195:83/client/-39" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="678" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.css</java.net.URL>
+  </httpSample>
+  <httpSample t="26" it="0" lt="0" ct="11" ts="1579263093697" s="true" lb="http://45.112.2.195:83/client/-40" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="682" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="11" it="0" lt="0" ct="0" ts="1579263093699" s="true" lb="http://45.112.2.195:83/client/-41" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="691" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/extension_blockui.js</java.net.URL>
+  </httpSample>
+  <httpSample t="16" it="0" lt="0" ct="0" ts="1579263093706" s="true" lb="http://45.112.2.195:83/client/-42" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="709" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/notifications/pnotify.min.js?ver=1.1</java.net.URL>
+  </httpSample>
+  <httpSample t="108" it="0" lt="0" ct="75" ts="1579263093711" s="true" lb="http://45.112.2.195:83/client/-43" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="595" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="26" it="0" lt="0" ct="0" ts="1579263093722" s="true" lb="http://45.112.2.195:83/client/-44" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="599" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="25" it="0" lt="0" ct="0" ts="1579263093724" s="true" lb="http://45.112.2.195:83/client/-45" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="687" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/tc-logo1.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="28" ct="0" ts="1579263093748" s="false" lb="http://45.112.2.195:83/client/-46" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="600" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/gplus.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="27" it="0" lt="0" ct="0" ts="1579263093749" s="true" lb="http://45.112.2.195:83/client/-47" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="675" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/company_logo/logo.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="28" ct="0" ts="1579263093756" s="false" lb="http://45.112.2.195:83/client/-48" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="627" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</java.net.URL>
+  </httpSample>
+  <httpSample t="32" it="0" lt="32" ct="0" ts="1579263093776" s="false" lb="http://45.112.2.195:83/client/-49" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="600" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/logo1.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="32" it="0" lt="0" ct="0" ts="1579263093776" s="true" lb="http://45.112.2.195:83/client/-50" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="671" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/default_logo/E.png</java.net.URL>
+  </httpSample>
+  <httpSample t="27" it="0" lt="0" ct="0" ts="1579263093785" s="true" lb="http://45.112.2.195:83/client/-51" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="695" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/css/style.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="49" it="0" lt="0" ct="26" ts="1579263093789" s="true" lb="http://45.112.2.195:83/client/-52" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="701" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/css/fullcalendar.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="24" it="0" lt="0" ct="0" ts="1579263093808" s="true" lb="http://45.112.2.195:83/client/-53" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="192" sby="697" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/vendor-admin.js</java.net.URL>
+  </httpSample>
+  <httpSample t="41" it="0" lt="0" ct="23" ts="1579263093809" s="true" lb="http://45.112.2.195:83/client/-54" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="192" sby="699" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="23" it="0" lt="0" ct="0" ts="1579263093813" s="true" lb="http://45.112.2.195:83/client/-55" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="694" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/moment.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="661" it="0" lt="0" ct="502" ts="1579263093821" s="true" lb="http://45.112.2.195:83/client/-56" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="508" sby="599" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/core.js</java.net.URL>
+  </httpSample>
+  <httpSample t="514" it="0" lt="0" ct="340" ts="1579263093832" s="true" lb="http://45.112.2.195:83/client/-57" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="508" sby="601" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/charts.js</java.net.URL>
+  </httpSample>
+  <httpSample t="492" it="0" lt="0" ct="325" ts="1579263093836" s="true" lb="http://45.112.2.195:83/client/-58" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="504" sby="608" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/themes/animated.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263093838" s="true" lb="http://45.112.2.195:83/client/-59" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="659" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/bg.png</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://45.112.2.195:83/client/Dashboard/</java.net.URL>
+</httpSample>
+<httpSample t="240" it="0" lt="240" ct="23" ts="1579263100565" s="false" lb="http://45.112.2.195:83/client/ajax/set_dashboard/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="595" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/set_dashboard/</java.net.URL>
+</httpSample>
+<httpSample t="4247" it="0" lt="3027" ct="2" ts="1579263115593" s="false" lb="http://45.112.2.195:83/client/client-Bording/" rc="200" rm="Embedded resource download error:http://45.112.2.195:83/media/media/company_logo/gplus.jpg code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/logo1.jpg code:404 message:Not Found, http://45.112.2.195:83/media/media/documents/dummy.pdf code:404 message:Not Found, " tn="Thread Group 1-1" dt="text" by="746403" sby="31284" ng="1" na="1">
+  <httpSample t="3158" it="0" lt="3027" ct="2" ts="1579263115593" s="true" lb="http://45.112.2.195:83/client/client-Bording/-0" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="295500" sby="507" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/client-Bording/</java.net.URL>
+  </httpSample>
+  <httpSample t="36" it="0" lt="0" ct="21" ts="1579263118777" s="true" lb="http://45.112.2.195:83/client/client-Bording/-1" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="603" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/favicon.png</java.net.URL>
+  </httpSample>
+  <httpSample t="133" it="0" lt="123" ct="40" ts="1579263118775" s="true" lb="http://45.112.2.195:83/client/client-Bording/-2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14371" sby="453" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900</java.net.URL>
+  </httpSample>
+  <httpSample t="37" it="0" lt="0" ct="21" ts="1579263118777" s="true" lb="http://45.112.2.195:83/client/client-Bording/-3" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="609" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="36" it="0" lt="0" ct="20" ts="1579263118777" s="true" lb="http://45.112.2.195:83/client/client-Bording/-4" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="646" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome5/web-fonts-with-css/css/fontawesome-all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="38" it="0" lt="0" ct="20" ts="1579263118775" s="true" lb="http://45.112.2.195:83/client/client-Bording/-5" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="629" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome-free-5.5.0-web/css/all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="125" it="0" lt="121" ct="39" ts="1579263118776" s="true" lb="http://45.112.2.195:83/client/client-Bording/-6" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3125" sby="432" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Open+Sans</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="0" ct="14" ts="1579263118813" s="true" lb="http://45.112.2.195:83/client/client-Bording/-7" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="612" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/new-styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="0" ct="14" ts="1579263118813" s="true" lb="http://45.112.2.195:83/client/client-Bording/-8" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="599" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/bootstrap.css</java.net.URL>
+  </httpSample>
+  <httpSample t="27" it="0" lt="0" ct="13" ts="1579263118814" s="true" lb="http://45.112.2.195:83/client/client-Bording/-9" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/core.css</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="0" ct="13" ts="1579263118814" s="true" lb="http://45.112.2.195:83/client/client-Bording/-10" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="600" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/components.css</java.net.URL>
+  </httpSample>
+  <httpSample t="29" it="0" lt="0" ct="15" ts="1579263118843" s="true" lb="http://45.112.2.195:83/client/client-Bording/-11" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="595" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/colors.css</java.net.URL>
+  </httpSample>
+  <httpSample t="15" it="0" lt="0" ct="0" ts="1579263118842" s="true" lb="http://45.112.2.195:83/client/client-Bording/-12" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="607" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/extras/animate.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="15" it="0" lt="0" ct="0" ts="1579263118842" s="true" lb="http://45.112.2.195:83/client/client-Bording/-13" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/sticky.css</java.net.URL>
+  </httpSample>
+  <httpSample t="30" it="0" lt="0" ct="14" ts="1579263118844" s="true" lb="http://45.112.2.195:83/client/client-Bording/-14" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="605" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/client/dashboard.css</java.net.URL>
+  </httpSample>
+  <httpSample t="105" it="0" lt="0" ct="71" ts="1579263118858" s="true" lb="http://45.112.2.195:83/client/client-Bording/-15" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="499" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="14" it="0" lt="0" ct="0" ts="1579263118858" s="true" lb="http://45.112.2.195:83/client/client-Bording/-16" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/pace.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="14" it="0" lt="0" ct="0" ts="1579263118873" s="true" lb="http://45.112.2.195:83/client/client-Bording/-17" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="613" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jquery.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="13" it="0" lt="0" ct="0" ts="1579263118873" s="true" lb="http://45.112.2.195:83/client/client-Bording/-18" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="615" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="35" it="0" lt="0" ct="15" ts="1579263118874" s="true" lb="http://45.112.2.195:83/client/client-Bording/-19" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="614" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/blockui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="21" it="0" lt="0" ct="0" ts="1579263118886" s="true" lb="http://45.112.2.195:83/client/client-Bording/-20" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="616" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="21" it="0" lt="0" ct="0" ts="1579263118887" s="true" lb="http://45.112.2.195:83/client/client-Bording/-21" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="619" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.ui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="41" it="0" lt="0" ct="20" ts="1579263118903" s="true" lb="http://45.112.2.195:83/client/client-Bording/-22" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/spin.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="20" it="0" lt="0" ct="0" ts="1579263118908" s="true" lb="http://45.112.2.195:83/client/client-Bording/-23" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/ladda.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="20" it="0" lt="0" ct="0" ts="1579263118908" s="true" lb="http://45.112.2.195:83/client/client-Bording/-24" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="618" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/wizards/steps.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="21" it="0" lt="0" ct="0" ts="1579263118908" s="true" lb="http://45.112.2.195:83/client/client-Bording/-25" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="621" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/selects/select2.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="21" it="0" lt="0" ct="0" ts="1579263118910" s="true" lb="http://45.112.2.195:83/client/client-Bording/-26" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="620" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/styling/uniform.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="20" it="0" lt="0" ct="0" ts="1579263118928" s="true" lb="http://45.112.2.195:83/client/client-Bording/-27" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="621" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jasny_bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="19" it="0" lt="0" ct="0" ts="1579263118929" s="true" lb="http://45.112.2.195:83/client/client-Bording/-28" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="624" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/validation/validate.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="37" it="0" lt="0" ct="20" ts="1579263118930" s="true" lb="http://45.112.2.195:83/client/client-Bording/-29" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/extensions/cookie.js</java.net.URL>
+  </httpSample>
+  <httpSample t="20" it="0" lt="0" ct="0" ts="1579263118931" s="true" lb="http://45.112.2.195:83/client/client-Bording/-30" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="595" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/app.js</java.net.URL>
+  </httpSample>
+  <httpSample t="17" it="0" lt="0" ct="0" ts="1579263118945" s="true" lb="http://45.112.2.195:83/client/client-Bording/-31" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="612" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/client_wizard_steps.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263118948" s="true" lb="http://45.112.2.195:83/client/client-Bording/-32" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="608" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/ui/ripple.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="170" it="0" lt="104" ct="80" ts="1579263118949" s="true" lb="http://45.112.2.195:83/client/client-Bording/-33" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="1322" sby="877" ng="1" na="1">
+    <httpSample t="104" it="0" lt="104" ct="80" ts="1579263118949" s="true" lb="http://45.112.2.195:83/client/client-Bording/-0" rc="302" rm="Found" tn="" dt="text" by="697" sby="384" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <httpSample t="65" it="0" lt="0" ct="32" ts="1579263119054" s="true" lb="http://45.112.2.195:83/client/client-Bording/-1" rc="304" rm="Not Modified" tn="ResDownload-Thread-4" dt="" by="625" sby="493" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="19" it="0" lt="0" ct="0" ts="1579263118951" s="true" lb="http://45.112.2.195:83/client/client-Bording/-34" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="628" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/tables/datatables/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263118963" s="true" lb="http://45.112.2.195:83/client/client-Bording/-35" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="606" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/datatables_api.js</java.net.URL>
+  </httpSample>
+  <httpSample t="35" it="0" lt="0" ct="0" ts="1579263118963" s="true" lb="http://45.112.2.195:83/client/client-Bording/-36" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="655" sby="483" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.js</java.net.URL>
+  </httpSample>
+  <httpSample t="79" it="0" lt="0" ct="58" ts="1579263118966" s="true" lb="http://45.112.2.195:83/client/client-Bording/-37" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="655" sby="487" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263118968" s="true" lb="http://45.112.2.195:83/client/client-Bording/-38" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="597" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.css</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263118970" s="true" lb="http://45.112.2.195:83/client/client-Bording/-39" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="601" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="18" it="0" lt="0" ct="0" ts="1579263118982" s="true" lb="http://45.112.2.195:83/client/client-Bording/-40" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="610" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/extension_blockui.js</java.net.URL>
+  </httpSample>
+  <httpSample t="140" it="0" lt="78" ct="54" ts="1579263118986" s="true" lb="http://45.112.2.195:83/client/client-Bording/-41" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="142583" sby="413" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="187" it="0" lt="119" ct="84" ts="1579263118989" s="true" lb="http://45.112.2.195:83/client/client-Bording/-42" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="181888" sby="411" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="841" it="0" lt="544" ct="38" ts="1579263118999" s="true" lb="http://45.112.2.195:83/client/client-Bording/-43" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="95073" sby="397" ng="1" na="1">
+    <java.net.URL>http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="10" it="0" lt="0" ct="0" ts="1579263119001" s="true" lb="http://45.112.2.195:83/client/client-Bording/-44" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="628" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/notifications/pnotify.min.js?ver=1.1</java.net.URL>
+  </httpSample>
+  <httpSample t="44" it="0" lt="0" ct="27" ts="1579263119012" s="true" lb="http://45.112.2.195:83/client/client-Bording/-45" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="514" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="22" it="0" lt="0" ct="0" ts="1579263119046" s="true" lb="http://45.112.2.195:83/client/client-Bording/-46" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="518" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263119056" s="true" lb="http://45.112.2.195:83/client/client-Bording/-47" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="606" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/tc-logo1.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="2" ct="0" ts="1579263119059" s="false" lb="http://45.112.2.195:83/client/client-Bording/-48" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="519" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/gplus.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263119061" s="true" lb="http://45.112.2.195:83/client/client-Bording/-49" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/company_logo/logo.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="3" ct="0" ts="1579263119065" s="false" lb="http://45.112.2.195:83/client/client-Bording/-50" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="546" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="2" ct="0" ts="1579263119068" s="false" lb="http://45.112.2.195:83/client/client-Bording/-51" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="519" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/logo1.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263119069" s="true" lb="http://45.112.2.195:83/client/client-Bording/-52" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="590" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/default_logo/E.png</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="3" ct="0" ts="1579263119071" s="false" lb="http://45.112.2.195:83/client/client-Bording/-53" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="516" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/documents/dummy.pdf</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://45.112.2.195:83/client/client-Bording/</java.net.URL>
+</httpSample>
+<httpSample t="252" it="0" lt="252" ct="0" ts="1579263120138" s="false" lb="http://45.112.2.195:83/client/ajax/loadstates/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="599" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/loadstates/</java.net.URL>
+</httpSample>
+<httpSample t="316" it="0" lt="315" ct="0" ts="1579263120394" s="false" lb="http://45.112.2.195:83/client/ajax/loadcity/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="598" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/loadcity/</java.net.URL>
+</httpSample>
+<httpSample t="219" it="0" lt="219" ct="2" ts="1579263186575" s="false" lb="http://45.112.2.195:83/client/ajax/loadstates/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="599" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/loadstates/</java.net.URL>
+</httpSample>
+<httpSample t="239" it="0" lt="239" ct="0" ts="1579263186847" s="false" lb="http://45.112.2.195:83/client/ajax/loadcity/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="595" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/loadcity/</java.net.URL>
+</httpSample>
+<httpSample t="178" it="0" lt="178" ct="0" ts="1579263188349" s="false" lb="http://45.112.2.195:83/client/ajax/loadcity/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="598" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/loadcity/</java.net.URL>
+</httpSample>
+<httpSample t="2406" it="0" lt="2406" ct="74" ts="1579263198165" s="false" lb="http://45.112.2.195:83/vendor/onBording/" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="464" sby="1051" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/vendor/onBording/</java.net.URL>
+</httpSample>
+<httpSample t="2060" it="0" lt="2060" ct="42" ts="1579263227430" s="false" lb="http://45.112.2.195:83/vendor/onBording/" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="464" sby="1047" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/vendor/onBording/</java.net.URL>
+</httpSample>
+<httpSample t="2136" it="0" lt="2136" ct="60" ts="1579263230120" s="false" lb="http://45.112.2.195:83/vendor/onBording/" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="464" sby="1047" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/vendor/onBording/</java.net.URL>
+</httpSample>
+<httpSample t="1948" it="0" lt="1948" ct="13" ts="1579263234091" s="false" lb="http://45.112.2.195:83/vendor/onBording/" rc="500" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="464" sby="1047" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/vendor/onBording/</java.net.URL>
+</httpSample>
+<httpSample t="6994" it="0" lt="412" ct="36" ts="1579263236085" s="false" lb="http://45.112.2.195:83/client/dashboard/" rc="200" rm="Embedded resource download error:http://45.112.2.195:83/media/media/company_logo/gplus.jpg code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png code:404 message:Not Found, http://45.112.2.195:83/media/media/company_logo/logo1.jpg code:404 message:Not Found, " tn="Thread Group 1-1" dt="text" by="2364860" sby="35268" ng="1" na="1">
+  <httpSample t="412" it="0" lt="412" ct="36" ts="1579263236085" s="true" lb="http://45.112.2.195:83/client/dashboard/-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="417" sby="502" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/dashboard/</java.net.URL>
+  </httpSample>
+  <httpSample t="5733" it="0" lt="4747" ct="0" ts="1579263236498" s="true" lb="http://45.112.2.195:83/client/dashboard/-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2330930" sby="502" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/client/Dashboard/</java.net.URL>
+  </httpSample>
+  <httpSample t="8" it="0" lt="0" ct="3" ts="1579263242296" s="true" lb="http://45.112.2.195:83/client/dashboard/-2" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="603" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/favicon.png</java.net.URL>
+  </httpSample>
+  <httpSample t="188" it="0" lt="184" ct="101" ts="1579263242296" s="true" lb="http://45.112.2.195:83/client/dashboard/-3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14371" sby="453" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900</java.net.URL>
+  </httpSample>
+  <httpSample t="9" it="0" lt="0" ct="6" ts="1579263242298" s="true" lb="http://45.112.2.195:83/client/dashboard/-4" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="609" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="7" it="0" lt="0" ct="5" ts="1579263242297" s="true" lb="http://45.112.2.195:83/client/dashboard/-5" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="646" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome5/web-fonts-with-css/css/fontawesome-all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="8" it="0" lt="0" ct="6" ts="1579263242297" s="true" lb="http://45.112.2.195:83/client/dashboard/-6" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="629" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/fontawesome-free-5.5.0-web/css/all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="180" it="0" lt="179" ct="99" ts="1579263242298" s="true" lb="http://45.112.2.195:83/client/dashboard/-7" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3125" sby="432" ng="1" na="1">
+    <java.net.URL>https://fonts.googleapis.com/css?family=Open+Sans</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="2" ts="1579263242305" s="true" lb="http://45.112.2.195:83/client/dashboard/-8" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="612" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/icons/icomoon/new-styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="2" ts="1579263242304" s="true" lb="http://45.112.2.195:83/client/dashboard/-9" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="599" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/bootstrap.css</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="2" ts="1579263242307" s="true" lb="http://45.112.2.195:83/client/dashboard/-10" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/core.css</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242307" s="true" lb="http://45.112.2.195:83/client/dashboard/-11" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="600" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/components.css</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="2" ts="1579263242308" s="true" lb="http://45.112.2.195:83/client/dashboard/-12" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="595" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/colors.css</java.net.URL>
+  </httpSample>
+  <httpSample t="4" it="0" lt="0" ct="1" ts="1579263242310" s="true" lb="http://45.112.2.195:83/client/dashboard/-13" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="607" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/extras/animate.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242309" s="true" lb="http://45.112.2.195:83/client/dashboard/-14" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/sticky.css</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242311" s="true" lb="http://45.112.2.195:83/client/dashboard/-15" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="605" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/client/dashboard.css</java.net.URL>
+  </httpSample>
+  <httpSample t="79" it="0" lt="0" ct="59" ts="1579263242312" s="true" lb="http://45.112.2.195:83/client/dashboard/-16" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="499" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242312" s="true" lb="http://45.112.2.195:83/client/dashboard/-17" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/pace.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242314" s="true" lb="http://45.112.2.195:83/client/dashboard/-18" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="613" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jquery.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242314" s="true" lb="http://45.112.2.195:83/client/dashboard/-19" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="615" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242315" s="true" lb="http://45.112.2.195:83/client/dashboard/-20" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="614" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/loaders/blockui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242317" s="true" lb="http://45.112.2.195:83/client/dashboard/-21" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="616" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="2" ts="1579263242317" s="true" lb="http://45.112.2.195:83/client/dashboard/-22" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="619" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/velocity/velocity.ui.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242318" s="true" lb="http://45.112.2.195:83/client/dashboard/-23" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/spin.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242319" s="true" lb="http://45.112.2.195:83/client/dashboard/-24" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/buttons/ladda.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="1" it="0" lt="0" ct="0" ts="1579263242320" s="true" lb="http://45.112.2.195:83/client/dashboard/-25" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="618" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/wizards/steps.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242320" s="true" lb="http://45.112.2.195:83/client/dashboard/-26" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="621" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/selects/select2.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="1" it="0" lt="0" ct="0" ts="1579263242321" s="true" lb="http://45.112.2.195:83/client/dashboard/-27" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="620" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/styling/uniform.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="1" it="0" lt="0" ct="0" ts="1579263242322" s="true" lb="http://45.112.2.195:83/client/dashboard/-28" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="621" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/libraries/jasny_bootstrap.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242322" s="true" lb="http://45.112.2.195:83/client/dashboard/-29" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="624" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/forms/validation/validate.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242323" s="true" lb="http://45.112.2.195:83/client/dashboard/-30" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="611" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/extensions/cookie.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242323" s="true" lb="http://45.112.2.195:83/client/dashboard/-31" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="595" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/core/app.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242324" s="true" lb="http://45.112.2.195:83/client/dashboard/-32" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="612" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/client_wizard_steps.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242325" s="true" lb="http://45.112.2.195:83/client/dashboard/-33" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="608" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/ui/ripple.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="84" it="0" lt="51" ct="36" ts="1579263242326" s="true" lb="http://45.112.2.195:83/client/dashboard/-34" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="1323" sby="877" ng="1" na="1">
+    <httpSample t="51" it="0" lt="51" ct="36" ts="1579263242326" s="true" lb="http://45.112.2.195:83/client/dashboard/-0" rc="302" rm="Found" tn="" dt="text" by="698" sby="384" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <httpSample t="33" it="0" lt="0" ct="19" ts="1579263242377" s="true" lb="http://45.112.2.195:83/client/dashboard/-1" rc="304" rm="Not Modified" tn="ResDownload-Thread-7" dt="" by="625" sby="493" ng="0" na="0">
+      <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+    </httpSample>
+    <java.net.URL>https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242326" s="true" lb="http://45.112.2.195:83/client/dashboard/-35" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="628" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/tables/datatables/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="0" ct="0" ts="1579263242327" s="true" lb="http://45.112.2.195:83/client/dashboard/-36" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="606" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/datatables_api.js</java.net.URL>
+  </httpSample>
+  <httpSample t="59" it="0" lt="0" ct="44" ts="1579263242330" s="true" lb="http://45.112.2.195:83/client/dashboard/-37" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="655" sby="483" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.js</java.net.URL>
+  </httpSample>
+  <httpSample t="77" it="0" lt="0" ct="56" ts="1579263242331" s="true" lb="http://45.112.2.195:83/client/dashboard/-38" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="655" sby="487" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242390" s="true" lb="http://45.112.2.195:83/client/dashboard/-39" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="597" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.css</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242391" s="true" lb="http://45.112.2.195:83/client/dashboard/-40" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="601" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/enjoyhint/enjoyhint.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242392" s="true" lb="http://45.112.2.195:83/client/dashboard/-41" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="610" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/pages/extension_blockui.js</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242393" s="true" lb="http://45.112.2.195:83/client/dashboard/-42" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="628" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/js/plugins/notifications/pnotify.min.js?ver=1.1</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="0" ct="0" ts="1579263242394" s="true" lb="http://45.112.2.195:83/client/dashboard/-43" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="514" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="35" it="0" lt="0" ct="19" ts="1579263242396" s="true" lb="http://45.112.2.195:83/client/dashboard/-44" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="654" sby="518" ng="1" na="1">
+    <java.net.URL>https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="1" it="0" lt="0" ct="0" ts="1579263242409" s="true" lb="http://45.112.2.195:83/client/dashboard/-45" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="606" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/tc-logo1.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="2" ct="0" ts="1579263242411" s="false" lb="http://45.112.2.195:83/client/dashboard/-46" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="519" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/gplus.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242411" s="true" lb="http://45.112.2.195:83/client/dashboard/-47" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="594" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/company_logo/logo.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="3" it="0" lt="3" ct="0" ts="1579263242413" s="false" lb="http://45.112.2.195:83/client/dashboard/-48" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="546" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="2" ct="0" ts="1579263242413" s="false" lb="http://45.112.2.195:83/client/dashboard/-49" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="512" sby="519" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/media/company_logo/logo1.jpg</java.net.URL>
+  </httpSample>
+  <httpSample t="1" it="0" lt="0" ct="0" ts="1579263242416" s="true" lb="http://45.112.2.195:83/client/dashboard/-50" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="590" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/default_logo/E.png</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242416" s="true" lb="http://45.112.2.195:83/client/dashboard/-51" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="614" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/css/style.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="1" it="0" lt="0" ct="0" ts="1579263242418" s="true" lb="http://45.112.2.195:83/client/dashboard/-52" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="620" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/css/fullcalendar.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="2" it="0" lt="0" ct="0" ts="1579263242418" s="true" lb="http://45.112.2.195:83/client/dashboard/-53" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="192" sby="616" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/vendor-admin.js</java.net.URL>
+  </httpSample>
+  <httpSample t="5" it="0" lt="0" ct="0" ts="1579263242420" s="true" lb="http://45.112.2.195:83/client/dashboard/-54" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="192" sby="618" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/datatables.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="6" it="0" lt="0" ct="0" ts="1579263242420" s="true" lb="http://45.112.2.195:83/client/dashboard/-55" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="613" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/drag_dashboard/js/moment.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="608" it="0" lt="0" ct="456" ts="1579263242423" s="true" lb="http://45.112.2.195:83/client/dashboard/-56" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="508" sby="518" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/core.js</java.net.URL>
+  </httpSample>
+  <httpSample t="654" it="0" lt="0" ct="478" ts="1579263242425" s="true" lb="http://45.112.2.195:83/client/dashboard/-57" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="508" sby="520" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/charts.js</java.net.URL>
+  </httpSample>
+  <httpSample t="605" it="0" lt="0" ct="452" ts="1579263242427" s="true" lb="http://45.112.2.195:83/client/dashboard/-58" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="504" sby="527" ng="1" na="1">
+    <java.net.URL>https://www.amcharts.com/lib/4/themes/animated.js</java.net.URL>
+  </httpSample>
+  <httpSample t="10" it="0" lt="0" ct="0" ts="1579263242431" s="true" lb="http://45.112.2.195:83/client/dashboard/-59" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="578" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/media/bg.png</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://45.112.2.195:83/client/Dashboard/</java.net.URL>
+</httpSample>
+<httpSample t="216" it="0" lt="216" ct="13" ts="1579263250717" s="false" lb="http://45.112.2.195:83/client/ajax/set_dashboard/" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="2892" sby="595" ng="1" na="1">
+  <java.net.URL>http://45.112.2.195:83/client/ajax/set_dashboard/</java.net.URL>
+</httpSample>
+<httpSample t="845" it="0" lt="81" ct="0" ts="1579263251739" s="true" lb="http://45.112.2.195:83/logout/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7456" sby="4776" ng="1" na="1">
+  <httpSample t="81" it="0" lt="81" ct="0" ts="1579263251739" s="true" lb="http://45.112.2.195:83/logout/-0" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="340" sby="492" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/logout/</java.net.URL>
+  </httpSample>
+  <httpSample t="45" it="0" lt="44" ct="0" ts="1579263251821" s="true" lb="http://45.112.2.195:83/logout/-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5540" sby="441" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/</java.net.URL>
+  </httpSample>
+  <httpSample t="79" it="0" lt="0" ct="40" ts="1579263251869" s="true" lb="http://45.112.2.195:83/logout/-2" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="559" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/favicon.png</java.net.URL>
+  </httpSample>
+  <httpSample t="715" it="0" lt="0" ct="537" ts="1579263251869" s="true" lb="http://45.112.2.195:83/logout/-3" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="434" sby="489" ng="1" na="1">
+    <java.net.URL>https://use.fontawesome.com/releases/v5.7.0/css/all.css</java.net.URL>
+  </httpSample>
+  <httpSample t="79" it="0" lt="0" ct="40" ts="1579263251869" s="true" lb="http://45.112.2.195:83/logout/-4" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="190" sby="555" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/main-login.css</java.net.URL>
+  </httpSample>
+  <httpSample t="78" it="0" lt="0" ct="40" ts="1579263251869" s="true" lb="http://45.112.2.195:83/logout/-5" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="189" sby="553" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/btn-hover.css</java.net.URL>
+  </httpSample>
+  <httpSample t="40" it="0" lt="0" ct="0" ts="1579263251869" s="true" lb="http://45.112.2.195:83/logout/-6" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="555" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/css/bootstrap.css</java.net.URL>
+  </httpSample>
+  <httpSample t="79" it="0" lt="0" ct="40" ts="1579263251869" s="true" lb="http://45.112.2.195:83/logout/-7" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="191" sby="562" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/tc-logo1.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="76" it="0" lt="0" ct="40" ts="1579263251911" s="true" lb="http://45.112.2.195:83/logout/-8" rc="304" rm="Not Modified" tn="Thread Group 1-1" dt="" by="192" sby="570" ng="1" na="1">
+    <java.net.URL>http://45.112.2.195:83/static/assets/images/logo/lead-generation.gif</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://45.112.2.195:83/</java.net.URL>
+</httpSample>
+<sample t="44245" it="143959" lt="14787" ct="383" ts="1579263064376" s="false" lb="Test" rc="" rm="Number of samples in transaction : 19, number of failing samples : 17" tn="Thread Group 1-1" dt="" by="17383253" sby="161073" ng="1" na="1"/>
+
+</testResults>

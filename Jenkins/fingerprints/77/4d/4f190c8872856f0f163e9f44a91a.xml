@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:04.252 UTC</timestamp>
+  <md5sum>774d4f190c8872856f0f163e9f44a91a</md5sum>
+  <fileName>org.xerial:sqlite-jdbc-3.8.11.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

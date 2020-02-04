@@ -1,0 +1,35 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tejaswinipatne/practise_code.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose # timeout=10
+Fetching upstream changes from https://github.com/tejaswinipatne/practise_code.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress https://github.com/tejaswinipatne/practise_code.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/tejaswinipatne/practise_code.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/tejaswinipatne/practise_code.git # timeout=10
+Fetching upstream changes from https://github.com/tejaswinipatne/practise_code.git
+ > git.exe fetch --tags --force --progress https://github.com/tejaswinipatne/practise_code.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 5c6144639ee3c3916550cd98be7f4055f8560ecc (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 5c6144639ee3c3916550cd98be7f4055f8560ecc
+Commit message: "anything"
+First time build. Skipping changelog.
+[test_demo_purpose] $ cmd /c call C:\Windows\TEMP\jenkins5523287427845652030.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>javac test.java 
+javac: file not found: test.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>java test 
+Error: Could not find or load main class test
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

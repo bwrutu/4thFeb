@@ -1,0 +1,23 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\git_test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tejaswinipatne/practise_code.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\git_test # timeout=10
+Fetching upstream changes from https://github.com/tejaswinipatne/practise_code.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress https://github.com/tejaswinipatne/practise_code.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/tejaswinipatne/practise_code.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/tejaswinipatne/practise_code.git # timeout=10
+Fetching upstream changes from https://github.com/tejaswinipatne/practise_code.git
+ > git.exe fetch --tags --force --progress https://github.com/tejaswinipatne/practise_code.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 8f7b354fa5fa006ebd4604b810f106460414577f (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 8f7b354fa5fa006ebd4604b810f106460414577f
+Commit message: "Create testing_jenkins"
+First time build. Skipping changelog.
+Finished: SUCCESS

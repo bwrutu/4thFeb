@@ -1,0 +1,21 @@
+Started by upstream project "[8mha:////4ENxbFCywExU7fR9rSXkYb2Ze4csz92pcMSfZNjtT47PAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2X1IKcSi8gAwC9AIWWwwAAAA==[0mDeplyJob" build number [8mha:////4CHUUrWj899rQ5z/H6nWepOvcN7jYZK7DLmJbqk+/0GuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2X1IKcSi8gw9AIAGjDWB/FAAAA[0m12
+originally caused by:
+ Started by upstream project "[8mha:////4C8r1uVSa2R6zx/+L4izt8qm8wbPSL87yld5dPRKkeEEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH2X1Nx8LyANAPyuEqDCAAAA[0mDemoJob" build number [8mha:////4GYxC249gTYVds0wWy6tNoqIwaO9dhiXCnR2fdTfcQLeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwkfZfU3HwvIG0JAOAdrSbDAAAA[0m9
+ originally caused by:
+  Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+ Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\sampleJob
+[sampleJob] $ cmd /c call C:\Windows\TEMP\jenkins2830360428395732861.bat
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>echo "sampleJob" 
+"sampleJob"
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>exit 0 
+[sampleJob] $ cmd /c call C:\Windows\TEMP\jenkins3393079655050247872.bat
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>echo "sampleJob" 
+"sampleJob"
+
+C:\Program Files (x86)\Jenkins\workspace\sampleJob>exit 0 
+Finished: SUCCESS

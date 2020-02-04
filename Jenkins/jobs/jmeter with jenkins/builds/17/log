@@ -1,0 +1,38 @@
+Started by upstream project "[8mha:////4GI3tXo93WAEXv02t2U0WbZ0ipykUdA2yGxMNeb8G+plAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gWJRYm5qUAjqlJT9AH2+6LXxwAAAA==[0mparametrized" build number [8mha:////4Bns/vEcJBAbDI6I/MVT+YwVfDe4/fR8/wmY/+ns/U3TAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/YLEosTcVKARVakp+oYAQikkKcgAAAA=[0m1
+originally caused by:
+ Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\jmeter with jenkins
+[jmeter with jenkins] $ cmd /c call C:\Windows\TEMP\jenkins258971835693064188.bat
+
+C:\Program Files (x86)\Jenkins\workspace\jmeter with jenkins>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx -l Test.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx
+Starting the test @ Fri Jan 17 12:51:46 IST 2020 (1579245706134)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =    950 in 00:00:10 =   97.9/s Avg:    87 Min:     1 Max:  2177 Err:   130 (13.68%)
+Tidying up ...    @ Fri Jan 17 12:51:56 IST 2020 (1579245716638)
+... end of run
+[2020-01-17 12:51:57]: BlazemeterJenkins plugin v.null
+[2020-01-17 12:51:57]: CiBuild is started.
+[2020-01-17 12:51:58]: Start test id : 6693175, name : March_18_3:35 PM
+[2020-01-17 12:51:59]: Test has been started successfully at Fri Jan 17 12:51:59 IST 2020. Master id=24938797
+[2020-01-17 12:51:59]: Test report will be available at https://a.blazemeter.com/app/?public-token=R9p9qkd329K7Fdun3S02HErgG63EGC9KLOTqWkVTSUjSGhpYkt#/masters/24938797/summary
+[2020-01-17 12:53:12]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-17 12:53:44]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-17 12:53:48]: Saving junit report C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Report\24938797.xml
+[2020-01-17 12:53:51]: Saving jtl report C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Report\r-v4-5e215ff421dbf
+[2020-01-17 12:53:51]: Trying to get functional summary from server
+[2020-01-17 12:53:51]: Trying to get aggregate summary from server
+[2020-01-17 12:53:52]: WARN: Failed to get aggregate summary for master net.sf.json.JSONException: JSONObject["avg"] is not a number.
+[2020-01-17 12:53:52]: {}
+Build step 'BlazeMeter' changed build result to SUCCESS
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Test.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\jmeter with jenkins\Test.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\jmeter with jenkins\builds\17\performance-reports\JMeter\Test.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\jmeter with jenkins\builds\17\performance-reports\JMeter\Test.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Test.csv reported 13.684% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

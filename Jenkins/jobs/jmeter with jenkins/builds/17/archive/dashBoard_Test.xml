@@ -1,0 +1,869 @@
+<?xml version="1.0"?>
+<results>
+<absoluteDefinition>
+	<unstable>-1</unstable>
+	<failed>-1</failed>
+	<calculated>13.684</calculated>
+</absoluteDefinition>
+<average>
+	<1 _success.txt>
+		<currentBuildAvg>316</currentBuildAvg>
+	</1 _success.txt>
+	<10 _>
+		<currentBuildAvg>650</currentBuildAvg>
+	</10 _>
+	<11 _client_>
+		<currentBuildAvg>41</currentBuildAvg>
+	</11 _client_>
+	<12 _client_Dashboard_>
+		<currentBuildAvg>39</currentBuildAvg>
+	</12 _client_Dashboard_>
+	<13 _media_media_company_logo_logo1.jpg>
+		<currentBuildAvg>6</currentBuildAvg>
+	</13 _media_media_company_logo_logo1.jpg>
+	<14 _media_default_logo_E.png>
+		<currentBuildAvg>19</currentBuildAvg>
+	</14 _media_default_logo_E.png>
+	<15 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildAvg>6</currentBuildAvg>
+	</15 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<16 _media_company_logo_logo.jpg>
+		<currentBuildAvg>9</currentBuildAvg>
+	</16 _media_company_logo_logo.jpg>
+	<17 _static_assets_css_icons_icomoon_styles.css>
+		<currentBuildAvg>27</currentBuildAvg>
+	</17 _static_assets_css_icons_icomoon_styles.css>
+	<18 _static_assets_css_icons_fontawesome5_web-fonts-with-css_css_fontawesome-all.css>
+		<currentBuildAvg>31</currentBuildAvg>
+	</18 _static_assets_css_icons_fontawesome5_web-fonts-with-css_css_fontawesome-all.css>
+	<19 _static_assets_css_icons_fontawesome-free-5.5.0-web_css_all.css>
+		<currentBuildAvg>77</currentBuildAvg>
+	</19 _static_assets_css_icons_fontawesome-free-5.5.0-web_css_all.css>
+	<2 _success.txt>
+		<currentBuildAvg>14</currentBuildAvg>
+	</2 _success.txt>
+	<20 _static_assets_css_icons_icomoon_new-styles.css>
+		<currentBuildAvg>6</currentBuildAvg>
+	</20 _static_assets_css_icons_icomoon_new-styles.css>
+	<21 _static_assets_css_core.css>
+		<currentBuildAvg>105</currentBuildAvg>
+	</21 _static_assets_css_core.css>
+	<22 _static_assets_css_components.css>
+		<currentBuildAvg>346</currentBuildAvg>
+	</22 _static_assets_css_components.css>
+	<23 _static_assets_css_colors.css>
+		<currentBuildAvg>55</currentBuildAvg>
+	</23 _static_assets_css_colors.css>
+	<24 _static_assets_css_extras_animate.min.css>
+		<currentBuildAvg>45</currentBuildAvg>
+	</24 _static_assets_css_extras_animate.min.css>
+	<25 _static_assets_css_sticky.css>
+		<currentBuildAvg>8</currentBuildAvg>
+	</25 _static_assets_css_sticky.css>
+	<26 _static_assets_css_client_dashboard.css>
+		<currentBuildAvg>19</currentBuildAvg>
+	</26 _static_assets_css_client_dashboard.css>
+	<27 _static_enjoyhint_enjoyhint.css>
+		<currentBuildAvg>16</currentBuildAvg>
+	</27 _static_enjoyhint_enjoyhint.css>
+	<28 _static_assets_drag_dashboard_css_style.min.css>
+		<currentBuildAvg>105</currentBuildAvg>
+	</28 _static_assets_drag_dashboard_css_style.min.css>
+	<29 _static_assets_js_core_libraries_bootstrap.min.js>
+		<currentBuildAvg>31</currentBuildAvg>
+	</29 _static_assets_js_core_libraries_bootstrap.min.js>
+	<3 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</3 _success.txt>
+	<30 _static_assets_js_core_libraries_jquery.min.js>
+		<currentBuildAvg>78</currentBuildAvg>
+	</30 _static_assets_js_core_libraries_jquery.min.js>
+	<31 _static_assets_js_plugins_loaders_pace.min.js>
+		<currentBuildAvg>14</currentBuildAvg>
+	</31 _static_assets_js_plugins_loaders_pace.min.js>
+	<32 _static_assets_js_plugins_loaders_blockui.min.js>
+		<currentBuildAvg>22</currentBuildAvg>
+	</32 _static_assets_js_plugins_loaders_blockui.min.js>
+	<33 _static_assets_drag_dashboard_css_fullcalendar.min.css>
+		<currentBuildAvg>15</currentBuildAvg>
+	</33 _static_assets_drag_dashboard_css_fullcalendar.min.css>
+	<34 _static_assets_js_plugins_velocity_velocity.min.js>
+		<currentBuildAvg>38</currentBuildAvg>
+	</34 _static_assets_js_plugins_velocity_velocity.min.js>
+	<35 _static_assets_js_plugins_buttons_spin.min.js>
+		<currentBuildAvg>8</currentBuildAvg>
+	</35 _static_assets_js_plugins_buttons_spin.min.js>
+	<36 _static_assets_js_plugins_velocity_velocity.ui.min.js>
+		<currentBuildAvg>13</currentBuildAvg>
+	</36 _static_assets_js_plugins_velocity_velocity.ui.min.js>
+	<37 _static_assets_js_plugins_forms_wizards_steps.min.js>
+		<currentBuildAvg>23</currentBuildAvg>
+	</37 _static_assets_js_plugins_forms_wizards_steps.min.js>
+	<38 _static_assets_js_plugins_buttons_ladda.min.js>
+		<currentBuildAvg>7</currentBuildAvg>
+	</38 _static_assets_js_plugins_buttons_ladda.min.js>
+	<39 _static_assets_js_plugins_forms_selects_select2.min.js>
+		<currentBuildAvg>51</currentBuildAvg>
+	</39 _static_assets_js_plugins_forms_selects_select2.min.js>
+	<4 _>
+		<currentBuildAvg>243</currentBuildAvg>
+	</4 _>
+	<40 _static_assets_js_plugins_forms_validation_validate.min.js>
+		<currentBuildAvg>18</currentBuildAvg>
+	</40 _static_assets_js_plugins_forms_validation_validate.min.js>
+	<41 _static_assets_js_core_libraries_jasny_bootstrap.min.js>
+		<currentBuildAvg>15</currentBuildAvg>
+	</41 _static_assets_js_core_libraries_jasny_bootstrap.min.js>
+	<42 _static_assets_js_plugins_forms_styling_uniform.min.js>
+		<currentBuildAvg>8</currentBuildAvg>
+	</42 _static_assets_js_plugins_forms_styling_uniform.min.js>
+	<43 _static_assets_js_plugins_extensions_cookie.js>
+		<currentBuildAvg>7</currentBuildAvg>
+	</43 _static_assets_js_plugins_extensions_cookie.js>
+	<44 _static_assets_js_core_app.js>
+		<currentBuildAvg>16</currentBuildAvg>
+	</44 _static_assets_js_core_app.js>
+	<45 _static_assets_js_pages_client_wizard_steps.js>
+		<currentBuildAvg>19</currentBuildAvg>
+	</45 _static_assets_js_pages_client_wizard_steps.js>
+	<46 _static_assets_js_plugins_ui_ripple.min.js>
+		<currentBuildAvg>7</currentBuildAvg>
+	</46 _static_assets_js_plugins_ui_ripple.min.js>
+	<47 _static_assets_js_plugins_tables_datatables_datatables.min.js>
+		<currentBuildAvg>86</currentBuildAvg>
+	</47 _static_assets_js_plugins_tables_datatables_datatables.min.js>
+	<48 _static_assets_js_pages_datatables_api.js>
+		<currentBuildAvg>11</currentBuildAvg>
+	</48 _static_assets_js_pages_datatables_api.js>
+	<49 _static_enjoyhint_enjoyhint.min.js>
+		<currentBuildAvg>110</currentBuildAvg>
+	</49 _static_enjoyhint_enjoyhint.min.js>
+	<5 _static_assets_css_main-login.css>
+		<currentBuildAvg>19</currentBuildAvg>
+	</5 _static_assets_css_main-login.css>
+	<50 _static_assets_js_pages_extension_blockui.js>
+		<currentBuildAvg>16</currentBuildAvg>
+	</50 _static_assets_js_pages_extension_blockui.js>
+	<51 _static_assets_js_plugins_notifications_pnotify.min.js>
+		<currentBuildAvg>25</currentBuildAvg>
+	</51 _static_assets_js_plugins_notifications_pnotify.min.js>
+	<52 _static_assets_drag_dashboard_js_vendor-admin.js>
+		<currentBuildAvg>976</currentBuildAvg>
+	</52 _static_assets_drag_dashboard_js_vendor-admin.js>
+	<53 _static_assets_drag_dashboard_js_datatables.min.js>
+		<currentBuildAvg>1342</currentBuildAvg>
+	</53 _static_assets_drag_dashboard_js_datatables.min.js>
+	<54 _static_assets_drag_dashboard_js_moment.min.js>
+		<currentBuildAvg>227</currentBuildAvg>
+	</54 _static_assets_drag_dashboard_js_moment.min.js>
+	<55 _success.txt>
+		<currentBuildAvg>21</currentBuildAvg>
+	</55 _success.txt>
+	<56 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</56 _success.txt>
+	<57 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</57 _success.txt>
+	<58 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</58 _success.txt>
+	<59 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</59 _success.txt>
+	<6 _static_assets_css_btn-hover.css>
+		<currentBuildAvg>8</currentBuildAvg>
+	</6 _static_assets_css_btn-hover.css>
+	<60 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</60 _success.txt>
+	<61 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</61 _success.txt>
+	<62 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</62 _success.txt>
+	<63 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</63 _success.txt>
+	<64 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</64 _success.txt>
+	<65 _media_bg.png>
+		<currentBuildAvg>11</currentBuildAvg>
+	</65 _media_bg.png>
+	<66 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</66 _success.txt>
+	<67 _success.txt>
+		<currentBuildAvg>11</currentBuildAvg>
+	</67 _success.txt>
+	<68 _media_media_company_logo_logo1.jpg>
+		<currentBuildAvg>16</currentBuildAvg>
+	</68 _media_media_company_logo_logo1.jpg>
+	<69 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildAvg>6</currentBuildAvg>
+	</69 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<7 _static_assets_css_bootstrap.css>
+		<currentBuildAvg>100</currentBuildAvg>
+	</7 _static_assets_css_bootstrap.css>
+	<70 _static_icons_Ellipsis.gif>
+		<currentBuildAvg>63</currentBuildAvg>
+	</70 _static_icons_Ellipsis.gif>
+	<71 _static_assets_css_icons_icomoon_fonts_icomoon.woff>
+		<currentBuildAvg>109</currentBuildAvg>
+	</71 _static_assets_css_icons_icomoon_fonts_icomoon.woff>
+	<72 _static_assets_css_icons_fontawesome-free-5.5.0-web_webfonts_fa-solid-900.woff2>
+		<currentBuildAvg>35</currentBuildAvg>
+	</72 _static_assets_css_icons_fontawesome-free-5.5.0-web_webfonts_fa-solid-900.woff2>
+	<73 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</73 _success.txt>
+	<74 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</74 _success.txt>
+	<75 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</75 _success.txt>
+	<76 _client_ajax_set_dashboard_>
+		<currentBuildAvg>18</currentBuildAvg>
+	</76 _client_ajax_set_dashboard_>
+	<77 _client_Dashboard_>
+		<currentBuildAvg>34</currentBuildAvg>
+	</77 _client_Dashboard_>
+	<78 _client_Rejected-Reason-List_>
+		<currentBuildAvg>23</currentBuildAvg>
+	</78 _client_Rejected-Reason-List_>
+	<79 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</79 _success.txt>
+	<8 _static_assets_images_logo_tc-logo1.gif>
+		<currentBuildAvg>198</currentBuildAvg>
+	</8 _static_assets_images_logo_tc-logo1.gif>
+	<80 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildAvg>5</currentBuildAvg>
+	</80 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<81 _media_media_company_logo_logo1.jpg>
+		<currentBuildAvg>5</currentBuildAvg>
+	</81 _media_media_company_logo_logo1.jpg>
+	<82 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</82 _success.txt>
+	<83 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</83 _success.txt>
+	<84 _static_enjoyhint_enjoyhint.css>
+		<currentBuildAvg>7</currentBuildAvg>
+	</84 _static_enjoyhint_enjoyhint.css>
+	<85 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</85 _success.txt>
+	<86 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</86 _success.txt>
+	<87 _success.txt>
+		<currentBuildAvg>10</currentBuildAvg>
+	</87 _success.txt>
+	<88 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildAvg>16</currentBuildAvg>
+	</88 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<89 _media_media_company_logo_logo1.jpg>
+		<currentBuildAvg>4</currentBuildAvg>
+	</89 _media_media_company_logo_logo1.jpg>
+	<9 _static_assets_images_logo_lead-generation.gif>
+		<currentBuildAvg>1401</currentBuildAvg>
+	</9 _static_assets_images_logo_lead-generation.gif>
+	<90 _superadmin_ajax_get_lead_reason_>
+		<currentBuildAvg>12</currentBuildAvg>
+	</90 _superadmin_ajax_get_lead_reason_>
+	<91 _superadmin_ajax_update_lead_reason_>
+		<currentBuildAvg>14</currentBuildAvg>
+	</91 _superadmin_ajax_update_lead_reason_>
+	<92 _superadmin_ajax_update_lead_reason_>
+		<currentBuildAvg>19</currentBuildAvg>
+	</92 _superadmin_ajax_update_lead_reason_>
+	<93 _superadmin_ajax_update_lead_reason_>
+		<currentBuildAvg>13</currentBuildAvg>
+	</93 _superadmin_ajax_update_lead_reason_>
+	<94 _logout_>
+		<currentBuildAvg>22</currentBuildAvg>
+	</94 _logout_>
+	<95 _>
+		<currentBuildAvg>13</currentBuildAvg>
+	</95 _>
+</average>
+<median>
+	<1 _success.txt>
+		<currentBuildMed>290</currentBuildMed>
+	</1 _success.txt>
+	<10 _>
+		<currentBuildMed>537</currentBuildMed>
+	</10 _>
+	<11 _client_>
+		<currentBuildMed>23</currentBuildMed>
+	</11 _client_>
+	<12 _client_Dashboard_>
+		<currentBuildMed>26</currentBuildMed>
+	</12 _client_Dashboard_>
+	<13 _media_media_company_logo_logo1.jpg>
+		<currentBuildMed>5</currentBuildMed>
+	</13 _media_media_company_logo_logo1.jpg>
+	<14 _media_default_logo_E.png>
+		<currentBuildMed>8</currentBuildMed>
+	</14 _media_default_logo_E.png>
+	<15 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildMed>6</currentBuildMed>
+	</15 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<16 _media_company_logo_logo.jpg>
+		<currentBuildMed>8</currentBuildMed>
+	</16 _media_company_logo_logo.jpg>
+	<17 _static_assets_css_icons_icomoon_styles.css>
+		<currentBuildMed>20</currentBuildMed>
+	</17 _static_assets_css_icons_icomoon_styles.css>
+	<18 _static_assets_css_icons_fontawesome5_web-fonts-with-css_css_fontawesome-all.css>
+		<currentBuildMed>25</currentBuildMed>
+	</18 _static_assets_css_icons_fontawesome5_web-fonts-with-css_css_fontawesome-all.css>
+	<19 _static_assets_css_icons_fontawesome-free-5.5.0-web_css_all.css>
+		<currentBuildMed>44</currentBuildMed>
+	</19 _static_assets_css_icons_fontawesome-free-5.5.0-web_css_all.css>
+	<2 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</2 _success.txt>
+	<20 _static_assets_css_icons_icomoon_new-styles.css>
+		<currentBuildMed>6</currentBuildMed>
+	</20 _static_assets_css_icons_icomoon_new-styles.css>
+	<21 _static_assets_css_core.css>
+		<currentBuildMed>91</currentBuildMed>
+	</21 _static_assets_css_core.css>
+	<22 _static_assets_css_components.css>
+		<currentBuildMed>346</currentBuildMed>
+	</22 _static_assets_css_components.css>
+	<23 _static_assets_css_colors.css>
+		<currentBuildMed>37</currentBuildMed>
+	</23 _static_assets_css_colors.css>
+	<24 _static_assets_css_extras_animate.min.css>
+		<currentBuildMed>31</currentBuildMed>
+	</24 _static_assets_css_extras_animate.min.css>
+	<25 _static_assets_css_sticky.css>
+		<currentBuildMed>8</currentBuildMed>
+	</25 _static_assets_css_sticky.css>
+	<26 _static_assets_css_client_dashboard.css>
+		<currentBuildMed>17</currentBuildMed>
+	</26 _static_assets_css_client_dashboard.css>
+	<27 _static_enjoyhint_enjoyhint.css>
+		<currentBuildMed>9</currentBuildMed>
+	</27 _static_enjoyhint_enjoyhint.css>
+	<28 _static_assets_drag_dashboard_css_style.min.css>
+		<currentBuildMed>95</currentBuildMed>
+	</28 _static_assets_drag_dashboard_css_style.min.css>
+	<29 _static_assets_js_core_libraries_bootstrap.min.js>
+		<currentBuildMed>27</currentBuildMed>
+	</29 _static_assets_js_core_libraries_bootstrap.min.js>
+	<3 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</3 _success.txt>
+	<30 _static_assets_js_core_libraries_jquery.min.js>
+		<currentBuildMed>67</currentBuildMed>
+	</30 _static_assets_js_core_libraries_jquery.min.js>
+	<31 _static_assets_js_plugins_loaders_pace.min.js>
+		<currentBuildMed>11</currentBuildMed>
+	</31 _static_assets_js_plugins_loaders_pace.min.js>
+	<32 _static_assets_js_plugins_loaders_blockui.min.js>
+		<currentBuildMed>11</currentBuildMed>
+	</32 _static_assets_js_plugins_loaders_blockui.min.js>
+	<33 _static_assets_drag_dashboard_css_fullcalendar.min.css>
+		<currentBuildMed>14</currentBuildMed>
+	</33 _static_assets_drag_dashboard_css_fullcalendar.min.css>
+	<34 _static_assets_js_plugins_velocity_velocity.min.js>
+		<currentBuildMed>24</currentBuildMed>
+	</34 _static_assets_js_plugins_velocity_velocity.min.js>
+	<35 _static_assets_js_plugins_buttons_spin.min.js>
+		<currentBuildMed>7</currentBuildMed>
+	</35 _static_assets_js_plugins_buttons_spin.min.js>
+	<36 _static_assets_js_plugins_velocity_velocity.ui.min.js>
+		<currentBuildMed>11</currentBuildMed>
+	</36 _static_assets_js_plugins_velocity_velocity.ui.min.js>
+	<37 _static_assets_js_plugins_forms_wizards_steps.min.js>
+		<currentBuildMed>10</currentBuildMed>
+	</37 _static_assets_js_plugins_forms_wizards_steps.min.js>
+	<38 _static_assets_js_plugins_buttons_ladda.min.js>
+		<currentBuildMed>7</currentBuildMed>
+	</38 _static_assets_js_plugins_buttons_ladda.min.js>
+	<39 _static_assets_js_plugins_forms_selects_select2.min.js>
+		<currentBuildMed>44</currentBuildMed>
+	</39 _static_assets_js_plugins_forms_selects_select2.min.js>
+	<4 _>
+		<currentBuildMed>40</currentBuildMed>
+	</4 _>
+	<40 _static_assets_js_plugins_forms_validation_validate.min.js>
+		<currentBuildMed>15</currentBuildMed>
+	</40 _static_assets_js_plugins_forms_validation_validate.min.js>
+	<41 _static_assets_js_core_libraries_jasny_bootstrap.min.js>
+		<currentBuildMed>13</currentBuildMed>
+	</41 _static_assets_js_core_libraries_jasny_bootstrap.min.js>
+	<42 _static_assets_js_plugins_forms_styling_uniform.min.js>
+		<currentBuildMed>8</currentBuildMed>
+	</42 _static_assets_js_plugins_forms_styling_uniform.min.js>
+	<43 _static_assets_js_plugins_extensions_cookie.js>
+		<currentBuildMed>8</currentBuildMed>
+	</43 _static_assets_js_plugins_extensions_cookie.js>
+	<44 _static_assets_js_core_app.js>
+		<currentBuildMed>14</currentBuildMed>
+	</44 _static_assets_js_core_app.js>
+	<45 _static_assets_js_pages_client_wizard_steps.js>
+		<currentBuildMed>17</currentBuildMed>
+	</45 _static_assets_js_pages_client_wizard_steps.js>
+	<46 _static_assets_js_plugins_ui_ripple.min.js>
+		<currentBuildMed>8</currentBuildMed>
+	</46 _static_assets_js_plugins_ui_ripple.min.js>
+	<47 _static_assets_js_plugins_tables_datatables_datatables.min.js>
+		<currentBuildMed>63</currentBuildMed>
+	</47 _static_assets_js_plugins_tables_datatables_datatables.min.js>
+	<48 _static_assets_js_pages_datatables_api.js>
+		<currentBuildMed>9</currentBuildMed>
+	</48 _static_assets_js_pages_datatables_api.js>
+	<49 _static_enjoyhint_enjoyhint.min.js>
+		<currentBuildMed>86</currentBuildMed>
+	</49 _static_enjoyhint_enjoyhint.min.js>
+	<5 _static_assets_css_main-login.css>
+		<currentBuildMed>11</currentBuildMed>
+	</5 _static_assets_css_main-login.css>
+	<50 _static_assets_js_pages_extension_blockui.js>
+		<currentBuildMed>16</currentBuildMed>
+	</50 _static_assets_js_pages_extension_blockui.js>
+	<51 _static_assets_js_plugins_notifications_pnotify.min.js>
+		<currentBuildMed>22</currentBuildMed>
+	</51 _static_assets_js_plugins_notifications_pnotify.min.js>
+	<52 _static_assets_drag_dashboard_js_vendor-admin.js>
+		<currentBuildMed>956</currentBuildMed>
+	</52 _static_assets_drag_dashboard_js_vendor-admin.js>
+	<53 _static_assets_drag_dashboard_js_datatables.min.js>
+		<currentBuildMed>1447</currentBuildMed>
+	</53 _static_assets_drag_dashboard_js_datatables.min.js>
+	<54 _static_assets_drag_dashboard_js_moment.min.js>
+		<currentBuildMed>199</currentBuildMed>
+	</54 _static_assets_drag_dashboard_js_moment.min.js>
+	<55 _success.txt>
+		<currentBuildMed>21</currentBuildMed>
+	</55 _success.txt>
+	<56 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</56 _success.txt>
+	<57 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</57 _success.txt>
+	<58 _success.txt>
+		<currentBuildMed>11</currentBuildMed>
+	</58 _success.txt>
+	<59 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</59 _success.txt>
+	<6 _static_assets_css_btn-hover.css>
+		<currentBuildMed>7</currentBuildMed>
+	</6 _static_assets_css_btn-hover.css>
+	<60 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</60 _success.txt>
+	<61 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</61 _success.txt>
+	<62 _success.txt>
+		<currentBuildMed>11</currentBuildMed>
+	</62 _success.txt>
+	<63 _success.txt>
+		<currentBuildMed>11</currentBuildMed>
+	</63 _success.txt>
+	<64 _success.txt>
+		<currentBuildMed>11</currentBuildMed>
+	</64 _success.txt>
+	<65 _media_bg.png>
+		<currentBuildMed>9</currentBuildMed>
+	</65 _media_bg.png>
+	<66 _success.txt>
+		<currentBuildMed>11</currentBuildMed>
+	</66 _success.txt>
+	<67 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</67 _success.txt>
+	<68 _media_media_company_logo_logo1.jpg>
+		<currentBuildMed>6</currentBuildMed>
+	</68 _media_media_company_logo_logo1.jpg>
+	<69 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildMed>6</currentBuildMed>
+	</69 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<7 _static_assets_css_bootstrap.css>
+		<currentBuildMed>81</currentBuildMed>
+	</7 _static_assets_css_bootstrap.css>
+	<70 _static_icons_Ellipsis.gif>
+		<currentBuildMed>58</currentBuildMed>
+	</70 _static_icons_Ellipsis.gif>
+	<71 _static_assets_css_icons_icomoon_fonts_icomoon.woff>
+		<currentBuildMed>109</currentBuildMed>
+	</71 _static_assets_css_icons_icomoon_fonts_icomoon.woff>
+	<72 _static_assets_css_icons_fontawesome-free-5.5.0-web_webfonts_fa-solid-900.woff2>
+		<currentBuildMed>30</currentBuildMed>
+	</72 _static_assets_css_icons_fontawesome-free-5.5.0-web_webfonts_fa-solid-900.woff2>
+	<73 _success.txt>
+		<currentBuildMed>11</currentBuildMed>
+	</73 _success.txt>
+	<74 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</74 _success.txt>
+	<75 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</75 _success.txt>
+	<76 _client_ajax_set_dashboard_>
+		<currentBuildMed>13</currentBuildMed>
+	</76 _client_ajax_set_dashboard_>
+	<77 _client_Dashboard_>
+		<currentBuildMed>23</currentBuildMed>
+	</77 _client_Dashboard_>
+	<78 _client_Rejected-Reason-List_>
+		<currentBuildMed>23</currentBuildMed>
+	</78 _client_Rejected-Reason-List_>
+	<79 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</79 _success.txt>
+	<8 _static_assets_images_logo_tc-logo1.gif>
+		<currentBuildMed>156</currentBuildMed>
+	</8 _static_assets_images_logo_tc-logo1.gif>
+	<80 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildMed>4</currentBuildMed>
+	</80 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<81 _media_media_company_logo_logo1.jpg>
+		<currentBuildMed>4</currentBuildMed>
+	</81 _media_media_company_logo_logo1.jpg>
+	<82 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</82 _success.txt>
+	<83 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</83 _success.txt>
+	<84 _static_enjoyhint_enjoyhint.css>
+		<currentBuildMed>6</currentBuildMed>
+	</84 _static_enjoyhint_enjoyhint.css>
+	<85 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</85 _success.txt>
+	<86 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</86 _success.txt>
+	<87 _success.txt>
+		<currentBuildMed>10</currentBuildMed>
+	</87 _success.txt>
+	<88 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuildMed>4</currentBuildMed>
+	</88 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<89 _media_media_company_logo_logo1.jpg>
+		<currentBuildMed>4</currentBuildMed>
+	</89 _media_media_company_logo_logo1.jpg>
+	<9 _static_assets_images_logo_lead-generation.gif>
+		<currentBuildMed>1204</currentBuildMed>
+	</9 _static_assets_images_logo_lead-generation.gif>
+	<90 _superadmin_ajax_get_lead_reason_>
+		<currentBuildMed>12</currentBuildMed>
+	</90 _superadmin_ajax_get_lead_reason_>
+	<91 _superadmin_ajax_update_lead_reason_>
+		<currentBuildMed>14</currentBuildMed>
+	</91 _superadmin_ajax_update_lead_reason_>
+	<92 _superadmin_ajax_update_lead_reason_>
+		<currentBuildMed>13</currentBuildMed>
+	</92 _superadmin_ajax_update_lead_reason_>
+	<93 _superadmin_ajax_update_lead_reason_>
+		<currentBuildMed>12</currentBuildMed>
+	</93 _superadmin_ajax_update_lead_reason_>
+	<94 _logout_>
+		<currentBuildMed>20</currentBuildMed>
+	</94 _logout_>
+	<95 _>
+		<currentBuildMed>11</currentBuildMed>
+	</95 _>
+</median>
+<percentile>
+	<1 _success.txt>
+		<currentBuild90Line>682</currentBuild90Line>
+	</1 _success.txt>
+	<10 _>
+		<currentBuild90Line>971</currentBuild90Line>
+	</10 _>
+	<11 _client_>
+		<currentBuild90Line>54</currentBuild90Line>
+	</11 _client_>
+	<12 _client_Dashboard_>
+		<currentBuild90Line>66</currentBuild90Line>
+	</12 _client_Dashboard_>
+	<13 _media_media_company_logo_logo1.jpg>
+		<currentBuild90Line>9</currentBuild90Line>
+	</13 _media_media_company_logo_logo1.jpg>
+	<14 _media_default_logo_E.png>
+		<currentBuild90Line>12</currentBuild90Line>
+	</14 _media_default_logo_E.png>
+	<15 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuild90Line>9</currentBuild90Line>
+	</15 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<16 _media_company_logo_logo.jpg>
+		<currentBuild90Line>14</currentBuild90Line>
+	</16 _media_company_logo_logo.jpg>
+	<17 _static_assets_css_icons_icomoon_styles.css>
+		<currentBuild90Line>44</currentBuild90Line>
+	</17 _static_assets_css_icons_icomoon_styles.css>
+	<18 _static_assets_css_icons_fontawesome5_web-fonts-with-css_css_fontawesome-all.css>
+		<currentBuild90Line>55</currentBuild90Line>
+	</18 _static_assets_css_icons_fontawesome5_web-fonts-with-css_css_fontawesome-all.css>
+	<19 _static_assets_css_icons_fontawesome-free-5.5.0-web_css_all.css>
+		<currentBuild90Line>235</currentBuild90Line>
+	</19 _static_assets_css_icons_fontawesome-free-5.5.0-web_css_all.css>
+	<2 _success.txt>
+		<currentBuild90Line>21</currentBuild90Line>
+	</2 _success.txt>
+	<20 _static_assets_css_icons_icomoon_new-styles.css>
+		<currentBuild90Line>9</currentBuild90Line>
+	</20 _static_assets_css_icons_icomoon_new-styles.css>
+	<21 _static_assets_css_core.css>
+		<currentBuild90Line>157</currentBuild90Line>
+	</21 _static_assets_css_core.css>
+	<22 _static_assets_css_components.css>
+		<currentBuild90Line>505</currentBuild90Line>
+	</22 _static_assets_css_components.css>
+	<23 _static_assets_css_colors.css>
+		<currentBuild90Line>101</currentBuild90Line>
+	</23 _static_assets_css_colors.css>
+	<24 _static_assets_css_extras_animate.min.css>
+		<currentBuild90Line>72</currentBuild90Line>
+	</24 _static_assets_css_extras_animate.min.css>
+	<25 _static_assets_css_sticky.css>
+		<currentBuild90Line>10</currentBuild90Line>
+	</25 _static_assets_css_sticky.css>
+	<26 _static_assets_css_client_dashboard.css>
+		<currentBuild90Line>33</currentBuild90Line>
+	</26 _static_assets_css_client_dashboard.css>
+	<27 _static_enjoyhint_enjoyhint.css>
+		<currentBuild90Line>37</currentBuild90Line>
+	</27 _static_enjoyhint_enjoyhint.css>
+	<28 _static_assets_drag_dashboard_css_style.min.css>
+		<currentBuild90Line>144</currentBuild90Line>
+	</28 _static_assets_drag_dashboard_css_style.min.css>
+	<29 _static_assets_js_core_libraries_bootstrap.min.js>
+		<currentBuild90Line>54</currentBuild90Line>
+	</29 _static_assets_js_core_libraries_bootstrap.min.js>
+	<3 _success.txt>
+		<currentBuild90Line>15</currentBuild90Line>
+	</3 _success.txt>
+	<30 _static_assets_js_core_libraries_jquery.min.js>
+		<currentBuild90Line>136</currentBuild90Line>
+	</30 _static_assets_js_core_libraries_jquery.min.js>
+	<31 _static_assets_js_plugins_loaders_pace.min.js>
+		<currentBuild90Line>20</currentBuild90Line>
+	</31 _static_assets_js_plugins_loaders_pace.min.js>
+	<32 _static_assets_js_plugins_loaders_blockui.min.js>
+		<currentBuild90Line>25</currentBuild90Line>
+	</32 _static_assets_js_plugins_loaders_blockui.min.js>
+	<33 _static_assets_drag_dashboard_css_fullcalendar.min.css>
+		<currentBuild90Line>21</currentBuild90Line>
+	</33 _static_assets_drag_dashboard_css_fullcalendar.min.css>
+	<34 _static_assets_js_plugins_velocity_velocity.min.js>
+		<currentBuild90Line>48</currentBuild90Line>
+	</34 _static_assets_js_plugins_velocity_velocity.min.js>
+	<35 _static_assets_js_plugins_buttons_spin.min.js>
+		<currentBuild90Line>14</currentBuild90Line>
+	</35 _static_assets_js_plugins_buttons_spin.min.js>
+	<36 _static_assets_js_plugins_velocity_velocity.ui.min.js>
+		<currentBuild90Line>19</currentBuild90Line>
+	</36 _static_assets_js_plugins_velocity_velocity.ui.min.js>
+	<37 _static_assets_js_plugins_forms_wizards_steps.min.js>
+		<currentBuild90Line>24</currentBuild90Line>
+	</37 _static_assets_js_plugins_forms_wizards_steps.min.js>
+	<38 _static_assets_js_plugins_buttons_ladda.min.js>
+		<currentBuild90Line>12</currentBuild90Line>
+	</38 _static_assets_js_plugins_buttons_ladda.min.js>
+	<39 _static_assets_js_plugins_forms_selects_select2.min.js>
+		<currentBuild90Line>73</currentBuild90Line>
+	</39 _static_assets_js_plugins_forms_selects_select2.min.js>
+	<4 _>
+		<currentBuild90Line>1024</currentBuild90Line>
+	</4 _>
+	<40 _static_assets_js_plugins_forms_validation_validate.min.js>
+		<currentBuild90Line>35</currentBuild90Line>
+	</40 _static_assets_js_plugins_forms_validation_validate.min.js>
+	<41 _static_assets_js_core_libraries_jasny_bootstrap.min.js>
+		<currentBuild90Line>24</currentBuild90Line>
+	</41 _static_assets_js_core_libraries_jasny_bootstrap.min.js>
+	<42 _static_assets_js_plugins_forms_styling_uniform.min.js>
+		<currentBuild90Line>11</currentBuild90Line>
+	</42 _static_assets_js_plugins_forms_styling_uniform.min.js>
+	<43 _static_assets_js_plugins_extensions_cookie.js>
+		<currentBuild90Line>10</currentBuild90Line>
+	</43 _static_assets_js_plugins_extensions_cookie.js>
+	<44 _static_assets_js_core_app.js>
+		<currentBuild90Line>26</currentBuild90Line>
+	</44 _static_assets_js_core_app.js>
+	<45 _static_assets_js_pages_client_wizard_steps.js>
+		<currentBuild90Line>33</currentBuild90Line>
+	</45 _static_assets_js_pages_client_wizard_steps.js>
+	<46 _static_assets_js_plugins_ui_ripple.min.js>
+		<currentBuild90Line>10</currentBuild90Line>
+	</46 _static_assets_js_plugins_ui_ripple.min.js>
+	<47 _static_assets_js_plugins_tables_datatables_datatables.min.js>
+		<currentBuild90Line>97</currentBuild90Line>
+	</47 _static_assets_js_plugins_tables_datatables_datatables.min.js>
+	<48 _static_assets_js_pages_datatables_api.js>
+		<currentBuild90Line>14</currentBuild90Line>
+	</48 _static_assets_js_pages_datatables_api.js>
+	<49 _static_enjoyhint_enjoyhint.min.js>
+		<currentBuild90Line>214</currentBuild90Line>
+	</49 _static_enjoyhint_enjoyhint.min.js>
+	<5 _static_assets_css_main-login.css>
+		<currentBuild90Line>34</currentBuild90Line>
+	</5 _static_assets_css_main-login.css>
+	<50 _static_assets_js_pages_extension_blockui.js>
+		<currentBuild90Line>21</currentBuild90Line>
+	</50 _static_assets_js_pages_extension_blockui.js>
+	<51 _static_assets_js_plugins_notifications_pnotify.min.js>
+		<currentBuild90Line>42</currentBuild90Line>
+	</51 _static_assets_js_plugins_notifications_pnotify.min.js>
+	<52 _static_assets_drag_dashboard_js_vendor-admin.js>
+		<currentBuild90Line>1154</currentBuild90Line>
+	</52 _static_assets_drag_dashboard_js_vendor-admin.js>
+	<53 _static_assets_drag_dashboard_js_datatables.min.js>
+		<currentBuild90Line>1685</currentBuild90Line>
+	</53 _static_assets_drag_dashboard_js_datatables.min.js>
+	<54 _static_assets_drag_dashboard_js_moment.min.js>
+		<currentBuild90Line>325</currentBuild90Line>
+	</54 _static_assets_drag_dashboard_js_moment.min.js>
+	<55 _success.txt>
+		<currentBuild90Line>28</currentBuild90Line>
+	</55 _success.txt>
+	<56 _success.txt>
+		<currentBuild90Line>14</currentBuild90Line>
+	</56 _success.txt>
+	<57 _success.txt>
+		<currentBuild90Line>14</currentBuild90Line>
+	</57 _success.txt>
+	<58 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</58 _success.txt>
+	<59 _success.txt>
+		<currentBuild90Line>12</currentBuild90Line>
+	</59 _success.txt>
+	<6 _static_assets_css_btn-hover.css>
+		<currentBuild90Line>12</currentBuild90Line>
+	</6 _static_assets_css_btn-hover.css>
+	<60 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</60 _success.txt>
+	<61 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</61 _success.txt>
+	<62 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</62 _success.txt>
+	<63 _success.txt>
+		<currentBuild90Line>14</currentBuild90Line>
+	</63 _success.txt>
+	<64 _success.txt>
+		<currentBuild90Line>15</currentBuild90Line>
+	</64 _success.txt>
+	<65 _media_bg.png>
+		<currentBuild90Line>25</currentBuild90Line>
+	</65 _media_bg.png>
+	<66 _success.txt>
+		<currentBuild90Line>14</currentBuild90Line>
+	</66 _success.txt>
+	<67 _success.txt>
+		<currentBuild90Line>15</currentBuild90Line>
+	</67 _success.txt>
+	<68 _media_media_company_logo_logo1.jpg>
+		<currentBuild90Line>11</currentBuild90Line>
+	</68 _media_media_company_logo_logo1.jpg>
+	<69 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuild90Line>10</currentBuild90Line>
+	</69 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<7 _static_assets_css_bootstrap.css>
+		<currentBuild90Line>174</currentBuild90Line>
+	</7 _static_assets_css_bootstrap.css>
+	<70 _static_icons_Ellipsis.gif>
+		<currentBuild90Line>122</currentBuild90Line>
+	</70 _static_icons_Ellipsis.gif>
+	<71 _static_assets_css_icons_icomoon_fonts_icomoon.woff>
+		<currentBuild90Line>162</currentBuild90Line>
+	</71 _static_assets_css_icons_icomoon_fonts_icomoon.woff>
+	<72 _static_assets_css_icons_fontawesome-free-5.5.0-web_webfonts_fa-solid-900.woff2>
+		<currentBuild90Line>60</currentBuild90Line>
+	</72 _static_assets_css_icons_fontawesome-free-5.5.0-web_webfonts_fa-solid-900.woff2>
+	<73 _success.txt>
+		<currentBuild90Line>14</currentBuild90Line>
+	</73 _success.txt>
+	<74 _success.txt>
+		<currentBuild90Line>12</currentBuild90Line>
+	</74 _success.txt>
+	<75 _success.txt>
+		<currentBuild90Line>12</currentBuild90Line>
+	</75 _success.txt>
+	<76 _client_ajax_set_dashboard_>
+		<currentBuild90Line>28</currentBuild90Line>
+	</76 _client_ajax_set_dashboard_>
+	<77 _client_Dashboard_>
+		<currentBuild90Line>44</currentBuild90Line>
+	</77 _client_Dashboard_>
+	<78 _client_Rejected-Reason-List_>
+		<currentBuild90Line>34</currentBuild90Line>
+	</78 _client_Rejected-Reason-List_>
+	<79 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</79 _success.txt>
+	<8 _static_assets_images_logo_tc-logo1.gif>
+		<currentBuild90Line>296</currentBuild90Line>
+	</8 _static_assets_images_logo_tc-logo1.gif>
+	<80 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuild90Line>10</currentBuild90Line>
+	</80 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<81 _media_media_company_logo_logo1.jpg>
+		<currentBuild90Line>8</currentBuild90Line>
+	</81 _media_media_company_logo_logo1.jpg>
+	<82 _success.txt>
+		<currentBuild90Line>12</currentBuild90Line>
+	</82 _success.txt>
+	<83 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</83 _success.txt>
+	<84 _static_enjoyhint_enjoyhint.css>
+		<currentBuild90Line>14</currentBuild90Line>
+	</84 _static_enjoyhint_enjoyhint.css>
+	<85 _success.txt>
+		<currentBuild90Line>11</currentBuild90Line>
+	</85 _success.txt>
+	<86 _success.txt>
+		<currentBuild90Line>14</currentBuild90Line>
+	</86 _success.txt>
+	<87 _success.txt>
+		<currentBuild90Line>13</currentBuild90Line>
+	</87 _success.txt>
+	<88 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+		<currentBuild90Line>11</currentBuild90Line>
+	</88 _media_media_company_logo_rankadevelopers_logo%201_Wzw3Wio.png>
+	<89 _media_media_company_logo_logo1.jpg>
+		<currentBuild90Line>8</currentBuild90Line>
+	</89 _media_media_company_logo_logo1.jpg>
+	<9 _static_assets_images_logo_lead-generation.gif>
+		<currentBuild90Line>1981</currentBuild90Line>
+	</9 _static_assets_images_logo_lead-generation.gif>
+	<90 _superadmin_ajax_get_lead_reason_>
+		<currentBuild90Line>16</currentBuild90Line>
+	</90 _superadmin_ajax_get_lead_reason_>
+	<91 _superadmin_ajax_update_lead_reason_>
+		<currentBuild90Line>20</currentBuild90Line>
+	</91 _superadmin_ajax_update_lead_reason_>
+	<92 _superadmin_ajax_update_lead_reason_>
+		<currentBuild90Line>44</currentBuild90Line>
+	</92 _superadmin_ajax_update_lead_reason_>
+	<93 _superadmin_ajax_update_lead_reason_>
+		<currentBuild90Line>18</currentBuild90Line>
+	</93 _superadmin_ajax_update_lead_reason_>
+	<94 _logout_>
+		<currentBuild90Line>35</currentBuild90Line>
+	</94 _logout_>
+	<95 _>
+		<currentBuild90Line>21</currentBuild90Line>
+	</95 _>
+</percentile>
+</results>

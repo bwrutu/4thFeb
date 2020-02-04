@@ -1,0 +1,1024 @@
+INFO    [2020-01-16 17:02:38] Attempt to detect Single test type with id=6693175  
+INFO    [2020-01-16 17:02:38] Get Single Test id=6693175  
+FINE    [2020-01-16 17:02:38] --> GET https://a.blazemeter.com/api/v4/tests/6693175?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:02:38] Accept: application/json  
+FINE    [2020-01-16 17:02:38] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:02:38] --> END GET  
+FINE    [2020-01-16 17:02:39] <-- 200 OK https://a.blazemeter.com/api/v4/tests/6693175?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (1236ms)  
+FINE    [2020-01-16 17:02:39] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:02:39] Date: Thu, 16 Jan 2020 11:29:56 GMT  
+FINE    [2020-01-16 17:02:39] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:02:39] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:02:39] Connection: keep-alive  
+FINE    [2020-01-16 17:02:39] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:02:39] Set-Cookie: bzm_sess=ec7bd7b5c93848eab26fff5c9bbb2d39; expires=Sat, 15-Feb-2020 11:29:56 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:02:39] Expires: 0  
+FINE    [2020-01-16 17:02:39] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:02:39] Pragma: no-cache  
+FINE    [2020-01-16 17:02:39] Vary: Accept  
+FINE    [2020-01-16 17:02:39] Content-Language: en  
+FINE    [2020-01-16 17:02:39] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:02:39]   
+FINE    [2020-01-16 17:02:39] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 6693175,
+        "isNewTest": true,
+        "lastRunTime": 1579172783,
+        "name": "March_18_3:35 PM",
+        "userId": 527584,
+        "creatorClientId": "gui",
+        "overrideExecutions": [
+            {
+                "concurrency": 20,
+                "executor": "selenium",
+                "holdFor": "19m",
+                "locations": {
+                    "us-east-1": 20
+                },
+                "locationsPercents": {
+                    "us-east-1": 100
+                },
+                "rampUp": "1m",
+                "steps": 0
+            }
+        ],
+        "executions": [
+            {
+                "concurrency": 20,
+                "holdFor": "19m",
+                "rampUp": "1m",
+                "steps": 0,
+                "locations": {
+                    "us-east-1": 20
+                },
+                "locationsPercents": {
+                    "us-east-1": 100
+                },
+                "executor": "selenium",
+                "scenario": "default-scenario-6693175"
+            }
+        ],
+        "shouldSendReportEmail": true,
+        "dependencies": [],
+        "created": 1552903524,
+        "updated": 1552903776,
+        "projectId": 373743,
+        "lastUpdatedById": 527584,
+        "configuration": {
+            "type": "taurus",
+            "canControlRampup": false,
+            "targetThreads": 50,
+            "executionType": "taurusCloud",
+            "scriptType": "selenium",
+            "threads": 50,
+            "filename": "Login.java",
+            "testMode": "script",
+            "plugins": {
+                "jmeter": {
+                    "version": "auto",
+                    "consoleArgs": "",
+                    "enginesArgs": ""
+                },
+                "thresholds": {
+                    "thresholds": [],
+                    "ignoreRampup": false,
+                    "slidingWindow": false
+                }
+            }
+        }
+    },
+    "request_id": "5e20493452174"
+}  
+FINE    [2020-01-16 17:02:39] <-- END HTTP (2059-byte body)  
+INFO    [2020-01-16 17:02:39] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:02:39] Start single test id=6693175  
+FINE    [2020-01-16 17:02:39] --> POST https://a.blazemeter.com/api/v4/tests/6693175/start?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:02:39] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:02:39] Content-Length: 0  
+FINE    [2020-01-16 17:02:39] Accept: application/json  
+FINE    [2020-01-16 17:02:39] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:02:39]   
+FINE    [2020-01-16 17:02:39]   
+FINE    [2020-01-16 17:02:39] --> END POST (0-byte body)  
+FINE    [2020-01-16 17:02:40] <-- 202 Accepted https://a.blazemeter.com/api/v4/tests/6693175/start?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (954ms)  
+FINE    [2020-01-16 17:02:40] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:02:40] Date: Thu, 16 Jan 2020 11:29:57 GMT  
+FINE    [2020-01-16 17:02:40] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:02:40] Content-Length: 3417  
+FINE    [2020-01-16 17:02:40] Connection: keep-alive  
+FINE    [2020-01-16 17:02:40] Set-Cookie: bzm_sess=1ab158f616aa38874a97efff91baa147; expires=Sat, 15-Feb-2020 11:29:56 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:02:40] Expires: 0  
+FINE    [2020-01-16 17:02:40] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:02:40] Pragma: no-cache  
+FINE    [2020-01-16 17:02:40] Vary: Accept  
+FINE    [2020-01-16 17:02:40] Content-Language: en  
+FINE    [2020-01-16 17:02:40] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:02:40]   
+FINE    [2020-01-16 17:02:40] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "name": "March_18_3:35 PM",
+        "userId": 527584,
+        "publicToken": null,
+        "ended": null,
+        "lastUpdate": null,
+        "delayedStartReady": false,
+        "runnerUserId": 527584,
+        "charges": [],
+        "terminateWorkersExecuted": false,
+        "usage": null,
+        "maxUsers": null,
+        "type": null,
+        "passed": null,
+        "canControlRampup": null,
+        "targetThreads": null,
+        "parallelTestsInWorkspace": 3,
+        "parallelTestsInAccount": 3,
+        "isSandbox": null,
+        "isPrivateData": false,
+        "executionMode": null,
+        "creatorClientId": "gui",
+        "executorClientId": "CI_JENKINS",
+        "importedAt": null,
+        "secondsPerLabelDoc": 60,
+        "taurusRemoteControlProperties": null,
+        "labelsCollectionSuffix": "_17_12",
+        "locations": [
+            "us-east-1"
+        ],
+        "scenariosMapping": [
+            {
+                "id": "f4d023c0f3543b8dcc1fba1a923eac847932e9e2693cdca1fa4895dd8093a44b",
+                "name": "default-scenario-6693175",
+                "test": "March_18_3:35 PM",
+                "isEndUserExperience": false
+            }
+        ],
+        "isDebugRun": false,
+        "executions": [
+            {
+                "concurrency": 20,
+                "holdFor": "19m",
+                "rampUp": "1m",
+                "steps": 0,
+                "locations": {
+                    "us-east-1": 20
+                },
+                "locationsPercents": {
+                    "us-east-1": 100
+                },
+                "executor": "selenium",
+                "scenario": "default-scenario-6693175"
+            }
+        ],
+        "concurrency": 20,
+        "useV4Pipeline": true,
+        "terminatedAt": null,
+        "shutdownAt": null,
+        "jupyterToken": null,
+        "jupyterHeartbeat": null,
+        "jupyterHost": null,
+        "jupyterPort": null,
+        "jupyterNotebook": null,
+        "v4IndexerCollection": "{\"execution\":[1],\"execution:1\":[\"r-v4-5e204935332fd\"],\"session:1\":[\"r-v4-5e204935332fd\"],\"location:1\":[\"us-east-1\"]}",
+        "buildId": null,
+        "isSelenium": false,
+        "isExternal": null,
+        "rpsCompatible": false,
+        "remoteControlCompatible": false,
+        "hasMonitoringData": null,
+        "shouldSendReportEmail": true,
+        "shouldUseDaggerReport": null,
+        "hasDaggerData": false,
+        "kinesisStream": "prod-blue_v4pipeline_input",
+        "useJetlag": false,
+        "properties": null,
+        "jetpackLabels": [],
+        "dependencies": null,
+        "env": "https://a.blazemeter.com",
+        "reportUrl": null,
+        "created": 1579174197,
+        "updated": 1579174197,
+        "note": null,
+        "testCollectionId": null,
+        "testId": 6693175,
+        "projectId": 373743,
+        "scheduleHistoryRecordId": null,
+        "jupyterShipId": null,
+        "sessionsId": [
+            "r-v4-5e204935332fd"
+        ],
+        "functionalSummary": null,
+        "gridSummary": null,
+        "thresholds": [
+            {
+                "thresholds": [],
+                "ignoreRampup": false,
+                "ignoreRampupTime": null,
+                "slidingWindow": false,
+                "testId": 6693175
+            }
+        ]
+    },
+    "request_id": "5e204934b20fb"
+}  
+FINE    [2020-01-16 17:02:40] <-- END HTTP (3417-byte body)  
+INFO    [2020-01-16 17:02:40] Response code = 202 -> done 1 attempt  
+INFO    [2020-01-16 17:02:40] Get link to public report for master id=24914562  
+FINE    [2020-01-16 17:02:40] --> POST https://a.blazemeter.com/api/v4/masters/24914562/public-token?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:02:40] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:02:40] Content-Length: 22  
+FINE    [2020-01-16 17:02:40] Accept: application/json  
+FINE    [2020-01-16 17:02:40] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:02:40]   
+FINE    [2020-01-16 17:02:40] {"publicToken":"None"}  
+FINE    [2020-01-16 17:02:40] --> END POST (22-byte body)  
+FINE    [2020-01-16 17:02:40] <-- 201 Created https://a.blazemeter.com/api/v4/masters/24914562/public-token?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (389ms)  
+FINE    [2020-01-16 17:02:40] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:02:40] Date: Thu, 16 Jan 2020 11:29:57 GMT  
+FINE    [2020-01-16 17:02:40] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:02:40] Content-Length: 199  
+FINE    [2020-01-16 17:02:40] Connection: keep-alive  
+FINE    [2020-01-16 17:02:40] Set-Cookie: bzm_sess=05b9cb3d3ca2498cea7298fb82afd926; expires=Sat, 15-Feb-2020 11:29:57 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:02:40] Expires: 0  
+FINE    [2020-01-16 17:02:40] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:02:40] Pragma: no-cache  
+FINE    [2020-01-16 17:02:40] Vary: Accept  
+FINE    [2020-01-16 17:02:40] Content-Language: en  
+FINE    [2020-01-16 17:02:40] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:02:40]   
+FINE    [2020-01-16 17:02:40] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "publicToken": "Zimdcu6JgSWhhU4aELaLNKZlZJdSzIniD4SIOXVVPzIKgGjpCm",
+        "new": false
+    },
+    "request_id": "5e204935a97ef"
+}  
+FINE    [2020-01-16 17:02:40] <-- END HTTP (199-byte body)  
+INFO    [2020-01-16 17:02:40] Response code = 201 -> done 1 attempt  
+INFO    [2020-01-16 17:02:50] Get master status id=24914562  
+FINE    [2020-01-16 17:02:50] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:02:50] Accept: application/json  
+FINE    [2020-01-16 17:02:50] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:02:50] --> END GET  
+FINE    [2020-01-16 17:02:51] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (402ms)  
+FINE    [2020-01-16 17:02:51] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:02:51] Date: Thu, 16 Jan 2020 11:30:08 GMT  
+FINE    [2020-01-16 17:02:51] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:02:51] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:02:51] Connection: keep-alive  
+FINE    [2020-01-16 17:02:51] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:02:51] Set-Cookie: bzm_sess=003cf53368783f043d74eb51667b9ebb; expires=Sat, 15-Feb-2020 11:30:08 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:02:51] Expires: 0  
+FINE    [2020-01-16 17:02:51] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:02:51] Pragma: no-cache  
+FINE    [2020-01-16 17:02:51] Vary: Accept  
+FINE    [2020-01-16 17:02:51] Content-Language: en  
+FINE    [2020-01-16 17:02:51] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:02:51]   
+FINE    [2020-01-16 17:02:51] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 25,
+        "status": "BOOT_STARTING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "BOOT_STARTING",
+                "progress": 25,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 100,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e20494015ec0"
+}  
+FINE    [2020-01-16 17:02:51] <-- END HTTP (1049-byte body)  
+INFO    [2020-01-16 17:02:51] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:03:01] Get master status id=24914562  
+FINE    [2020-01-16 17:03:01] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:03:01] Accept: application/json  
+FINE    [2020-01-16 17:03:01] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:03:01] --> END GET  
+FINE    [2020-01-16 17:03:01] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (433ms)  
+FINE    [2020-01-16 17:03:01] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:03:01] Date: Thu, 16 Jan 2020 11:30:18 GMT  
+FINE    [2020-01-16 17:03:01] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:03:01] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:03:01] Connection: keep-alive  
+FINE    [2020-01-16 17:03:01] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:03:01] Set-Cookie: bzm_sess=e2dd83cfea8ea7df2d9958a4a2bee5b3; expires=Sat, 15-Feb-2020 11:30:18 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:03:01] Expires: 0  
+FINE    [2020-01-16 17:03:01] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:03:01] Pragma: no-cache  
+FINE    [2020-01-16 17:03:01] Vary: Accept  
+FINE    [2020-01-16 17:03:01] Content-Language: en  
+FINE    [2020-01-16 17:03:01] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:03:01]   
+FINE    [2020-01-16 17:03:01] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 25,
+        "status": "BOOT_STARTING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "BOOT_STARTING",
+                "progress": 25,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 100,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e20494a7aef8"
+}  
+FINE    [2020-01-16 17:03:01] <-- END HTTP (1049-byte body)  
+INFO    [2020-01-16 17:03:01] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:03:11] Get master status id=24914562  
+FINE    [2020-01-16 17:03:11] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:03:11] Accept: application/json  
+FINE    [2020-01-16 17:03:11] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:03:11] --> END GET  
+FINE    [2020-01-16 17:03:12] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (453ms)  
+FINE    [2020-01-16 17:03:12] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:03:12] Date: Thu, 16 Jan 2020 11:30:29 GMT  
+FINE    [2020-01-16 17:03:12] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:03:12] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:03:12] Connection: keep-alive  
+FINE    [2020-01-16 17:03:12] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:03:12] Set-Cookie: bzm_sess=adeb891bbf98bc26d66442be608ff667; expires=Sat, 15-Feb-2020 11:30:28 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:03:12] Expires: 0  
+FINE    [2020-01-16 17:03:12] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:03:12] Pragma: no-cache  
+FINE    [2020-01-16 17:03:12] Vary: Accept  
+FINE    [2020-01-16 17:03:12] Content-Language: en  
+FINE    [2020-01-16 17:03:12] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:03:12]   
+FINE    [2020-01-16 17:03:12] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 25,
+        "status": "BOOT_STARTING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "BOOT_STARTING",
+                "progress": 25,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 100,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e204954e5820"
+}  
+FINE    [2020-01-16 17:03:12] <-- END HTTP (1049-byte body)  
+INFO    [2020-01-16 17:03:12] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:03:22] Get master status id=24914562  
+FINE    [2020-01-16 17:03:22] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:03:22] Accept: application/json  
+FINE    [2020-01-16 17:03:22] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:03:22] --> END GET  
+FINE    [2020-01-16 17:03:22] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (399ms)  
+FINE    [2020-01-16 17:03:22] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:03:22] Date: Thu, 16 Jan 2020 11:30:39 GMT  
+FINE    [2020-01-16 17:03:22] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:03:22] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:03:22] Connection: keep-alive  
+FINE    [2020-01-16 17:03:22] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:03:22] Set-Cookie: bzm_sess=902cc142fc0f26d280fe420c26dfc745; expires=Sat, 15-Feb-2020 11:30:39 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:03:22] Expires: 0  
+FINE    [2020-01-16 17:03:22] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:03:22] Pragma: no-cache  
+FINE    [2020-01-16 17:03:22] Vary: Accept  
+FINE    [2020-01-16 17:03:22] Content-Language: en  
+FINE    [2020-01-16 17:03:22] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:03:22]   
+FINE    [2020-01-16 17:03:22] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 25,
+        "status": "BOOT_STARTING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "BOOT_STARTING",
+                "progress": 25,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 100,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e20495f62c07"
+}  
+FINE    [2020-01-16 17:03:22] <-- END HTTP (1049-byte body)  
+INFO    [2020-01-16 17:03:22] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:03:32] Get master status id=24914562  
+FINE    [2020-01-16 17:03:32] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:03:32] Accept: application/json  
+FINE    [2020-01-16 17:03:32] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:03:32] --> END GET  
+FINE    [2020-01-16 17:03:32] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (406ms)  
+FINE    [2020-01-16 17:03:32] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:03:32] Date: Thu, 16 Jan 2020 11:30:49 GMT  
+FINE    [2020-01-16 17:03:32] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:03:32] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:03:32] Connection: keep-alive  
+FINE    [2020-01-16 17:03:32] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:03:32] Set-Cookie: bzm_sess=53e68e2a4eed92c893c04f109002b9d9; expires=Sat, 15-Feb-2020 11:30:49 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:03:32] Expires: 0  
+FINE    [2020-01-16 17:03:32] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:03:32] Pragma: no-cache  
+FINE    [2020-01-16 17:03:32] Vary: Accept  
+FINE    [2020-01-16 17:03:32] Content-Language: en  
+FINE    [2020-01-16 17:03:32] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:03:32]   
+FINE    [2020-01-16 17:03:32] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 25,
+        "status": "BOOT_STARTING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "BOOT_STARTING",
+                "progress": 25,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 100,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e204969c6ac8"
+}  
+FINE    [2020-01-16 17:03:32] <-- END HTTP (1049-byte body)  
+INFO    [2020-01-16 17:03:32] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:03:42] Get master status id=24914562  
+FINE    [2020-01-16 17:03:42] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:03:42] Accept: application/json  
+FINE    [2020-01-16 17:03:42] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:03:42] --> END GET  
+FINE    [2020-01-16 17:03:43] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (409ms)  
+FINE    [2020-01-16 17:03:43] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:03:43] Date: Thu, 16 Jan 2020 11:31:00 GMT  
+FINE    [2020-01-16 17:03:43] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:03:43] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:03:43] Connection: keep-alive  
+FINE    [2020-01-16 17:03:43] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:03:43] Set-Cookie: bzm_sess=a4712ce861e5c9561ba723239f5aeac5; expires=Sat, 15-Feb-2020 11:31:00 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:03:43] Expires: 0  
+FINE    [2020-01-16 17:03:43] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:03:43] Pragma: no-cache  
+FINE    [2020-01-16 17:03:43] Vary: Accept  
+FINE    [2020-01-16 17:03:43] Content-Language: en  
+FINE    [2020-01-16 17:03:43] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:03:43]   
+FINE    [2020-01-16 17:03:43] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 25,
+        "status": "BOOT_STARTING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "BOOT_STARTING",
+                "progress": 25,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 100,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e20497436bca"
+}  
+FINE    [2020-01-16 17:03:43] <-- END HTTP (1049-byte body)  
+INFO    [2020-01-16 17:03:43] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:03:53] Get master status id=24914562  
+FINE    [2020-01-16 17:03:53] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:03:53] Accept: application/json  
+FINE    [2020-01-16 17:03:53] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:03:53] --> END GET  
+FINE    [2020-01-16 17:03:53] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (403ms)  
+FINE    [2020-01-16 17:03:53] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:03:53] Date: Thu, 16 Jan 2020 11:31:10 GMT  
+FINE    [2020-01-16 17:03:53] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:03:53] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:03:53] Connection: keep-alive  
+FINE    [2020-01-16 17:03:53] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:03:53] Set-Cookie: bzm_sess=30d34febea4e771dac3eeda6e5313e09; expires=Sat, 15-Feb-2020 11:31:10 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:03:53] Expires: 0  
+FINE    [2020-01-16 17:03:53] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:03:53] Pragma: no-cache  
+FINE    [2020-01-16 17:03:53] Vary: Accept  
+FINE    [2020-01-16 17:03:53] Content-Language: en  
+FINE    [2020-01-16 17:03:53] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:03:53]   
+FINE    [2020-01-16 17:03:53] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 50,
+        "status": "INIT_SCRIPT",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "INIT_SCRIPT",
+                "progress": 50,
+                "readyStatus": {
+                    "servers": [],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 0,
+            "started": 0,
+            "downloading": 100,
+            "ready": 0,
+            "ended": 0
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e20497e9d412"
+}  
+FINE    [2020-01-16 17:03:53] <-- END HTTP (1045-byte body)  
+INFO    [2020-01-16 17:03:53] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:04:03] Get master status id=24914562  
+FINE    [2020-01-16 17:04:03] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:04:03] Accept: application/json  
+FINE    [2020-01-16 17:04:03] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:04:03] --> END GET  
+FINE    [2020-01-16 17:04:04] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (446ms)  
+FINE    [2020-01-16 17:04:04] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:04:04] Date: Thu, 16 Jan 2020 11:31:21 GMT  
+FINE    [2020-01-16 17:04:04] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:04:04] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:04:04] Connection: keep-alive  
+FINE    [2020-01-16 17:04:04] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:04:04] Set-Cookie: bzm_sess=560b11f33ffc7e6864d7f0456c7d58d2; expires=Sat, 15-Feb-2020 11:31:21 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:04:04] Expires: 0  
+FINE    [2020-01-16 17:04:04] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:04:04] Pragma: no-cache  
+FINE    [2020-01-16 17:04:04] Vary: Accept  
+FINE    [2020-01-16 17:04:04] Content-Language: en  
+FINE    [2020-01-16 17:04:04] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:04:04]   
+FINE    [2020-01-16 17:04:04] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 120,
+        "status": "FINALIZING",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "FINALIZING",
+                "progress": 120,
+                "readyStatus": {
+                    "servers": [
+                        {
+                            "server_id": "i-0bf1adb47a4a1dea8",
+                            "server_type": "console"
+                        }
+                    ],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 0,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 100
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e2049890d4a5"
+}  
+FINE    [2020-01-16 17:04:04] <-- END HTTP (1235-byte body)  
+INFO    [2020-01-16 17:04:04] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:04:14] Get master status id=24914562  
+FINE    [2020-01-16 17:04:14] --> GET https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:04:14] Accept: application/json  
+FINE    [2020-01-16 17:04:14] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:04:14] --> END GET  
+FINE    [2020-01-16 17:04:14] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/status?events=false&app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (399ms)  
+FINE    [2020-01-16 17:04:14] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:04:14] Date: Thu, 16 Jan 2020 11:31:31 GMT  
+FINE    [2020-01-16 17:04:14] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:04:14] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:04:14] Connection: keep-alive  
+FINE    [2020-01-16 17:04:14] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:04:14] Set-Cookie: bzm_sess=65c3bac7fee7302caf8e61982cc5b06e; expires=Sat, 15-Feb-2020 11:31:31 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:04:14] Expires: 0  
+FINE    [2020-01-16 17:04:14] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:04:14] Pragma: no-cache  
+FINE    [2020-01-16 17:04:14] Vary: Accept  
+FINE    [2020-01-16 17:04:14] Content-Language: en  
+FINE    [2020-01-16 17:04:14] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:04:14]   
+FINE    [2020-01-16 17:04:14] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "progress": 140,
+        "status": "ENDED",
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "sessions": [
+            {
+                "id": "r-v4-5e204935332fd",
+                "name": "March_18_3:35 PM",
+                "fileName": "Login.java",
+                "status": "ENDED",
+                "progress": 140,
+                "readyStatus": {
+                    "servers": [
+                        {
+                            "server_id": "i-0bf1adb47a4a1dea8",
+                            "server_type": "console"
+                        }
+                    ],
+                    "plannedServersCount": 1,
+                    "isDelayedStart": false
+                },
+                "locationId": "us-east-1",
+                "dedicatedIpsEnabled": null,
+                "overrideLocationId": null
+            }
+        ],
+        "statuses": {
+            "pending": 0,
+            "booting": 0,
+            "started": 0,
+            "downloading": 0,
+            "ready": 0,
+            "ended": 100
+        },
+        "isDataAvailable": false
+    },
+    "request_id": "5e2049937dfe7"
+}  
+FINE    [2020-01-16 17:04:14] <-- END HTTP (1225-byte body)  
+INFO    [2020-01-16 17:04:14] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:04:14] Get CI status for master id=24914562  
+FINE    [2020-01-16 17:04:14] --> GET https://a.blazemeter.com/api/v4/masters/24914562/ci-status?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:04:14] Accept: application/json  
+FINE    [2020-01-16 17:04:14] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:04:14] --> END GET  
+FINE    [2020-01-16 17:04:15] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/ci-status?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (390ms)  
+FINE    [2020-01-16 17:04:15] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:04:15] Date: Thu, 16 Jan 2020 11:31:31 GMT  
+FINE    [2020-01-16 17:04:15] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:04:15] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:04:15] Connection: keep-alive  
+FINE    [2020-01-16 17:04:15] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:04:15] Set-Cookie: bzm_sess=5b2546c9bce9aeb3c715d83c989b56f7; expires=Sat, 15-Feb-2020 11:31:31 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:04:15] Expires: 0  
+FINE    [2020-01-16 17:04:15] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:04:15] Pragma: no-cache  
+FINE    [2020-01-16 17:04:15] Vary: Accept  
+FINE    [2020-01-16 17:04:15] Content-Language: en  
+FINE    [2020-01-16 17:04:15] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:04:15]   
+FINE    [2020-01-16 17:04:15] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "masterId": 24914562,
+        "userId": 527584,
+        "name": "March_18_3:35 PM",
+        "created": 1579174197,
+        "ended": 1579174285,
+        "progress": 100,
+        "status": "success",
+        "failures": [],
+        "errors": []
+    },
+    "request_id": "5e204993e02d0"
+}  
+FINE    [2020-01-16 17:04:15] <-- END HTTP (352-byte body)  
+INFO    [2020-01-16 17:04:15] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:04:15] No errors/failures while validating CIStatus: setting SUCCESS  
+INFO    [2020-01-16 17:04:15] Get functional report for master id=24914562  
+FINE    [2020-01-16 17:04:15] --> GET https://a.blazemeter.com/api/v4/masters/24914562?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:04:15] Accept: application/json  
+FINE    [2020-01-16 17:04:15] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:04:15] --> END GET  
+FINE    [2020-01-16 17:04:15] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (383ms)  
+FINE    [2020-01-16 17:04:15] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:04:15] Date: Thu, 16 Jan 2020 11:31:32 GMT  
+FINE    [2020-01-16 17:04:15] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:04:15] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:04:15] Connection: keep-alive  
+FINE    [2020-01-16 17:04:15] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:04:15] Set-Cookie: bzm_sess=4089eb7292c6603e5ce6da98296c79e0; expires=Sat, 15-Feb-2020 11:31:32 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:04:15] Expires: 0  
+FINE    [2020-01-16 17:04:15] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:04:15] Pragma: no-cache  
+FINE    [2020-01-16 17:04:15] Vary: Accept  
+FINE    [2020-01-16 17:04:15] Content-Language: en  
+FINE    [2020-01-16 17:04:15] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:04:15]   
+FINE    [2020-01-16 17:04:15] {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 24914562,
+        "name": "March_18_3:35 PM",
+        "userId": 527584,
+        "publicToken": "Zimdcu6JgSWhhU4aELaLNKZlZJdSzIniD4SIOXVVPzIKgGjpCm",
+        "ended": 1579174285,
+        "delayedStartReady": false,
+        "runnerUserId": 527584,
+        "charges": [],
+        "created": 1579174197,
+        "updated": 1579174286,
+        "parallelTestsInWorkspace": 3,
+        "parallelTestsInAccount": 3,
+        "isPrivateData": false,
+        "creatorClientId": "gui",
+        "executorClientId": "CI_JENKINS",
+        "secondsPerLabelDoc": 60,
+        "labelsCollectionSuffix": "_17_12",
+        "isDebugRun": false,
+        "locations": [
+            "us-east-1"
+        ],
+        "scenariosMapping": [
+            {
+                "id": "f4d023c0f3543b8dcc1fba1a923eac847932e9e2693cdca1fa4895dd8093a44b",
+                "name": "default-scenario-6693175",
+                "test": "March_18_3:35 PM",
+                "isEndUserExperience": false
+            }
+        ],
+        "executions": [
+            {
+                "concurrency": 20,
+                "holdFor": "19m",
+                "rampUp": "1m",
+                "steps": 0,
+                "locations": {
+                    "us-east-1": 20
+                },
+                "locationsPercents": {
+                    "us-east-1": 100
+                },
+                "executor": "selenium",
+                "scenario": "default-scenario-6693175"
+            }
+        ],
+        "useV4Pipeline": true,
+        "isSelenium": false,
+        "rpsCompatible": false,
+        "remoteControlCompatible": false,
+        "hasDaggerData": false,
+        "shouldUseDaggerReport": true,
+        "testId": 6693175,
+        "projectId": 373743,
+        "sessionsId": [
+            "r-v4-5e204935332fd"
+        ],
+        "thumbnailUrl": null,
+        "hasErrorsPerInterval": true,
+        "sessions": [
+            "r-v4-5e204935332fd"
+        ],
+        "jetpackLabels": []
+    },
+    "request_id": "5e2049944c5fb"
+}  
+FINE    [2020-01-16 17:04:15] <-- END HTTP (2054-byte body)  
+INFO    [2020-01-16 17:04:15] Response code = 200 -> done 1 attempt  
+INFO    [2020-01-16 17:04:15] Get summary for master id=24914562  
+FINE    [2020-01-16 17:04:15] --> GET https://a.blazemeter.com/api/v4/masters/24914562/reports/main/summary?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null http/1.1  
+FINE    [2020-01-16 17:04:15] Accept: application/json  
+FINE    [2020-01-16 17:04:15] Authorization:...I4YjE1YQ==  
+FINE    [2020-01-16 17:04:15] --> END GET  
+FINE    [2020-01-16 17:04:16] <-- 200 OK https://a.blazemeter.com/api/v4/masters/24914562/reports/main/summary?app_key=jnk100x987c06f4e10c4&_clientId=CI_JENKINS&_clientVersion=null (956ms)  
+FINE    [2020-01-16 17:04:16] Server: nginx/1.15.8  
+FINE    [2020-01-16 17:04:16] Date: Thu, 16 Jan 2020 11:31:33 GMT  
+FINE    [2020-01-16 17:04:16] Content-Type: application/json; charset=utf-8  
+FINE    [2020-01-16 17:04:16] Transfer-Encoding: chunked  
+FINE    [2020-01-16 17:04:16] Connection: keep-alive  
+FINE    [2020-01-16 17:04:16] Vary: Accept-Encoding  
+FINE    [2020-01-16 17:04:16] Set-Cookie: bzm_sess=713ff9b155f8ecdde5a8d4c212a5343a; expires=Sat, 15-Feb-2020 11:31:32 GMT; Max-Age=2592000; path=/; domain=.blazemeter.com; secure; HttpOnly  
+FINE    [2020-01-16 17:04:16] Expires: 0  
+FINE    [2020-01-16 17:04:16] Cache-Control: no-cache, must-revalidate  
+FINE    [2020-01-16 17:04:16] Pragma: no-cache  
+FINE    [2020-01-16 17:04:16] Vary: Accept  
+FINE    [2020-01-16 17:04:16] Content-Language: en  
+FINE    [2020-01-16 17:04:16] Strict-Transport-Security: max-age=15724800; includeSubDomains  
+FINE    [2020-01-16 17:04:16]   
+FINE    [2020-01-16 17:04:16] {
+    "apiVersion": 4,
+    "cached": false,
+    "dataSource": "dagger",
+    "error": null,
+    "requestId": "5e204994abc39",
+    "result": {
+        "summary": [
+            {
+                "avg": null,
+                "bytes": null,
+                "concurrency": null,
+                "duration": 0,
+                "failed": null,
+                "first": null,
+                "histogram": {
+                    "mean": null
+                },
+                "hits": null,
+                "id": "ALL",
+                "last": null,
+                "lb": "ALL",
+                "tp90": null,
+                "min": null,
+                "max": null
+            }
+        ],
+        "jmeterLogSummary": [],
+        "jmeterLogTypeSummary": [],
+        "maxUsers": null
+    },
+    "api_version": 4,
+    "request_id": "5e204994abc39"
+}  
+FINE    [2020-01-16 17:04:16] <-- END HTTP (837-byte body)  
+INFO    [2020-01-16 17:04:16] Response code = 200 -> done 1 attempt  
+SEVERE  [2020-01-16 17:04:16] Failed to get aggregate summary for master  
+net.sf.json.JSONException: JSONObject["avg"] is not a number.
+	at net.sf.json.JSONObject.getDouble(JSONObject.java:1948)
+	at com.blazemeter.api.explorer.Master.extractSummary(Master.java:222)
+	at com.blazemeter.api.explorer.Master.getSummary(Master.java:169)
+	at com.blazemeter.ciworkflow.CiPostProcess.getSummary(CiPostProcess.java:318)
+	at com.blazemeter.ciworkflow.CiPostProcess.downloadSummary(CiPostProcess.java:306)
+	at com.blazemeter.ciworkflow.CiPostProcess.execute(CiPostProcess.java:103)
+	at com.blazemeter.ciworkflow.CiBuild.doPostProcess(CiBuild.java:408)
+	at hudson.plugins.blazemeter.BzmBuild.call(BzmBuild.java:139)
+	at hudson.plugins.blazemeter.BzmBuild.call(BzmBuild.java:43)
+	at hudson.remoting.LocalChannel.call(LocalChannel.java:45)
+	at hudson.plugins.blazemeter.PerformanceBuilder.perform(PerformanceBuilder.java:310)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:79)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1815)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ 

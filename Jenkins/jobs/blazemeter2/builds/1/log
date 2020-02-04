@@ -1,0 +1,35 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\blazemeter2
+[2020-01-17 16:21:50]: BlazemeterJenkins plugin v.null
+[2020-01-17 16:21:50]: CiBuild is started.
+[2020-01-17 16:21:51]: Start test id : 6842899, name : May_10_1:09 PM
+[2020-01-17 16:21:53]: Test has been started successfully at Fri Jan 17 16:21:53 IST 2020. Master id=24943024
+[2020-01-17 16:21:53]: Test report will be available at https://a.blazemeter.com/app/?public-token=trqsWDueyDKuFsAdS3DyUyeGgwwg0YzM0iy6mLabX0VfItAJpX#/masters/24943024/summary
+[2020-01-17 16:23:06]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-17 16:24:09]: Check if the test is still running. Time passed since start: 2 minutes.
+[2020-01-17 16:25:11]: Check if the test is still running. Time passed since start: 3 minutes.
+[2020-01-17 16:26:14]: Check if the test is still running. Time passed since start: 4 minutes.
+[2020-01-17 16:27:16]: Check if the test is still running. Time passed since start: 5 minutes.
+[2020-01-17 16:28:19]: Check if the test is still running. Time passed since start: 6 minutes.
+[2020-01-17 16:29:21]: Check if the test is still running. Time passed since start: 7 minutes.
+[2020-01-17 16:30:23]: Check if the test is still running. Time passed since start: 8 minutes.
+[2020-01-17 16:31:26]: Check if the test is still running. Time passed since start: 9 minutes.
+[2020-01-17 16:32:28]: Check if the test is still running. Time passed since start: 10 minutes.
+[2020-01-17 16:33:31]: Check if the test is still running. Time passed since start: 11 minutes.
+[2020-01-17 16:34:33]: Check if the test is still running. Time passed since start: 12 minutes.
+[2020-01-17 16:35:36]: Check if the test is still running. Time passed since start: 13 minutes.
+[2020-01-17 16:36:38]: Check if the test is still running. Time passed since start: 14 minutes.
+[2020-01-17 16:37:40]: Check if the test is still running. Time passed since start: 15 minutes.
+[2020-01-17 16:38:43]: Check if the test is still running. Time passed since start: 16 minutes.
+[2020-01-17 16:39:46]: Check if the test is still running. Time passed since start: 17 minutes.
+[2020-01-17 16:40:49]: Check if the test is still running. Time passed since start: 18 minutes.
+[2020-01-17 16:41:51]: Check if the test is still running. Time passed since start: 19 minutes.
+[2020-01-17 16:42:53]: Check if the test is still running. Time passed since start: 20 minutes.
+[2020-01-17 16:43:35]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-17 16:43:35]: Trying to get functional summary from server
+[2020-01-17 16:43:36]: Trying to get aggregate summary from server
+[2020-01-17 16:43:37]: Got aggregated report from server
+[2020-01-17 16:43:37]: {"avg":124.6,"min":86,"max":2039,"tp90":166,"errorPercentage":0,"hits":182183,"avgthrpt":156.11}
+Build step 'BlazeMeter' changed build result to SUCCESS
+Finished: SUCCESS

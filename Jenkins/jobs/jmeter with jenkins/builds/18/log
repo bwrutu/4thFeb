@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4GI3tXo93WAEXv02t2U0WbZ0ipykUdA2yGxMNeb8G+plAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gWJRYm5qUAjqlJT9AH2+6LXxwAAAA==[0mparametrized" build number [8mha:////4IfvE3iK++hGoiYlVT7/lQB8eticej0metUK5/dynToJAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/YLEosTcVKARVakp+kYA+HgtsMgAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\jmeter with jenkins
+[jmeter with jenkins] $ cmd /c call C:\Windows\TEMP\jenkins7439114663796240678.bat
+
+C:\Program Files (x86)\Jenkins\workspace\jmeter with jenkins>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx -l Test.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\reject_reason.jmx
+Starting the test @ Fri Jan 17 12:55:55 IST 2020 (1579245955842)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    332 in 00:00:04 =   88.7/s Avg:    88 Min:     3 Max:  1565 Err:    20 (6.02%) Active: 10 Started: 10 Finished: 0
+Terminate batch job (Y/N)? 
+errorlevel=130
+Press any key to continue . . . 
+Build was aborted
+Aborted by [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Test.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\jmeter with jenkins\Test.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\jmeter with jenkins\builds\18\performance-reports\JMeter\Test.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\jmeter with jenkins\builds\18\performance-reports\JMeter\Test.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Test.csv reported 12.192% of errors [SUCCESS]. Build status is: ABORTED
+Finished: ABORTED

@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.FileParameterValue>
+          <name>D:\Jmeter_CSV</name>
+          <description></description>
+          <originalFileName>Reg1.csv</originalFileName>
+          <location>D:\Jmeter_CSV</location>
+        </hudson.model.FileParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>threads</name>
+          <description></description>
+          <value>10</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>D:\Jmeter_CSV</string>
+        <string>threads</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.performance.actions.PerformanceBuildAction plugin="performance@3.17">
+      <build class="build" reference="../../.."/>
+      <parsers>
+        <hudson.plugins.performance.parsers.JMeterParser>
+          <glob>Test.csv</glob>
+          <excludeResponseTime>false</excludeResponseTime>
+          <baselineBuild>5</baselineBuild>
+          <isNumberDateFormat>false</isNumberDateFormat>
+          <percentiles>0,50,90,100</percentiles>
+          <filterRegex></filterRegex>
+        </hudson.plugins.performance.parsers.JMeterParser>
+      </parsers>
+    </hudson.plugins.performance.actions.PerformanceBuildAction>
+  </actions>
+  <queueId>10</queueId>
+  <timestamp>1578996620783</timestamp>
+  <startTime>1578996620810</startTime>
+  <result>FAILURE</result>
+  <duration>65</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Program Files (x86)\Jenkins\workspace\t</workspace>
+  <hudsonVersion>2.189</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

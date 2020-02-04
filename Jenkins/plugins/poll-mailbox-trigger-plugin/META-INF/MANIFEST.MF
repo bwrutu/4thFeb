@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Jenkins-Version: 2.7.1
+Group-Id: org.jenkins-ci.plugins
+Plugin-Developers: Nick Grealy:nickg:nickgrealy@gmail.com
+Support-Dynamic-Loading: true
+Short-Name: poll-mailbox-trigger-plugin
+Compatible-Since-Version: 1.424
+Plugin-Version: 1.026
+Long-Name: Poll Mailbox Trigger Plugin
+Extension-Name: poll-mailbox-trigger-plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Poll Mailbox Trigger 
+ Plugin
+

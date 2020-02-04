@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<results>
+<api>
+	<uri>Test</uri>
+	<samples>1</samples>
+	<average>44245</average>
+	<min>44245</min>
+	<median>44245</median>
+	<ninetieth>44245</ninetieth>
+	<max>44245</max>
+	<httpCode></httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/</uri>
+	<samples>2</samples>
+	<average>6892</average>
+	<min>2243</min>
+	<median>2243</median>
+	<ninetieth>2243</ninetieth>
+	<max>11541</max>
+	<httpCode>200</httpCode>
+	<errors>50.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/</uri>
+	<samples>1</samples>
+	<average>8113</average>
+	<min>8113</min>
+	<median>8113</median>
+	<ninetieth>8113</ninetieth>
+	<max>8113</max>
+	<httpCode>200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/ajax/loadcity/</uri>
+	<samples>3</samples>
+	<average>244</average>
+	<min>178</min>
+	<median>178</median>
+	<ninetieth>239</ninetieth>
+	<max>316</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/ajax/loadstates/</uri>
+	<samples>2</samples>
+	<average>235</average>
+	<min>219</min>
+	<median>219</median>
+	<ninetieth>219</ninetieth>
+	<max>252</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/ajax/set_dashboard/</uri>
+	<samples>2</samples>
+	<average>228</average>
+	<min>216</min>
+	<median>216</median>
+	<ninetieth>216</ninetieth>
+	<max>240</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/client-Bording/</uri>
+	<samples>1</samples>
+	<average>4247</average>
+	<min>4247</min>
+	<median>4247</median>
+	<ninetieth>4247</ninetieth>
+	<max>4247</max>
+	<httpCode>200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/dashboard/</uri>
+	<samples>1</samples>
+	<average>6994</average>
+	<min>6994</min>
+	<median>6994</median>
+	<ninetieth>6994</ninetieth>
+	<max>6994</max>
+	<httpCode>200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/logout/</uri>
+	<samples>1</samples>
+	<average>845</average>
+	<min>845</min>
+	<median>845</median>
+	<ninetieth>845</ninetieth>
+	<max>845</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/onBording/</uri>
+	<samples>4</samples>
+	<average>2137</average>
+	<min>1948</min>
+	<median>2060</median>
+	<ninetieth>2136</ninetieth>
+	<max>2406</max>
+	<httpCode>500</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://localhost:8080/ajaxBuildQueue</uri>
+	<samples>1</samples>
+	<average>48</average>
+	<min>48</min>
+	<median>48</median>
+	<ninetieth>48</ninetieth>
+	<max>48</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://localhost:8080/ajaxExecutors</uri>
+	<samples>1</samples>
+	<average>4</average>
+	<min>4</min>
+	<median>4</median>
+	<ninetieth>4</ninetieth>
+	<max>4</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+</results>

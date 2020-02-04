@@ -1,0 +1,16 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\blazemeter
+[2020-01-16 13:31:38]: BlazemeterJenkins plugin v.null
+[2020-01-16 13:31:38]: CiBuild is started.
+[2020-01-16 13:31:40]: Start test id : 6693175, name : March_18_3:35 PM
+[2020-01-16 13:31:41]: Test has been started successfully at Thu Jan 16 13:31:41 IST 2020. Master id=24909893
+[2020-01-16 13:31:41]: Test report will be available at https://a.blazemeter.com/app/?public-token=AzBefApsYFSZAspiVWO9UnUHoVcVX5KvTqAEzrePpBuBeMnQHu#/masters/24909893/summary
+[2020-01-16 13:32:54]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-16 13:33:15]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-16 13:33:15]: Trying to get functional summary from server
+[2020-01-16 13:33:16]: Trying to get aggregate summary from server
+[2020-01-16 13:33:17]: WARN: Failed to get aggregate summary for master net.sf.json.JSONException: JSONObject["avg"] is not a number.
+[2020-01-16 13:33:17]: {}
+Build step 'BlazeMeter' changed build result to SUCCESS
+Finished: SUCCESS

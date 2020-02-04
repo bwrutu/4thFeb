@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-20 12:45:04.784 UTC</timestamp>
+  <original>
+    <name>maven1/maven_practise1:maven_practise1</name>
+    <number>3</number>
+  </original>
+  <md5sum>d5ad3316e0c99376f24035b1cea1d804</md5sum>
+  <fileName>maven_practise1:maven_practise1-0.0.1-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

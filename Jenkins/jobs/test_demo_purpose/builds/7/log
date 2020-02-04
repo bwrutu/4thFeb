@@ -1,0 +1,30 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/naveenanimation20/Cucumber-TestNG.git # timeout=10
+Fetching upstream changes from https://github.com/naveenanimation20/Cucumber-TestNG.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress https://github.com/naveenanimation20/Cucumber-TestNG.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision ebb5fdcb454f322efb43a0410e7b0853b3507953 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f ebb5fdcb454f322efb43a0410e7b0853b3507953
+Commit message: "Cucumber testng code with reporting"
+First time build. Skipping changelog.
+[test_demo_purpose] $ cmd /c call C:\Windows\TEMP\jenkins3894000347621932504.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>javac LoginStepDefinition.java 
+javac: file not found: LoginStepDefinition.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>java LoginStepDefinition 
+Error: Could not find or load main class LoginStepDefinition
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

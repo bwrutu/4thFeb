@@ -1,0 +1,1070 @@
+<?xml version="1.0"?>
+<results>
+<api>
+	<uri>1 /success.txt</uri>
+	<samples>20</samples>
+	<average>140</average>
+	<min>20</min>
+	<median>51</median>
+	<ninetieth>334</ninetieth>
+	<max>334</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>10 /</uri>
+	<samples>20</samples>
+	<average>841</average>
+	<min>386</min>
+	<median>784</median>
+	<ninetieth>1118</ninetieth>
+	<max>1277</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>11 /client/</uri>
+	<samples>20</samples>
+	<average>63</average>
+	<min>19</min>
+	<median>64</median>
+	<ninetieth>77</ninetieth>
+	<max>261</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>12 /client/Dashboard/</uri>
+	<samples>20</samples>
+	<average>42</average>
+	<min>21</min>
+	<median>35</median>
+	<ninetieth>67</ninetieth>
+	<max>74</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>13 /media/media/company_logo/logo1.jpg</uri>
+	<samples>20</samples>
+	<average>8</average>
+	<min>2</min>
+	<median>7</median>
+	<ninetieth>11</ninetieth>
+	<max>38</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>14 /media/default_logo/E.png</uri>
+	<samples>20</samples>
+	<average>19</average>
+	<min>3</min>
+	<median>7</median>
+	<ninetieth>12</ninetieth>
+	<max>221</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>15 /media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</uri>
+	<samples>20</samples>
+	<average>8</average>
+	<min>2</min>
+	<median>7</median>
+	<ninetieth>10</ninetieth>
+	<max>44</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>16 /media/company_logo/logo.jpg</uri>
+	<samples>20</samples>
+	<average>10</average>
+	<min>3</min>
+	<median>7</median>
+	<ninetieth>14</ninetieth>
+	<max>55</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>17 /static/assets/css/icons/icomoon/styles.css</uri>
+	<samples>20</samples>
+	<average>45</average>
+	<min>7</min>
+	<median>30</median>
+	<ninetieth>57</ninetieth>
+	<max>230</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>18 /static/assets/css/icons/fontawesome5/web-fonts-with-css/css/fontawesome-all.css</uri>
+	<samples>20</samples>
+	<average>36</average>
+	<min>9</min>
+	<median>32</median>
+	<ninetieth>64</ninetieth>
+	<max>85</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>19 /static/assets/css/icons/fontawesome-free-5.5.0-web/css/all.css</uri>
+	<samples>20</samples>
+	<average>47</average>
+	<min>12</min>
+	<median>44</median>
+	<ninetieth>67</ninetieth>
+	<max>88</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>2 /success.txt</uri>
+	<samples>20</samples>
+	<average>15</average>
+	<min>10</min>
+	<median>11</median>
+	<ninetieth>21</ninetieth>
+	<max>27</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>20 /static/assets/css/icons/icomoon/new-styles.css</uri>
+	<samples>20</samples>
+	<average>9</average>
+	<min>2</min>
+	<median>6</median>
+	<ninetieth>20</ninetieth>
+	<max>22</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>21 /static/assets/css/core.css</uri>
+	<samples>20</samples>
+	<average>156</average>
+	<min>32</min>
+	<median>115</median>
+	<ninetieth>298</ninetieth>
+	<max>450</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>22 /static/assets/css/components.css</uri>
+	<samples>20</samples>
+	<average>348</average>
+	<min>70</min>
+	<median>368</median>
+	<ninetieth>517</ninetieth>
+	<max>612</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>23 /static/assets/css/colors.css</uri>
+	<samples>20</samples>
+	<average>36</average>
+	<min>8</min>
+	<median>28</median>
+	<ninetieth>67</ninetieth>
+	<max>83</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>24 /static/assets/css/extras/animate.min.css</uri>
+	<samples>20</samples>
+	<average>43</average>
+	<min>12</min>
+	<median>37</median>
+	<ninetieth>75</ninetieth>
+	<max>95</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>25 /static/assets/css/sticky.css</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>3</min>
+	<median>7</median>
+	<ninetieth>26</ninetieth>
+	<max>43</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>26 /static/assets/css/client/dashboard.css</uri>
+	<samples>20</samples>
+	<average>40</average>
+	<min>4</min>
+	<median>17</median>
+	<ninetieth>71</ninetieth>
+	<max>230</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>27 /static/enjoyhint/enjoyhint.css</uri>
+	<samples>20</samples>
+	<average>14</average>
+	<min>4</min>
+	<median>11</median>
+	<ninetieth>26</ninetieth>
+	<max>53</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>28 /static/assets/drag_dashboard/css/style.min.css</uri>
+	<samples>20</samples>
+	<average>106</average>
+	<min>23</min>
+	<median>99</median>
+	<ninetieth>159</ninetieth>
+	<max>281</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>29 /static/assets/js/core/libraries/bootstrap.min.js</uri>
+	<samples>20</samples>
+	<average>31</average>
+	<min>8</min>
+	<median>29</median>
+	<ninetieth>49</ninetieth>
+	<max>66</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>3 /success.txt</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>10</min>
+	<median>11</median>
+	<ninetieth>23</ninetieth>
+	<max>25</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>30 /static/assets/js/core/libraries/jquery.min.js</uri>
+	<samples>20</samples>
+	<average>64</average>
+	<min>14</min>
+	<median>57</median>
+	<ninetieth>119</ninetieth>
+	<max>160</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>31 /static/assets/js/plugins/loaders/pace.min.js</uri>
+	<samples>20</samples>
+	<average>11</average>
+	<min>3</min>
+	<median>11</median>
+	<ninetieth>17</ninetieth>
+	<max>19</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>32 /static/assets/js/plugins/loaders/blockui.min.js</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>3</min>
+	<median>14</median>
+	<ninetieth>20</ninetieth>
+	<max>29</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>33 /static/assets/drag_dashboard/css/fullcalendar.min.css</uri>
+	<samples>20</samples>
+	<average>17</average>
+	<min>5</min>
+	<median>15</median>
+	<ninetieth>29</ninetieth>
+	<max>50</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>34 /static/assets/js/plugins/velocity/velocity.min.js</uri>
+	<samples>20</samples>
+	<average>30</average>
+	<min>10</min>
+	<median>24</median>
+	<ninetieth>53</ninetieth>
+	<max>61</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>35 /static/assets/js/plugins/buttons/spin.min.js</uri>
+	<samples>20</samples>
+	<average>11</average>
+	<min>3</min>
+	<median>11</median>
+	<ninetieth>20</ninetieth>
+	<max>29</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>36 /static/assets/js/plugins/velocity/velocity.ui.min.js</uri>
+	<samples>20</samples>
+	<average>26</average>
+	<min>5</min>
+	<median>15</median>
+	<ninetieth>31</ninetieth>
+	<max>224</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>37 /static/assets/js/plugins/forms/wizards/steps.min.js</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>4</min>
+	<median>13</median>
+	<ninetieth>21</ninetieth>
+	<max>24</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>38 /static/assets/js/plugins/buttons/ladda.min.js</uri>
+	<samples>20</samples>
+	<average>20</average>
+	<min>2</min>
+	<median>7</median>
+	<ninetieth>18</ninetieth>
+	<max>224</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>39 /static/assets/js/plugins/forms/selects/select2.min.js</uri>
+	<samples>20</samples>
+	<average>51</average>
+	<min>10</min>
+	<median>46</median>
+	<ninetieth>88</ninetieth>
+	<max>110</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>4 /</uri>
+	<samples>20</samples>
+	<average>37</average>
+	<min>14</min>
+	<median>26</median>
+	<ninetieth>67</ninetieth>
+	<max>71</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>40 /static/assets/js/plugins/forms/validation/validate.min.js</uri>
+	<samples>20</samples>
+	<average>21</average>
+	<min>5</min>
+	<median>20</median>
+	<ninetieth>33</ninetieth>
+	<max>43</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>41 /static/assets/js/core/libraries/jasny_bootstrap.min.js</uri>
+	<samples>20</samples>
+	<average>19</average>
+	<min>5</min>
+	<median>17</median>
+	<ninetieth>34</ninetieth>
+	<max>56</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>42 /static/assets/js/plugins/forms/styling/uniform.min.js</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>3</min>
+	<median>11</median>
+	<ninetieth>20</ninetieth>
+	<max>47</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>43 /static/assets/js/plugins/extensions/cookie.js</uri>
+	<samples>20</samples>
+	<average>11</average>
+	<min>3</min>
+	<median>13</median>
+	<ninetieth>19</ninetieth>
+	<max>23</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>44 /static/assets/js/core/app.js</uri>
+	<samples>20</samples>
+	<average>26</average>
+	<min>4</min>
+	<median>14</median>
+	<ninetieth>34</ninetieth>
+	<max>223</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>45 /static/assets/js/pages/client_wizard_steps.js</uri>
+	<samples>20</samples>
+	<average>19</average>
+	<min>4</min>
+	<median>19</median>
+	<ninetieth>33</ninetieth>
+	<max>43</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>46 /static/assets/js/plugins/ui/ripple.min.js</uri>
+	<samples>20</samples>
+	<average>10</average>
+	<min>4</min>
+	<median>6</median>
+	<ninetieth>19</ninetieth>
+	<max>20</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>47 /static/assets/js/plugins/tables/datatables/datatables.min.js</uri>
+	<samples>20</samples>
+	<average>64</average>
+	<min>11</min>
+	<median>59</median>
+	<ninetieth>104</ninetieth>
+	<max>131</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>48 /static/assets/js/pages/datatables_api.js</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>3</min>
+	<median>9</median>
+	<ninetieth>26</ninetieth>
+	<max>58</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>49 /static/enjoyhint/enjoyhint.min.js</uri>
+	<samples>20</samples>
+	<average>104</average>
+	<min>18</min>
+	<median>107</median>
+	<ninetieth>161</ninetieth>
+	<max>235</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>5 /static/assets/css/main-login.css</uri>
+	<samples>20</samples>
+	<average>15</average>
+	<min>4</min>
+	<median>11</median>
+	<ninetieth>35</ninetieth>
+	<max>51</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>50 /static/assets/js/pages/extension_blockui.js</uri>
+	<samples>20</samples>
+	<average>37</average>
+	<min>4</min>
+	<median>16</median>
+	<ninetieth>40</ninetieth>
+	<max>225</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>51 /static/assets/js/plugins/notifications/pnotify.min.js</uri>
+	<samples>20</samples>
+	<average>27</average>
+	<min>5</min>
+	<median>25</median>
+	<ninetieth>41</ninetieth>
+	<max>60</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>52 /static/assets/drag_dashboard/js/vendor-admin.js</uri>
+	<samples>20</samples>
+	<average>945</average>
+	<min>176</min>
+	<median>938</median>
+	<ninetieth>1408</ninetieth>
+	<max>1603</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>53 /static/assets/drag_dashboard/js/datatables.min.js</uri>
+	<samples>20</samples>
+	<average>1498</average>
+	<min>538</min>
+	<median>1545</median>
+	<ninetieth>2005</ninetieth>
+	<max>2187</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>54 /static/assets/drag_dashboard/js/moment.min.js</uri>
+	<samples>20</samples>
+	<average>204</average>
+	<min>36</min>
+	<median>208</median>
+	<ninetieth>285</ninetieth>
+	<max>444</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>55 /success.txt</uri>
+	<samples>20</samples>
+	<average>37</average>
+	<min>14</min>
+	<median>25</median>
+	<ninetieth>79</ninetieth>
+	<max>103</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>56 /success.txt</uri>
+	<samples>20</samples>
+	<average>16</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>24</ninetieth>
+	<max>52</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>57 /success.txt</uri>
+	<samples>20</samples>
+	<average>16</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>25</ninetieth>
+	<max>40</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>58 /success.txt</uri>
+	<samples>20</samples>
+	<average>16</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>23</ninetieth>
+	<max>47</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>59 /success.txt</uri>
+	<samples>20</samples>
+	<average>16</average>
+	<min>7</min>
+	<median>12</median>
+	<ninetieth>26</ninetieth>
+	<max>49</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>6 /static/assets/css/btn-hover.css</uri>
+	<samples>20</samples>
+	<average>7</average>
+	<min>2</min>
+	<median>6</median>
+	<ninetieth>10</ninetieth>
+	<max>23</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>60 /success.txt</uri>
+	<samples>20</samples>
+	<average>16</average>
+	<min>9</min>
+	<median>11</median>
+	<ninetieth>26</ninetieth>
+	<max>49</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>61 /success.txt</uri>
+	<samples>20</samples>
+	<average>26</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>28</ninetieth>
+	<max>245</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>62 /success.txt</uri>
+	<samples>20</samples>
+	<average>14</average>
+	<min>9</min>
+	<median>11</median>
+	<ninetieth>21</ninetieth>
+	<max>28</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>63 /success.txt</uri>
+	<samples>20</samples>
+	<average>24</average>
+	<min>8</min>
+	<median>11</median>
+	<ninetieth>21</ninetieth>
+	<max>250</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>64 /success.txt</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>8</min>
+	<median>12</median>
+	<ninetieth>19</ninetieth>
+	<max>22</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>65 /media/bg.png</uri>
+	<samples>20</samples>
+	<average>24</average>
+	<min>2</min>
+	<median>6</median>
+	<ninetieth>37</ninetieth>
+	<max>245</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>66 /success.txt</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>9</min>
+	<median>11</median>
+	<ninetieth>19</ninetieth>
+	<max>22</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>67 /success.txt</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>8</min>
+	<median>12</median>
+	<ninetieth>20</ninetieth>
+	<max>24</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>68 /media/media/company_logo/logo1.jpg</uri>
+	<samples>20</samples>
+	<average>6</average>
+	<min>1</min>
+	<median>5</median>
+	<ninetieth>15</ninetieth>
+	<max>19</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>69 /media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</uri>
+	<samples>20</samples>
+	<average>18</average>
+	<min>2</min>
+	<median>5</median>
+	<ninetieth>17</ninetieth>
+	<max>230</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>7 /static/assets/css/bootstrap.css</uri>
+	<samples>20</samples>
+	<average>86</average>
+	<min>31</min>
+	<median>67</median>
+	<ninetieth>169</ninetieth>
+	<max>191</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>70 /static/icons/Ellipsis.gif</uri>
+	<samples>20</samples>
+	<average>61</average>
+	<min>18</min>
+	<median>43</median>
+	<ninetieth>108</ninetieth>
+	<max>109</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>71 /static/assets/css/icons/icomoon/fonts/icomoon.woff</uri>
+	<samples>20</samples>
+	<average>87</average>
+	<min>25</min>
+	<median>55</median>
+	<ninetieth>188</ninetieth>
+	<max>254</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>72 /static/assets/css/icons/fontawesome-free-5.5.0-web/webfonts/fa-solid-900.woff2</uri>
+	<samples>20</samples>
+	<average>31</average>
+	<min>9</min>
+	<median>22</median>
+	<ninetieth>55</ninetieth>
+	<max>120</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>73 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>10</min>
+	<median>11</median>
+	<ninetieth>19</ninetieth>
+	<max>20</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>74 /success.txt</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>10</min>
+	<median>12</median>
+	<ninetieth>20</ninetieth>
+	<max>22</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>75 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>18</ninetieth>
+	<max>20</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>76 /client/ajax/set_dashboard/</uri>
+	<samples>20</samples>
+	<average>15</average>
+	<min>9</min>
+	<median>14</median>
+	<ninetieth>25</ninetieth>
+	<max>26</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>77 /client/Dashboard/</uri>
+	<samples>20</samples>
+	<average>28</average>
+	<min>13</min>
+	<median>25</median>
+	<ninetieth>43</ninetieth>
+	<max>53</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>78 /client/Rejected-Reason-List/</uri>
+	<samples>20</samples>
+	<average>26</average>
+	<min>13</min>
+	<median>23</median>
+	<ninetieth>46</ninetieth>
+	<max>55</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>79 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>10</min>
+	<median>12</median>
+	<ninetieth>17</ninetieth>
+	<max>23</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>8 /static/assets/images/logo/tc-logo1.gif</uri>
+	<samples>20</samples>
+	<average>151</average>
+	<min>31</min>
+	<median>150</median>
+	<ninetieth>243</ninetieth>
+	<max>287</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>80 /media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</uri>
+	<samples>20</samples>
+	<average>5</average>
+	<min>1</min>
+	<median>4</median>
+	<ninetieth>13</ninetieth>
+	<max>17</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>81 /media/media/company_logo/logo1.jpg</uri>
+	<samples>20</samples>
+	<average>5</average>
+	<min>1</min>
+	<median>3</median>
+	<ninetieth>12</ninetieth>
+	<max>17</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>82 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>16</ninetieth>
+	<max>19</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>83 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>10</min>
+	<median>12</median>
+	<ninetieth>17</ninetieth>
+	<max>18</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>84 /static/enjoyhint/enjoyhint.css</uri>
+	<samples>20</samples>
+	<average>6</average>
+	<min>2</min>
+	<median>5</median>
+	<ninetieth>9</ninetieth>
+	<max>24</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>85 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>9</min>
+	<median>12</median>
+	<ninetieth>16</ninetieth>
+	<max>21</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>86 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>9</min>
+	<median>11</median>
+	<ninetieth>17</ninetieth>
+	<max>18</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>87 /success.txt</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>9</min>
+	<median>11</median>
+	<ninetieth>16</ninetieth>
+	<max>17</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>88 /media/media/company_logo/rankadevelopers_logo%201_Wzw3Wio.png</uri>
+	<samples>20</samples>
+	<average>4</average>
+	<min>2</min>
+	<median>4</median>
+	<ninetieth>6</ninetieth>
+	<max>13</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>89 /media/media/company_logo/logo1.jpg</uri>
+	<samples>20</samples>
+	<average>4</average>
+	<min>1</min>
+	<median>3</median>
+	<ninetieth>7</ninetieth>
+	<max>13</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>9 /static/assets/images/logo/lead-generation.gif</uri>
+	<samples>20</samples>
+	<average>1572</average>
+	<min>1087</min>
+	<median>1505</median>
+	<ninetieth>1911</ninetieth>
+	<max>2061</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>90 /superadmin/ajax/get_lead_reason/</uri>
+	<samples>20</samples>
+	<average>14</average>
+	<min>8</min>
+	<median>12</median>
+	<ninetieth>20</ninetieth>
+	<max>29</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>91 /superadmin/ajax/update_lead_reason/</uri>
+	<samples>20</samples>
+	<average>13</average>
+	<min>9</min>
+	<median>11</median>
+	<ninetieth>18</ninetieth>
+	<max>30</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>92 /superadmin/ajax/update_lead_reason/</uri>
+	<samples>20</samples>
+	<average>12</average>
+	<min>8</min>
+	<median>11</median>
+	<ninetieth>19</ninetieth>
+	<max>22</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>93 /superadmin/ajax/update_lead_reason/</uri>
+	<samples>20</samples>
+	<average>11</average>
+	<min>8</min>
+	<median>10</median>
+	<ninetieth>16</ninetieth>
+	<max>21</max>
+	<httpCode>403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>94 /logout/</uri>
+	<samples>20</samples>
+	<average>21</average>
+	<min>13</min>
+	<median>18</median>
+	<ninetieth>32</ninetieth>
+	<max>40</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>95 /</uri>
+	<samples>20</samples>
+	<average>14</average>
+	<min>8</min>
+	<median>12</median>
+	<ninetieth>19</ninetieth>
+	<max>46</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Sample 1</uri>
+	<samples>30</samples>
+	<average>218</average>
+	<min>101</min>
+	<median>219</median>
+	<ninetieth>301</ninetieth>
+	<max>344</max>
+	<httpCode>200</httpCode>
+	<errors>13.333</errors>
+</api>
+<api>
+	<uri>Sample 2</uri>
+	<samples>30</samples>
+	<average>218</average>
+	<min>119</min>
+	<median>222</median>
+	<ninetieth>310</ninetieth>
+	<max>354</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+</results>

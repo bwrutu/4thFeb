@@ -1,0 +1,23 @@
+Started by upstream project "[8mha:////4EF0d7f7FRvSxVxvsLeybUid77pYWo/L5fQwrXxjCCp7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZh/az8JP2M1JycfFUjg/L8opwUfQCOEGYiyAAAAA==[0mhello world" build number [8mha:////4HshSgTOEuna7lwhP40cx6T6mS/aTduam2tVnS33n4/FAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/YzUnJx8VSOD8vyinBR9MwDKxEt1yQAAAA==[0m6
+originally caused by:
+ Started by upstream project "[8mha:////4LRM0NszfsGZEPlseNE9M+qCHoZY3E95lnIvv+8SlqwlAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP30zJL4ktTiEn0Anm6SBcMAAAA=[0mgit_test" build number [8mha:////4MTWGi5cSYh5McsZaGoFw0Ijf7w8LKuC2zaYq+5pGpTjAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwk/fTMkviS1OISfVMAzwso48QAAAA=[0m5
+ originally caused by:
+  Started by upstream project "[8mha:////4C8r1uVSa2R6zx/+L4izt8qm8wbPSL87yld5dPRKkeEEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH2X1Nx8LyANAPyuEqDCAAAA[0mDemoJob" build number [8mha:////4CgPeRR1NF6Z+hdyhOJYMXzzqqn2QgBwslryYnGTAO8pAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ+/az8JH2X1Nx8LyBtaAAAdA0QkcQAAAA=[0m10
+  originally caused by:
+   Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose
+[test_demo_purpose] $ cmd /c call C:\Windows\TEMP\jenkins9201647044423874382.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>echo "Test" 
+"Test"
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>exit 0 
+[test_demo_purpose] $ cmd /c call C:\Windows\TEMP\jenkins7000616740699475621.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>echo "test" 
+"test"
+
+C:\Program Files (x86)\Jenkins\workspace\test_demo_purpose>exit 0 
+Triggering a new build of [8mha:////4MvelQly31LSuI/5vngv5xCnqV1Qwwev2QBmYb3tufWtAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZx/az8JP3izNyCnFRVI4Pk0uTS3KTUIn0AIHB6M8wAAAA=[0msimple cucumber
+Finished: SUCCESS

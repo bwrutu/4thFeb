@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<results>
+<api>
+	<uri>Test</uri>
+	<samples>15</samples>
+	<average>252622</average>
+	<min>49462</min>
+	<median>72006</median>
+	<ninetieth>630047</ninetieth>
+	<max>630161</max>
+	<httpCode></httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/</uri>
+	<samples>45</samples>
+	<average>9879</average>
+	<min>1521</min>
+	<median>7063</median>
+	<ninetieth>21005</ninetieth>
+	<max>21106</max>
+	<httpCode>0,200</httpCode>
+	<errors>77.778</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/</uri>
+	<samples>15</samples>
+	<average>12209</average>
+	<min>4361</min>
+	<median>10090</median>
+	<ninetieth>20998</ninetieth>
+	<max>21004</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/ajax/set_dashboard/</uri>
+	<samples>15</samples>
+	<average>7774</average>
+	<min>35</min>
+	<median>1923</median>
+	<ninetieth>21003</ninetieth>
+	<max>21004</max>
+	<httpCode>0,403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/campaigndesc/107</uri>
+	<samples>15</samples>
+	<average>8666</average>
+	<min>1487</min>
+	<median>2867</median>
+	<ninetieth>20998</ninetieth>
+	<max>21002</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/campaigndesc/107#</uri>
+	<samples>15</samples>
+	<average>8678</average>
+	<min>1420</min>
+	<median>2991</median>
+	<ninetieth>21003</ninetieth>
+	<max>21007</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/live-campaign/</uri>
+	<samples>15</samples>
+	<average>9352</average>
+	<min>2431</min>
+	<median>3605</median>
+	<ninetieth>21001</ninetieth>
+	<max>21008</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/pending-campaign/</uri>
+	<samples>15</samples>
+	<average>10452</average>
+	<min>3569</min>
+	<median>5579</median>
+	<ninetieth>21002</ninetieth>
+	<max>21006</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/rfq-campaign/</uri>
+	<samples>15</samples>
+	<average>9039</average>
+	<min>1953</min>
+	<median>3707</median>
+	<ninetieth>21000</ninetieth>
+	<max>21008</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/client/vendor-allocation/107</uri>
+	<samples>30</samples>
+	<average>9126</average>
+	<min>1917</min>
+	<median>4034</median>
+	<ninetieth>21002</ninetieth>
+	<max>21008</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/logout/</uri>
+	<samples>30</samples>
+	<average>7517</average>
+	<min>604</min>
+	<median>662</median>
+	<ninetieth>21004</ninetieth>
+	<max>21010</max>
+	<httpCode>0,200</httpCode>
+	<errors>33.333</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/superadmin/bulk_cplLeadAllocation/</uri>
+	<samples>15</samples>
+	<average>7210</average>
+	<min>50</min>
+	<median>138</median>
+	<ninetieth>21001</ninetieth>
+	<max>21010</max>
+	<httpCode>0,403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/superadmin/lead_assign/</uri>
+	<samples>15</samples>
+	<average>7141</average>
+	<min>51</min>
+	<median>166</median>
+	<ninetieth>21004</ninetieth>
+	<max>21007</max>
+	<httpCode>0,403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/superadmin/send_rfq_request/</uri>
+	<samples>15</samples>
+	<average>7205</average>
+	<min>60</min>
+	<median>200</median>
+	<ninetieth>21003</ninetieth>
+	<max>21003</max>
+	<httpCode>0,403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/utils/get_cpl_list/?camp_id=63</uri>
+	<samples>15</samples>
+	<average>7251</average>
+	<min>95</min>
+	<median>247</median>
+	<ninetieth>21005</ninetieth>
+	<max>21007</max>
+	<httpCode>0,200</httpCode>
+	<errors>33.333</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/utils/get_rfq_request/?camp_id=39&campid=39</uri>
+	<samples>15</samples>
+	<average>7091</average>
+	<min>67</min>
+	<median>120</median>
+	<ninetieth>21001</ninetieth>
+	<max>21006</max>
+	<httpCode>0,200</httpCode>
+	<errors>33.333</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/utils/get_rfq_request/?camp_id=40&campid=40</uri>
+	<samples>15</samples>
+	<average>7108</average>
+	<min>57</min>
+	<median>91</median>
+	<ninetieth>20998</ninetieth>
+	<max>21001</max>
+	<httpCode>0,200</httpCode>
+	<errors>33.333</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/utils/get_rfq_request/?camp_id=41&campid=41</uri>
+	<samples>15</samples>
+	<average>7057</average>
+	<min>49</min>
+	<median>99</median>
+	<ninetieth>21004</ninetieth>
+	<max>21008</max>
+	<httpCode>0,200</httpCode>
+	<errors>33.333</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/utils/get_rfq_request/?camp_id=42&campid=42</uri>
+	<samples>15</samples>
+	<average>7095</average>
+	<min>60</min>
+	<median>123</median>
+	<ninetieth>20997</ninetieth>
+	<max>21007</max>
+	<httpCode>0,200</httpCode>
+	<errors>33.333</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/</uri>
+	<samples>15</samples>
+	<average>8249</average>
+	<min>1325</min>
+	<median>2252</median>
+	<ninetieth>20994</ninetieth>
+	<max>21005</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/assigned-campaign/</uri>
+	<samples>15</samples>
+	<average>8173</average>
+	<min>1504</min>
+	<median>1785</median>
+	<ninetieth>21000</ninetieth>
+	<max>21008</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/counter-CPL-form/</uri>
+	<samples>15</samples>
+	<average>7313</average>
+	<min>59</min>
+	<median>184</median>
+	<ninetieth>20998</ninetieth>
+	<max>21005</max>
+	<httpCode>0,403</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/pending-campaign/</uri>
+	<samples>45</samples>
+	<average>8329</average>
+	<min>1305</min>
+	<median>1833</median>
+	<ninetieth>21001</ninetieth>
+	<max>21008</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/sendAgreeRequest/141/</uri>
+	<samples>15</samples>
+	<average>9420</average>
+	<min>3187</min>
+	<median>3703</median>
+	<ninetieth>21003</ninetieth>
+	<max>21004</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>http://45.112.2.195:83/vendor/vendor-rfq-campaign/</uri>
+	<samples>15</samples>
+	<average>8218</average>
+	<min>1482</min>
+	<median>1934</median>
+	<ninetieth>21000</ninetieth>
+	<max>21005</max>
+	<httpCode>0,200</httpCode>
+	<errors>100.0</errors>
+</api>
+</results>

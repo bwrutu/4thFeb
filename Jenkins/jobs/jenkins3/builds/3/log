@@ -1,0 +1,99 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace F:\jenkins3
+[jenkins3] $ cmd /c call C:\Windows\TEMP\jenkins2782901332993401641.bat
+
+F:\jenkins3>run.bat
+
+F:\jenkins3>java -cp bin;lib\* org.testng.TestNG testng.xml 
+java.io.FileNotFoundException: F:\jenkins3\testng.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.testng.xml.Parser.parse(Parser.java:167)
+	at org.testng.TestNG.initializeSuitesAndJarFile(TestNG.java:300)
+	at org.testng.TestNG.run(TestNG.java:1021)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+[TestNG] [ERROR] No test suite found. Nothing to run
+Usage: <main class> [options] The XML suite files to run
+  Options:
+    -configfailurepolicy
+       Configuration failure policy (skip or continue)
+    -d
+       Output directory
+    -dataproviderthreadcount
+       Number of threads to use when running data providers
+    -excludegroups
+       Comma-separated list of group names to  exclude
+    -groups
+       Comma-separated list of group names to be run
+    -junit
+       JUnit mode
+       Default: false
+    -listener
+       List of .class files or list of class names implementing ITestListener or
+       ISuiteListener
+    -methods
+       Comma separated of test methods
+       Default: []
+    -methodselectors
+       List of .class files or list of class names implementing IMethodSelector
+    -mixed
+       Mixed mode - autodetect the type of current test and run it with
+       appropriate runner
+       Default: false
+    -objectfactory
+       List of .class files or list of class names implementing
+       ITestRunnerFactory
+    -parallel
+       Parallel mode (methods, tests or classes)
+       Possible Values: [tests, methods, classes, instances, none, true, false]
+    -port
+       The port
+    -reporter
+       Extended configuration for custom report listener
+    -suitename
+       Default name of test suite, if not specified in suite definition file or
+       source code
+    -suitethreadpoolsize
+       Size of the thread pool to use to run suites
+       Default: 1
+    -testclass
+       The list of test classes
+    -testjar
+       A jar file containing the tests
+    -testname
+       Default name of test, if not specified in suitedefinition file or source
+       code
+    -testnames
+       The list of test names to run
+    -testrunfactory, -testRunFactory
+       The factory used to create tests
+    -threadcount
+       Number of threads to use when running tests in parallel
+    -usedefaultlisteners
+       Whether to use the default listeners
+       Default: true
+    -log, -verbose
+       Level of verbosity
+    -xmlpathinjar
+       The full path to the xml file inside the jar file (only valid if -testjar
+       was specified)
+       Default: testng.xml
+
+java.io.FileNotFoundException: test-output\testng.css (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.testng.internal.Utils.writeResourceToFile(Utils.java:493)
+	at org.testng.reporters.HtmlHelper.generateStylesheet(HtmlHelper.java:25)
+	at org.testng.reporters.SuiteHTMLReporter.generateReport(SuiteHTMLReporter.java:52)
+	at org.testng.TestNG.generateReports(TestNG.java:1106)
+	at org.testng.TestNG.run(TestNG.java:1065)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

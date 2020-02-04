@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.11"/>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.blazemeter.PerformanceBuilder plugin="BlazeMeterJenkinsPlugin@4.7">
+      <jobApiKey></jobApiKey>
+      <credentialsId>46ab46ed-c2f4-4714-aa62-b6d7454c9402</credentialsId>
+      <workspaceId>297749</workspaceId>
+      <serverUrl></serverUrl>
+      <testId>6842899.taurus</testId>
+      <notes></notes>
+      <sessionProperties></sessionProperties>
+      <jtlPath></jtlPath>
+      <junitPath></junitPath>
+      <getJtl>false</getJtl>
+      <getJunit>false</getJunit>
+      <reportLinkName></reportLinkName>
+      <mainTestFile></mainTestFile>
+      <additionalTestFiles></additionalTestFiles>
+      <abortJob>false</abortJob>
+    </hudson.plugins.blazemeter.PerformanceBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

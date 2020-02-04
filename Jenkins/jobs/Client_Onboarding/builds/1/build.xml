@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>Threads</name>
+          <description></description>
+          <value>50</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>Threads</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.6.0"/>
+    <hudson.plugins.blazemeter.PerformanceBuildAction plugin="BlazeMeterJenkinsPlugin@4.7">
+      <run class="build" reference="../../.."/>
+      <reportUrl>https://a.blazemeter.com/app/?public-token=1Mm4IRQToOONd9Qn6dj5lmiUpIJOIHQPrc0a7iHTx7ntPFSUE7#/masters/24944171/summary</reportUrl>
+      <linkName>BlazeMeter report: Client OnBoardin..</linkName>
+      <masterId>24944171</masterId>
+      <m/>
+    </hudson.plugins.blazemeter.PerformanceBuildAction>
+    <hudson.plugins.performance.actions.PerformanceBuildAction plugin="performance@3.17">
+      <build class="build" reference="../../.."/>
+      <parsers>
+        <hudson.plugins.performance.parsers.JMeterParser>
+          <glob>Client-OnBoarding.csv</glob>
+          <excludeResponseTime>false</excludeResponseTime>
+          <baselineBuild>50</baselineBuild>
+          <isNumberDateFormat>false</isNumberDateFormat>
+          <percentiles>0,50,90,100</percentiles>
+          <filterRegex></filterRegex>
+        </hudson.plugins.performance.parsers.JMeterParser>
+      </parsers>
+    </hudson.plugins.performance.actions.PerformanceBuildAction>
+  </actions>
+  <queueId>17</queueId>
+  <timestamp>1579261629716</timestamp>
+  <startTime>1579261629751</startTime>
+  <result>SUCCESS</result>
+  <duration>1623307</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Program Files (x86)\Jenkins\workspace\Client_Onboarding</workspace>
+  <hudsonVersion>2.214</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </Arguments>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain"></stringProp>
+        <stringProp name="HTTPSampler.port"></stringProp>
+        <stringProp name="HTTPSampler.protocol"></stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+        <collectionProp name="CookieManager.cookies"/>
+        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1370726934000</longProp>
+        <longProp name="ThreadGroup.end_time">1370726934000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
+        <hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="1 /generate_204" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="1 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">clients3.google.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="2 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">clients3.google.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="3 /js/sdk/android-com.ehawk.antivirus.applock.wifi-config.json" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="3 /js/sdk/android-com.ehawk.antivirus.applock.wifi-config.json" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">static.criteo.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/js/sdk/android-com.ehawk.antivirus.applock.wifi-config.json</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="4 /js/sdk/android-com.ehawk.antivirus.applock.wifi-config.json" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">static.criteo.net</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/js/sdk/android-com.ehawk.antivirus.applock.wifi-config.json</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="5 /generate_204" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="5 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">connectivitycheck.gstatic.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Cache-Control" elementType="Header">
+                    <stringProp name="Header.name">Cache-Control</stringProp>
+                    <stringProp name="Header.value">no-cache, no-store</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.93 Mobile Safari/537.36 GSA/10.88.14.21.arm64</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="6 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">connectivitycheck.gstatic.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Cache-Control" elementType="Header">
+                    <stringProp name="Header.name">Cache-Control</stringProp>
+                    <stringProp name="Header.value">no-cache, no-store</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.93 Mobile Safari/537.36 GSA/10.88.14.21.arm64</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="7 /v4.0/157771428000869/mobile_sdk_gk" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="fields" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">fields</stringProp>
+                    <stringProp name="Argument.value">gatekeepers</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="format" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">format</stringProp>
+                    <stringProp name="Argument.value">json</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="sdk_version" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">sdk_version</stringProp>
+                    <stringProp name="Argument.value">5.5.1</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="sdk" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">sdk</stringProp>
+                    <stringProp name="Argument.value">android</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                  <elementProp name="platform" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.name">platform</stringProp>
+                    <stringProp name="Argument.value">android</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">graph.facebook.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/v4.0/157771428000869/mobile_sdk_gk</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">en_US</stringProp>
+                  </elementProp>
+                  <elementProp name="Content-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Content-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="Content-Type" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">FBAndroidSDK.5.5.1</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="8 /generate_204" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="8 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">connectivitycheck.gstatic.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Cache-Control" elementType="Header">
+                    <stringProp name="Header.name">Cache-Control</stringProp>
+                    <stringProp name="Header.value">no-cache, no-store</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.93 Mobile Safari/537.36 GSA/10.88.14.21.arm64</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="10 /generate_204" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="10 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">connectivitycheck.gstatic.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Cache-Control" elementType="Header">
+                    <stringProp name="Header.name">Cache-Control</stringProp>
+                    <stringProp name="Header.value">no-cache, no-store</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.93 Mobile Safari/537.36 GSA/10.88.14.21.arm64</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="12 /" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="12 /" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">ekawsvbrgpj</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <stringProp name="HTTPSampler.method">HEAD</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Mobile Safari/537.36</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="13 /" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">njasybiskk</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <stringProp name="HTTPSampler.method">HEAD</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Mobile Safari/537.36</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="11 /" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">cbkdthrjmjyp</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/</stringProp>
+              <stringProp name="HTTPSampler.method">HEAD</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Linux; Android 7.0; vivo 1714) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Mobile Safari/537.36</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="9 /api/log" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="9 /api/log" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">&#x1f;&#x8b;&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;í]io&#x1c;G&#xe;ý+&#x81;¾®J©&#x83;UdÙ&#x9f;¼Îe &#x1b;&apos;ë&#x1c;Xl&#x16;F&#x9d;&#x89;`[&#x12;t8È&#x6;ùïûjäD±&lt;£î&#x91;eGÊ¶&#xd;	ÓÓ­.&#x92;E&gt;&gt;&#x92;RÏ/;gûuçÞ&#x8e;wÎ°HU&#x86;&#x1c;+Ê&#x1c;&#x95;ôØU&#xe;Ú&amp;ß&#x9c;Ô^v&#x8d;õL%Å¦&#x9d;ÍøÚ¥&#x8f;¾&#x92;&#x87;á&#x11;ÇWÿvC`CÕyUm7&#x8a;R,*§&#x1c;U×Õ&#x93;M¬MH;»;é &#x1e;&#x1f;î×ÕÊ&#x97;o:N&#x1f;&#x1d;=k?ãÜéA&#x88;úï&#x9f;&lt;¨§x7&#x1f;ãÇðæËý&#x97;&#x87;8|qXÛóW&#x87;OÇ·&#xf;&#xc;ÖÆ&#x89;Ã&#x93;oÛ1Nð&#x9e;ÆÑI}öõÏGm,t~t~&#x92;öÜ&#x1e;&#x8f;¥êw8Ò«W&#x9f;½zuR&#x8e;&#xf;Æ»l&#x7f;;úl%§&#x8c;ÃÚ&#xe;NöO&#x87;pvuÿr&#x9c;Ê³&#x9d;{&#x1a;ò&#x9d;&#x1d;ÔçíÑ&#x10;±&#x1c;¾Øk?¦&#x9f;&#x9e;í¥&#x83;Óý&#x97;ûÇg&apos;{Pêùay¶÷Ó~ß?×ñ&#x8b;ôbÈõí8ýÁÃç-&#x1d;@´Ý&#x9d;Óý&#x17;í¿&#x87;&#x7;ãÔ§ÿøúoÚßsc¡~vÒ&#x1e;&#x1c;&#x1d;ý&amp;¾u{~ÏDö{d&#x9d;öãÕù]W&#x2;Ô&#x12;&#x3;ùn}ÒD±ç¤a[ã©EÖ&#x8e;u_)òò&#x95;Q&#xe;Úéã£óÛj/aØ0&#x95;òåáþÁ)ÞSF&#x8f;&#x8b;&#x9e;Ãø&apos;%&#xd;K&#x9a;ÕÑ&#xf;gé&#x87;!c;&#x18;7K§içÞ¿&#x7f;Ùi/ÛÁéÁ¹b_&gt;þü_O?&#x7f;üà£§&#x9f;&lt;xôù0åQ*ç&#x6;&#x8a;±ÆÎ­Ù&#x90;&#xc;é&#x10;bsÉ&#x9b;Â)öFìe&#x98;áÇýãúe:&gt;ýù	t:&#x19;VM&#xd;
+ú©£³¬DØ&#x93;3Ñ¸@&#x91;Ø~ÿaðÖ&#x5;Í&#x86;&#x1d;~öèy:í&#x87;Ç/ÆZ&#x90;ö&#x14;&#xe;ð&#x10;î²s&#x8f;°a&#x87;gC/»»Ó&#x8e;&#x8f;&#xf;&#x8f;ÏßÇ¾ÿº»Fú&#x7f;~üÕ7&#x1f;?ùúFd&#x7f;&#x91;&#x7f;&#x17;ßZ&#xd;
+lÅ&#x89;&amp;ñÄáû&#xf;ÉE&#x1b;&#x8c;÷Ñ^&#x12;&#x9f;7&#x88;?[Ü&#x12;¥å&#x1e;#&apos;çÉPÏ.DjÁw&#xe;ÍPðkÅ­¹&#x9a;&#x1c;¹öD&#x81;ªÄ&#x94;KôM¢w&#x5;Ê&#x8a;\&#x12;&#x92;Ö&#xb;iÖ&#xd;
+¹Þ#*ë&#xc;[ö&#xe;;&#x12;w&#x9b;&#xd;
+&#x1;&gt;&#x12;»Þ&#x82;sÌÛ{Ddç$:Òz&#x9e;G&#x98;Y&#x1e;q³þ|³&gt;ñ~]&#x1a;&#x80;h g&#x0;ö î¢{&#xd;
+&#x5;¬uV,&#x9b;@&#x12;ù&#x92;Ôv&#x1b;O¾A3ß&#x94;&#x9c;¯[×hý&#x1e;0c³w[&#x2;&#x94;&#x8b;&#x18;w9&#x16;7áÝ{ðæ&#x1b;&#x94;ö-bñÏ&#x4;¼K&gt;â·&#x91;»f+&#x82;&#x80;×±0rºdß|h&#x4;T&#x80;&quot;&#x89;h¶sGk&#xc;Ù(z¤úyÎ}IpeÖ&#xb;þä³Çß½&amp;³ÎÚ{&#x8a;º&#x83;1&#x92;s&#x80;ªè&#x1;`FC~&#x9b;t½&#x6;j;&#x96;&#x0;&#x9e;(&#x97;Ãr3j&#x9f;&#x9c;&#x1c;¬&#x84;±©7ñ1«*XÂµÖT&#x12;ïU¯&#x9e;&#x13;S6ÁlÐë&#x6;7äjå¢ÃÖ&#xc;¢=O¹0Ï&#x9f;ÞÇ¶&#x10;¡Dàà·ß&#x16;Íº!&#x8d;Y&#x15;Å&#x16;åJ÷J´íª08ihN§&#x1c;î¢^&#x15;&#x84;³8mUã&#x12;&#x94;ó&#x2;w³TTlÖEªÆZ&#x89;ëõzøø&#x8b;O&#x1e;}ºsqÓ&#x10;&#x10;&#x97;Gg&apos;?&gt;&#x19;ª®âº&#x88;k9&#x86;&#x1c;J¡dD&#x0;Á¹&#x86;Ú¨&#x4;&#x90;&#x9a;x&#x8f;Õ&#x14;}`Ñ&gt;&#x6;Ô&#x5;V±Þ%5&#x5;q&#x8a;Ã®QWÃ8V&#x11;&#xe;N&#x93;bÞµê&#xd;ôAõhÉcW&#x1c;Þ&#x86;&#x1;&#x14;ËÔ=ñ£&#x1e;¥U$¯¢&#x9f;º8&#x4;Ü&#x18;»Î^q\&apos;À*·Û&#x8;ä3¨&#x8;8¨¨ï#&#x83;&#x95;*A;&#x1d;&#x13;&#x8a;S&#x97;3µê&#x18;)!øFºß&#x9b;X&#x94;QC&#x19;¯­5Ã&#x90;ë´öX&#x8a;@×Ä&#x18;Ç&#x14;U&#x98;T&#x4;ô&#x83;I&#xf;Õ&#x87;Ök&#x15;¡(¸&#xd;
+h&#x1;ß¶&#x11;&#x8a;LÝS4¶&#x6;Æ7¢&#x82;¾&#x1f;¬ÉÅR&#x2;Õi&#x94;$Ç&#x94;È&#x1b;¼i&#x8c;hÀÐ&#x94;Ö¸Ô&#x80;&#x7f;&#x6;ë&#x94;l&#x90;pÐ(#F&#xf;I&#x9d;ETo¸&#xc;		ùÈ&#x19;ç ÍÐwÚy-30&#x83;b´ÐeÒ+Æk&#x8d;/¯ÜäÅ&#x11;V&apos;D&#x1c;Éð&#xd;7à\LË&#x2;jãSÈ½ô&#x92;&#x9c;àuu=Lú&#x86;c&#x1b;°&#x8f;&#xe;V&#x82;oÌ&#x8;J«&#x83;E&#x86;;7×&#x94;ã&#x1;C&#x82;C¸a&#xb;&amp;ã&#x8;&#x8e;ç¬Öfå*÷§(Ü&#x94;^&#x17;åô&#x95;»&#x7f;A¢&#x87;:Óê_&#x94;4JÜ&amp;o11è&#x18;(&#x88;g=&#x3;&#x13;.¸å&#xc;WñÎ&#x90;Àk&#x83;[!ÃD&gt;&#x99;&#x81;²Ð&#x87;¢Az&#xb;Ã&#x1;¦|ïwr3c÷/R&#x93;âI#&#x0;M¢7Ð`&#x85;xÞK&#x2;¤#¿&#x2;ë&#x9c;®&#x11;&lt;&#x88;à&#xf;QÛ&#x98;­÷&#x93;&#x88;ç¬±&gt;&#x1a;/&#x9b;&#x83;&#x1a;»¯&#x91;Ú&#x11;û^¯&#x16;&#xd;Ä	e;;-À.C&#x11;&#x84;Kë&#x0;&#x85;&#x9d;Í9Õ©EI{8&amp;ð$(&#x7f;Å¢ø&gt;&#x16;µ&#x81;&#x95;&#x9f;&#x86;Y&#x17;&#x81;&#xd;
+0&#xb;&#xf;LÞ&#x84;NÚBJl,öq&#x1e;:y	#ä±Ä&#xc;&#x97;c¸&#x15;[&#x83;D;¬4E*§¬&#x14;&#x87;ðÎ°&#x99;&#x8;L&#x83;{&#xf;7§&#x19;&#x9e;fF&gt;&#x10;dU@GØ&#x8c;á&#x17;EÅ&lt;+!&#x17;±X8%Ï°Ò&#x5;5&#x6;&#x86;ß&#x9f;ê&#x6;MÂW&#x10;¶^Xûa¥×/&amp;&#xf;&#x97;5Ñ{¯£ç&#x8;&#x0;&#x1;jF&#xd;T&#x8;89)çï]¥á~kÉ&#x0;^Á=d¼&#x1f;çæ»?&#x90;5äî&#x1c;b&#x8a;%é&#x16;¹&#x91;ã*&amp;§.­;&#xb;&#xd;
+&#x97;ã¤&#x93;&#xc;Í&#x1c;ò­ÑWÇ¯øá$È´Ã3§êæ&#x19;`8¸&#x0;&#x88;&#x10;Y;BxF:&#x0;§Â&#x7f;&#x4;Â&#x6;fuNç&#x98;xÐ9&#x9a;&#x95;4&#x81;ï«­&#x8f;4&#x83;&#x86;y&#x16;&#x8;ìÙE%vînÎ¡Ò&#x93;+#Ë&#x81;Ö±&#xc;&#x2;8ü=6¡&#xe;&#x4;È&#x5;äÄfÔDÉ$m¹¤^&#x9a;l&#x97;&#x88;Äl¶%ØÎ&#x80;Oq~&#x86;-e 	c&#x1d;Þ&#x0;&#xc;(©=8lä&#x91;_&lt;&#x2;=ò$Y&#x83;&#x8b;&#x4;&#xf;±Ý0ùTN&#x80;&apos;&#x93;&#x4;&#x9c;&#x18;aá»&amp;@/w&#x9f;&#x89;&#xd;
+&#x95;\-À»eä&#x9a;êjhSa&#x1;äEÜ&#x8a;&#x1b;le3v¢&#x18;ÑÃÝÜ&#x98;&#x81;mëÅa&#x96;w¬­&#x9d;V K&#x1a;QÇ&#x11;&#x1e;&#x1f;æ&#x1;Ç&#x1f;Bn&#x1a;d&#x1d;&#x83;¯â&#x1b;&#x2;~ÚC&#x7;ó¤&#x91;âõðÐ&#x16;¸4&#x13;ã&#x18;ÔQH.&#x15;£ûà¾Ù&#x99;ê¨LBR&#x1c;)iU&#x92;É&#x1c;½h&#x10;&#x7;øªå&#x1;Ê&#x9b;÷&#xd;
+É&#x10;&#x10;&#x16;ã&#x1c;w&#x86;&#x9b;&#xe;øfPäõì&#x13;&#x15;&#x7;*W&#x14;]H×0&#x94;Ì Ý&gt;X¯Q×è&#x15;&#x86;z&#x98;¢wñ&#x12;k§Ä(U	yÍS1Å&#x82;PN&#x96;&#x13;@ß!@ðþ*&#xe;&#x4;&#x96;&#x1a;&#x86;Ö&#x12;µ&#xd;
+&#x93;&#x1;gi&#x8c;XÅ&#x87;0Üs&#x8e;;£&#x1e;&#xf;&#x88;y;ÃI&#x8c;&#x19;èÀ 3+&gt;]&#x6;ó&#x4;&#x89;Ó=R%&#x9d;jí&#x8e;; [tç&#x9c;&amp;&#x9d;dÕ&lt;&#x8;tî$SÎ,&#x16;&#x85;&#x87;&#x80;·_É&#x17;Í9_t&#x81;¯,P&#x19;Öd&#x98;&#x1f;ic&amp;¹&#x89;&#x91; ª&#x98;9&#x14;P&#x1b;&#x84;)¸&#x10;­jÎÔb¯ÚRv&#x95;LE&#x91;ëuö&#x83;#&#x13;p#éIr&#x3;w&#x7;Ý7¼&#x86;Ü¼¹û!&#x82;õ&#x93;&#x11;ºÚJ@&#x9e;a%&#x89;3X5&#x92;&#x8;Ü&#x14;0&#x0;ud&#x1e;_ä&#x19;&amp;&#x5;&#x11;ÁõFc÷Ãj´~xÐ÷&#x7f;8ïÀ­&#x1f;%Þî&#x6;!å@Ýtà½N&#x11;¬6W&#x5;&lt;HJW[¤øê&#x1b;ßÉÆ§è&quot;&#x92;³WiÔU&#xe;ÉM%©&#x15;;j \å0Æ&#xe;óô&#x9a;j¿l¯×E&#x1b;dk½&#x92;á&#x96;²d&#x95;&#x9b;&#x1d;ó&#x3;&#x86;³J&apos;ejIX&amp;åÔþÄ¹Èõ÷ËÄ^°_&#x1d;.Ø &#x17;QW	wV9¹¢kk &#x9c;u&#x9b;¹ÈT&#x92;Û^¹&#x8b;,2O9z}.â¶&#x91;~*Gm3f»H&#x1a;óÆlî&#x8d;&#x19;ò»&#x1f;HM6&#x8;®5!D&#x88;Ù»8#LTbÕÁªQã&#x2;»¤ª&#x4;&#x13;ªîPC&#x8;&#x97;jê&#x9d;&#x1c;²Åf&#x8a;ÉÕ)W&#x1d;0&#x19;u&#xe;b¼5UØ&#x95;Ì&lt;~/¯ÜÅý&#x2;&#x17;ô!jQ5¦&#x0;ìòQ¡&#x9c;jÊW]B4¹&#x99;&gt;7×Üªý&#x2;Úé&#x6;²£&#x9a;É&#x3;&#x93;Åª1&#x9f;Qf&#x8c;°Q¦&#x80;XÞI½P.&#x8e;&#x81;&#x85;À&#x5;¹à&#x1b;h§$]&#x10;_±Çê&#x93;qws¿ª&#x91;&#x1e;¤z¥&#x1b;Ê|äÐ&#x84;ô	V&#x87;$&#x18;c&#x86;&#x9a;dÓ]Ô+EF¡]YÕ&#x9a;&#x1;&#x1e;&#x88;&amp;à!^U&#x13;JsÎ!ËÍÅùër¹&#x99;ó²í!ÑÇâ9iåÁs&#x94;ã&#x12;U&#x8e;&#x19;µÈ¨¹jBRì&#x1b;è÷åùü-&#x19;Îß&#x91;yû&#x16;¿Dà&#x96;áü{&#x1b;Î_1ØY&#x86;ó&#x7f;ùá&lt;m=&#x9c;ßb&#x90;¾ÑµÞf&#x92;¿&#xc;çoïpþ]LÝç&#xc;ü&#x83;ý&#x7f;&#x1f;Îo5u_?Ò\7Ì_&#x86;óËp~&#x19;Î/Ãù¿ôp&#x1e;&#x1a;-Ãùe8&#x7f;CÃù­&#x6;éa&#x13;E~»aþ2&#x9c;ÿ+&#xd;ço`êþú$ÿ&#xd;
+òý&#x1e;&#x86;óoü&#x95;ËÒE[ºhK&#x17;mé¢-]´¥&#x8b;¶tÑ&#x96;.ÚÒE[ºhK&#x17;mé¢-]´wÒEÛÖ=ß²=özo&#x8e;6WóK&#x17;mé¢-]´¥&#x8b;¶tÑ®ÕE&#x83;¡&#x97;FÚÒH[&#x1a;iK#mi¤-&#x8d;´¥&#x91;¶4Ò&#x96;FÚÒH»e&#x8d;´ù&#x1d;¬y¥òk]´­Z&#x6;Ó.=Ù!{£E·&#x81;ýÞÑFÚ&#x16;&#x1d;²Í&#x15;Ó¥®ÛÒH[&#x1a;iK#mi¤-&#x8d;´¥&#x91;v;&#x1a;i·ûïpÁ-´$î&#x8a;Mãñ &#x8e;®ò`&#x1a;&#x0;Ð&#xc;5c¦,wòï&#x8b;S&#x96;RCT&#x9e;RU.#&#x9b;äæ&#x93;&#xd;
+&#x94;&#x8a;&#x6;x6$Ì»¨WHºXT&#xe;&#x8a;{éÊQè*ÚÒ&#x94;&#x1;&#x13;O¡g&#x2;FÜE½j&#x1b;&#x8d;&#x9c;&#x96;&#x1;lN+$&#x2;&#x4;¡ÉU&#xd;&#x84;î&#x8;åjï¦^(Pò g*uí&#x94;KUTÒ&#x9c;T&#x6;Øêä;rñ&#x9d;|&#x16;&#x13;×&#x98;(Ç&lt;&gt;î *Ô&#x4;]%j&#xe;´1wW²C&#x1;¸á!ô7¦×ÌJc{Hl$&#x92;))N&#x92;&#x0;&#x1d;¶*é¥(©-4o*çºáÁ?·{ËP&#x95;£¸H^E£&#x1b;¶¬éñ)kA&#x15;p&#x19;&#xd;­&#x8a;é[=&#x15;èZ&#x9f;w2Y¼^÷CqÞ½è3Kåk}ÐÌ&#x9d;t(ñµu×DUÇ¢\&#xf;&#x16;(Ç¤&#x82;&#x1d;C°&#x9c;*×wýì&#x9f;w&#x85;&#x1;YÚè;&#x8d;y&#x11;&#x15;Ð¢&#x11;5(&#x98;TÏy&#x14;ç©&#x9a;Ù&#x8f;]¹m&#x8f;&apos;i&#xe;&#x81;&#x1e; P3&#x1a;ÌÈ4BF&#xd;
+&#x0;:¦R}©\2_&#x11;KO¾yøð&#x1d;ÇÒE&#x93;n¾r§+lÙH&#x12;Ö&#x8b;~­&#x7;ÊM&#x96;¯³&#x9f;kv.´&#x1f;O&#x9f;ûõ?¿þ&#xf;t·Ì½&#x12;s&#x0;&#x0;</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">gwrtdp-tn690bfadt.tclclouds.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/api/log</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Content-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Content-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="Content-Type" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/json</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="15 /generate_204" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="15 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">clients3.google.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="16 /generate_204" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">clients3.google.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/generate_204</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="14 /api/log" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="14 /api/log" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">&#x1f;&#x8b;&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ÕVmo&#x1b;7&#xc;þ+Å}ÝÉ&#x15;Eê-ß¼´]&#x2;dKº¤-&#x86;e&#x8;tzi&#x8c;Øgã|N&#x91;&#x16;ýï£ìtX&#x8a;tK&#x81;e@&#xc;&#x9c;!JwäC&gt;$ÅOÍf&#x96;&#x9a;½F#&#x82;u.	 ´&#x82;:ë&#x85;+¾&#x88;ÎH&#x15;tF&#x97;JlAiK1ø,Quü´ôâµÛ7&#x87;ÖßþZc,PB-&#x92;* (ø(ºÐyQdÒ¤&#x82;&#x95;`BÓ6¡OÃr&#x96;¶&#x96;¿VZ&#x8f;W««|Ãgco¼üñÕ4&#x8d;¼Û&#xd;ü&#x19;o^Ï®&#x97;,.&#x96;)ÏoÅ&#x8b;ú÷&#xc;Ø6&#x1f;,×oóÀ&#x7;v&quot;YZ§«³&#x9b;U®&#x86;vÒî&#x90;&amp;8±ÕTzÇ&#x92;Ü®&#xe;nWë8ôu×ª/ÒÁ&#x16;§«bÊýz6Vpj«?&#xe;!^5{&#x92;ñmú4Ï&#x87;&#x15;b\.&amp;ù2|¸&#x9a;&#x84;~&#x9c;]Ï&#x86;ÍzÂNÍ&#x97;ñjòaVf;&#x1f;&#x7f;	&#x8b;&#x8a;ëm=~¶?Ï¡ghm3Î&#x16;ùã²¯G?ý|ö&#x83;Ô{X&#xd;&#x95;Í:OW«/ð&#x15;Nô&#x4;¼Õ&#x13;R(u]í´n&#x1;¤è&#xd;é¢t&#x90;D¾tArlASöV¢&#x95;eëÈõmPú&lt;&#x1e;¯vj¥v¦Æ0Äx²&#x9c;õ#ï	&#x90;õ¥9&#x7;&#x7f;&#x1d;C&#x8d;$l¥÷&#x9b;ð¾bÌ}U&#x16;ÆÐìýþ©É×¹&#x1f;û&#x9d;c&apos;ÇG¿]LON.~}ùúÍËÓ³&#x1a;ÌU&#x88;»&#x10;é&#x84;T&#x8a;ÓÎ§BÁZ¯È##&#x8c;&#x10;&#x95;&#xd;
+[&#x84;ãålH&apos;a&#x18;oNÙ«õ&#x8e;&#x3; k&#xc;»+-x¼Pd&#x94;R^&#x1b;t&#x8;Î×8­æa,ËaQ­(VÂäïsª4{Äd-7Õ&apos;^]&#x86;õ&#x94;_&#x80;Ïí=&#x98;&#x8f;&#x8e;§/.^M&#xf;&#x8f;î NVvÆøRlðd&#x8b;&#xd;
+&#x91;8Á&#x83;Å&#x92;&#xd;¢µ÷&quot;&#x8e;A0&apos;bµé&#x84;sV&#x13;&#x82;&#x7;4Ä&#xd;
+Ôùsc&#x9c;UÚY©¿Â&#xd;÷ãæí&lt;&#xc;Ëa·ß¨æÿDOÚ;&#x8e;»ÖZzmýùs%%Óà&#x14;&#x9a;ÿ&#x12;ýéÁñ»;Àe&apos;µ&amp;/&#xb;7%BÔ&#x9e;év&#x92;@*t&#x9c;(é[À&#x17;Ý_Ø&#x15;§&#x89;U&#xe;ù3§9&#x7f;Î&#x9f;{Å&#x1c;&#x0;hõpìëu¿Åc&#x92;«u&#x84;¢è&#xe;&#x4;²&#xd;
+á}ÈBuØ)î&#x11;H!þ&#x3;1§oö÷ï&#x12;Ó)ç&#x94;&#x1;é£åRv&#x9d;ÎÚdbÄ&#x1;u zp!x&#x5;@Ê;Y+üa&#x85;&#x0;&#x96;&#x91;Ô&quot;ç&#x4;°-&#x0;&#x7;©Õª.É»&#x16;ÐY&#x96;5AË&#x5;&#x6;-I£Z&#x96;°U&#x12;dk&#x19;@«&#x8;tKÚø&#x96;ï&#xd;Û&quot;÷ò&#x16;¼S­!c&#x1e;&#x99;áo&#x17;&#x96;&apos;â&#xb;Í&#x1a;m¿&#x9b;^&#x1f;ÀD¾ñ&#x4;7&#x16;-0é$B&#x97;&#x82;°&#x91;&#x2;Æ&#x1c;T&#x94;&#x8f;&#x9d;¹&#x8f;âWä&#x96;îÁXa&#x93;5&#x2;%&quot;&#x97;´Ê&quot;&#x19;M!+ï&#x95;ËOÑ¯&#xe;d&#x87;\Ê&#x82;¢&#xb;&#x2;&#xd;ðÌâM&apos;4&#x91;´±c¾&#x0;&#x9f;¢_1[&#xd;
+&lt;&#x1b;	HN&#xd;
+´Ú&#x88;&#x0;l&#x8c;oI&#x8a;1&quot;¦&#x4;OÑ/WXQ4(&#x8c;ï&#x98;¯B&#x92;&apos;D,¢PIÑñ&#x94;&quot;yÌú&#x8e;ö&#x89;µS:È&#x9d;+&#x99;t0]&#x89;%&#x6;äë*$,æþ9âß®&#x7;&#x9e;ü&#x8c;²Îl§Ñ¿ûgï÷Ïß¶QP&#x8c;&#x9e;û¨&#x6;j9¸Ü)&#x81;&#x83;fxp&amp;ÃMÔ&#x93;j¹»BÝå%(pô&#x14;9´&#x6;&#xb;Ï[&#x9c;&#x9b;Ñ&#x90;Àà&#x9d;ð.p£ôÙä&#x90;­uÄ&#x1c;þñùO¾&#x84;&#x97;&#x8;]&#xc;&#x0;&#x0;</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">gwrtdp-tn690bfadt.tclclouds.com</stringProp>
+              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/api/log</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Content-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Content-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="Content-Type" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/json</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 7.0; vivo 1714 Build/NRD90M)</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>false</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>false</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>true</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <hostname>true</hostname>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="true">
+        <stringProp name="ProxyControlGui.port">8181</stringProp>
+        <collectionProp name="ProxyControlGui.exclude_list">
+          <stringProp name="305776760">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*</stringProp>
+          <stringProp name="1179605444">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)</stringProp>
+          <stringProp name="1799639941">.*detectportal.firefox.com.*</stringProp>
+        </collectionProp>
+        <collectionProp name="ProxyControlGui.include_list"/>
+        <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
+        <intProp name="ProxyControlGui.grouping_mode">4</intProp>
+        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
+        <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
+        <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
+        <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
+        <boolProp name="ProxyControlGui.use_keepalive">true</boolProp>
+        <boolProp name="ProxyControlGui.sampler_download_images">false</boolProp>
+        <boolProp name="ProxyControlGui.regex_match">true</boolProp>
+        <stringProp name="ProxyControlGui.content_type_include"></stringProp>
+        <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
+        <boolProp name="ProxyControlGui.notify_child_sl_filtered">false</boolProp>
+        <stringProp name="ProxyControlGui.proxy_prefix_http_sampler_name"></stringProp>
+        <intProp name="ProxyControlGui.proxy_http_sampler_naming_mode">0</intProp>
+        <stringProp name="ProxyControlGui.proxy_pause_http_sampler"></stringProp>
+      </ProxyControl>
+      <hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>true</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>true</responseData>
+              <samplerData>true</samplerData>
+              <xml>true</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>true</responseHeaders>
+              <requestHeaders>true</requestHeaders>
+              <responseDataOnError>true</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">recording.xml</stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:03.632 UTC</timestamp>
+  <md5sum>3a711d29a2a34933627e694e2c5eb07e</md5sum>
+  <fileName>org.seleniumhq.selenium:selenium-java-3.14.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>cucumber/cucumberkiran:cucumberkiran</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>cucumber</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

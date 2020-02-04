@@ -1,0 +1,29 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1580475217909,15,39 /generate_204,204,No Content,Thread Group 1-1,,true,,107,178,1,1,0,0,3
+1580475217908,15,39 /generate_204,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,107,178,1,1,0,3,3
+1580475217925,627,40 /poly/config/levInit,200,OK,Thread Group 1-1,text,true,,2612,1875,1,1,619,0,19
+1580475218553,284,41 /poly/config/levInit,200,OK,Thread Group 1-1,text,true,,2611,1875,1,1,283,0,0
+1580475217925,911,40 /poly/config/levInit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5223,3750,1,1,902,1,19
+1580475218838,1127,42 /nc/app/wifi/ok.html,200,OK,Thread Group 1-1,text,true,,329,183,1,1,1127,0,834
+1580475218837,1127,42 /nc/app/wifi/ok.html,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,329,183,1,1,1127,2,834
+1580475219967,21004,43 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21004
+1580475240972,21003,44 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21003
+1580475219966,42007,43 /api/log,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,,4780,0,1,1,0,3,42007
+1580475261978,21001,45 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21001
+1580475282981,21002,46 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21002
+1580475261977,42003,45 /api/log,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,,4780,0,1,1,0,4,42003
+1580475303984,21005,47 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21005
+1580475303984,21005,47 /api/log,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2390,0,1,1,0,1,21005
+1580475324989,21000,48 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21000
+1580475324989,21000,48 /api/log,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2390,0,1,1,0,2,21000
+1580475345993,21018,49 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21018
+1580475345992,21018,49 /api/log,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2390,0,1,1,0,2,21018
+1580475367013,194,52 /generate_204,204,No Content,Thread Group 1-1,,true,,107,178,1,1,0,0,180
+1580475367208,8,53 /generate_204,204,No Content,Thread Group 1-1,,true,,107,178,1,1,0,0,0
+1580475367012,202,52 /generate_204,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,214,356,1,1,0,2,180
+1580475367217,21002,50 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21002
+1580475367216,21002,50 /api/log,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2390,0,1,1,0,1,21002
+1580475388219,21002,51 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21002
+1580475388218,21002,51 /api/log,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2390,0,1,1,0,2,21002
+1580475409223,21003,54 /api/log,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection timed out: connect,Thread Group 1-1,text,false,,2390,0,1,1,0,0,21003
+1580475409223,21003,54 /api/log,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,2390,0,1,1,0,1,21003

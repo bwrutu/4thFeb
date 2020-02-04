@@ -1,0 +1,69 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\blazemeter
+[2020-01-17 15:44:22]: BlazemeterJenkins plugin v.null
+[2020-01-17 15:44:22]: CiBuild is started.
+[2020-01-17 15:44:23]: Start test id : 6693202, name : March_18_3:42 PM
+[2020-01-17 15:44:25]: Test has been started successfully at Fri Jan 17 15:44:25 IST 2020. Master id=24942318
+[2020-01-17 15:44:25]: Test report will be available at https://a.blazemeter.com/app/?public-token=VVv0gqXu980US8aY0i6Kd55HAEinpqOWjNy0J81inEyjNS3a5a#/masters/24942318/summary
+[2020-01-17 15:45:39]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-01-17 15:46:41]: Check if the test is still running. Time passed since start: 2 minutes.
+[2020-01-17 15:47:44]: Check if the test is still running. Time passed since start: 3 minutes.
+[2020-01-17 15:48:46]: Check if the test is still running. Time passed since start: 4 minutes.
+[2020-01-17 15:49:49]: Check if the test is still running. Time passed since start: 5 minutes.
+[2020-01-17 15:50:52]: Check if the test is still running. Time passed since start: 6 minutes.
+[2020-01-17 15:51:54]: Check if the test is still running. Time passed since start: 7 minutes.
+[2020-01-17 15:52:57]: Check if the test is still running. Time passed since start: 8 minutes.
+[2020-01-17 15:53:59]: Check if the test is still running. Time passed since start: 9 minutes.
+[2020-01-17 15:55:02]: Check if the test is still running. Time passed since start: 10 minutes.
+[2020-01-17 15:56:04]: Check if the test is still running. Time passed since start: 11 minutes.
+[2020-01-17 15:57:07]: Check if the test is still running. Time passed since start: 12 minutes.
+[2020-01-17 15:58:09]: Check if the test is still running. Time passed since start: 13 minutes.
+[2020-01-17 15:59:12]: Check if the test is still running. Time passed since start: 14 minutes.
+[2020-01-17 16:00:14]: Check if the test is still running. Time passed since start: 15 minutes.
+[2020-01-17 16:01:17]: Check if the test is still running. Time passed since start: 16 minutes.
+[2020-01-17 16:02:20]: Check if the test is still running. Time passed since start: 17 minutes.
+[2020-01-17 16:03:22]: Check if the test is still running. Time passed since start: 18 minutes.
+[2020-01-17 16:04:25]: Check if the test is still running. Time passed since start: 19 minutes.
+[2020-01-17 16:05:27]: Check if the test is still running. Time passed since start: 20 minutes.
+[2020-01-17 16:06:30]: Check if the test is still running. Time passed since start: 21 minutes.
+[2020-01-17 16:07:32]: Check if the test is still running. Time passed since start: 22 minutes.
+[2020-01-17 16:08:25]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-01-17 16:08:25]: Trying to get functional summary from server
+[2020-01-17 16:08:25]: Trying to get aggregate summary from server
+[2020-01-17 16:08:26]: Got aggregated report from server
+[2020-01-17 16:08:26]: {"avg":127234.43,"min":126976,"max":127487,"tp90":127487,"errorPercentage":100,"hits":139,"avgthrpt":0.17}
+Build step 'BlazeMeter' changed build result to SUCCESS
+[blazemeter] $ cmd /c call C:\Windows\TEMP\jenkins9077672175119622936.bat
+
+C:\Program Files (x86)\Jenkins\workspace\blazemeter>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx -l Pending_Live_Campaign.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx
+Starting the test @ Fri Jan 17 16:08:28 IST 2020 (1579257508679)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:03 =    0.3/s Avg:  2814 Min:  2814 Max:  2814 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+summary +     24 in 00:00:28 =    0.9/s Avg:  3751 Min:    35 Max:  8315 Err:    20 (83.33%) Active: 5 Started: 5 Finished: 0
+summary =     25 in 00:00:31 =    0.8/s Avg:  3714 Min:    35 Max:  8315 Err:    20 (80.00%)
+summary +     23 in 00:00:33 =    0.7/s Avg:  1752 Min:    50 Max:  4336 Err:    20 (86.96%) Active: 5 Started: 5 Finished: 0
+summary =     48 in 00:01:04 =    0.8/s Avg:  2773 Min:    35 Max:  8315 Err:    40 (83.33%)
+summary +     18 in 00:00:28 =    0.7/s Avg:  1552 Min:    58 Max:  4842 Err:    15 (83.33%) Active: 5 Started: 5 Finished: 0
+summary =     66 in 00:01:31 =    0.7/s Avg:  2440 Min:    35 Max:  8315 Err:    55 (83.33%)
+summary +     26 in 00:00:30 =    0.9/s Avg:  1605 Min:    51 Max:  3412 Err:    22 (84.62%) Active: 5 Started: 5 Finished: 0
+summary =     92 in 00:02:01 =    0.8/s Avg:  2204 Min:    35 Max:  8315 Err:    77 (83.70%)
+summary +     23 in 00:00:31 =    0.7/s Avg:  1554 Min:    57 Max:  3961 Err:    19 (82.61%) Active: 5 Started: 5 Finished: 0
+summary =    115 in 00:02:33 =    0.8/s Avg:  2074 Min:    35 Max:  8315 Err:    96 (83.48%)
+summary +     22 in 00:00:29 =    0.8/s Avg:   813 Min:    57 Max:  1725 Err:    13 (59.09%) Active: 4 Started: 5 Finished: 1
+summary =    137 in 00:03:01 =    0.8/s Avg:  1872 Min:    35 Max:  8315 Err:   109 (79.56%)
+summary +     13 in 00:00:42 =    0.3/s Avg:   356 Min:    49 Max:  1536 Err:     1 (7.69%) Active: 0 Started: 5 Finished: 5
+summary =    150 in 00:03:43 =    0.7/s Avg:  1740 Min:    35 Max:  8315 Err:   110 (73.33%)
+Tidying up ...    @ Fri Jan 17 16:12:12 IST 2020 (1579257732161)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Pending_Live_Campaign.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\blazemeter\Pending_Live_Campaign.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\blazemeter\builds\9\performance-reports\JMeter\Pending_Live_Campaign.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\blazemeter\builds\9\performance-reports\JMeter\Pending_Live_Campaign.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Pending_Live_Campaign.csv reported 74.194% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

@@ -1,0 +1,105 @@
+2020-02-03 12:50:58,601 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-02-03 12:50:58,671 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\user.properties
+2020-02-03 12:50:58,693 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\system.properties
+2020-02-03 12:50:58,708 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=xml
+2020-02-03 12:50:58,741 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-02-03 12:50:58,741 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-02-03 12:50:58,741 INFO o.a.j.JMeter: java.version=1.8.0_201
+2020-02-03 12:50:58,741 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-02-03 12:50:58,741 INFO o.a.j.JMeter: os.name=Windows 7
+2020-02-03 12:50:58,742 INFO o.a.j.JMeter: os.arch=amd64
+2020-02-03 12:50:58,742 INFO o.a.j.JMeter: os.version=6.1
+2020-02-03 12:50:58,742 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-02-03 12:50:58,742 INFO o.a.j.JMeter: java.awt.headless=true
+2020-02-03 12:50:58,742 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-02-03 12:50:58,742 INFO o.a.j.JMeter: Available Processors =4
+2020-02-03 12:50:58,791 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-02-03 12:50:58,792 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-02-03 12:50:58,792 INFO o.a.j.JMeter: JMeterHome=C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1
+2020-02-03 12:50:58,792 INFO o.a.j.JMeter: user.dir  =C:\Program Files (x86)\Jenkins\workspace\blazemeter
+2020-02-03 12:50:58,793 INFO o.a.j.JMeter: PWD       =C:\Program Files (x86)\Jenkins\workspace\blazemeter
+2020-02-03 12:50:58,822 INFO o.a.j.JMeter: IP: 192.168.20.128 Name: Trigen-PC FullName: Trigen-PC
+2020-02-03 12:50:58,835 INFO o.a.j.s.FileServer: Default base='C:\Program Files (x86)\Jenkins\workspace\blazemeter'
+2020-02-03 12:50:58,956 INFO o.a.j.s.FileServer: Set new base='C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras'
+2020-02-03 12:50:59,589 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-02-03 12:50:59,664 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-02-03 12:50:59,690 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-02-03 12:50:59,699 INFO o.a.j.s.SaveService: Loading file: C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx
+2020-02-03 12:50:59,852 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-02-03 12:50:59,872 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2020-02-03 12:50:59,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-03 12:50:59,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-03 12:50:59,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-03 12:50:59,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-02-03 12:50:59,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-02-03 12:50:59,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-02-03 12:51:00,076 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-02-03 12:51:00,082 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-02-03 12:51:00,088 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-02-03 12:51:00,088 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-02-03 12:51:00,105 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-02-03 12:51:00,106 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-02-03 12:51:01,162 INFO o.a.j.JMeter: Running test (1580714461161)
+2020-02-03 12:51:01,246 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-02-03 12:51:01,247 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2020-02-03 12:51:01,247 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-02-03 12:51:01,247 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2020-02-03 12:51:01,267 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-02-03 12:51:01,267 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-02-03 12:51:01,267 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-02-03 12:51:01,267 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-02-03 12:51:01,269 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-02-03 12:51:01,279 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-02-03 12:51:01,279 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-02-03 12:51:01,338 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Trigen-PC
+2020-02-03 12:51:01,358 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-02-03 12:51:01,459 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-02-03 12:51:01,668 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-02-03 12:51:01,855 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-02-03 12:51:02,053 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-02-03 12:52:05,590 INFO o.a.j.r.Summariser: summary +     11 in 00:01:04 =    0.2/s Avg: 21020 Min: 20994 Max: 21106 Err:    11 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:52:31,539 INFO o.a.j.r.Summariser: summary +      8 in 00:00:26 =    0.3/s Avg: 20999 Min: 20997 Max: 21003 Err:     8 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:52:31,539 INFO o.a.j.r.Summariser: summary =     19 in 00:01:30 =    0.2/s Avg: 21011 Min: 20994 Max: 21106 Err:    19 (100.00%)
+2020-02-03 12:54:00,748 INFO o.a.j.r.Summariser: summary +     15 in 00:01:29 =    0.2/s Avg: 21001 Min: 20994 Max: 21010 Err:    15 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:54:00,749 INFO o.a.j.r.Summariser: summary =     34 in 00:03:00 =    0.2/s Avg: 21007 Min: 20994 Max: 21106 Err:    34 (100.00%)
+2020-02-03 12:54:30,774 INFO o.a.j.r.Summariser: summary +      7 in 00:00:30 =    0.2/s Avg: 21003 Min: 20994 Max: 21008 Err:     7 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:54:30,774 INFO o.a.j.r.Summariser: summary =     41 in 00:03:30 =    0.2/s Avg: 21006 Min: 20994 Max: 21106 Err:    41 (100.00%)
+2020-02-03 12:55:33,084 INFO o.a.j.r.Summariser: summary +     11 in 00:01:02 =    0.2/s Avg: 21002 Min: 20997 Max: 21007 Err:    11 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:55:33,084 INFO o.a.j.r.Summariser: summary =     52 in 00:04:32 =    0.2/s Avg: 21005 Min: 20994 Max: 21106 Err:    52 (100.00%)
+2020-02-03 12:56:01,968 INFO o.a.j.r.Summariser: summary +      6 in 00:00:29 =    0.2/s Avg: 21000 Min: 20995 Max: 21004 Err:     6 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:56:01,969 INFO o.a.j.r.Summariser: summary =     58 in 00:05:01 =    0.2/s Avg: 21005 Min: 20994 Max: 21106 Err:    58 (100.00%)
+2020-02-03 12:56:31,421 INFO o.a.j.r.Summariser: summary +      7 in 00:00:29 =    0.2/s Avg: 20999 Min: 20995 Max: 21008 Err:     7 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:56:31,422 INFO o.a.j.r.Summariser: summary =     65 in 00:05:30 =    0.2/s Avg: 21004 Min: 20994 Max: 21106 Err:    65 (100.00%)
+2020-02-03 12:57:35,197 INFO o.a.j.r.Summariser: summary +     12 in 00:01:04 =    0.2/s Avg: 21002 Min: 20996 Max: 21007 Err:    12 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:57:35,198 INFO o.a.j.r.Summariser: summary =     77 in 00:06:34 =    0.2/s Avg: 21004 Min: 20994 Max: 21106 Err:    77 (100.00%)
+2020-02-03 12:58:01,395 INFO o.a.j.r.Summariser: summary +      5 in 00:00:26 =    0.2/s Avg: 21006 Min: 21003 Max: 21010 Err:     5 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:58:01,396 INFO o.a.j.r.Summariser: summary =     82 in 00:07:00 =    0.2/s Avg: 21004 Min: 20994 Max: 21106 Err:    82 (100.00%)
+2020-02-03 12:58:33,132 INFO o.a.j.r.Summariser: summary +      9 in 00:00:32 =    0.3/s Avg: 20998 Min: 20994 Max: 21005 Err:     9 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:58:33,133 INFO o.a.j.r.Summariser: summary =     91 in 00:07:32 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:    91 (100.00%)
+2020-02-03 12:59:00,808 INFO o.a.j.r.Summariser: summary +      5 in 00:00:28 =    0.2/s Avg: 21002 Min: 20998 Max: 21007 Err:     5 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:59:00,808 INFO o.a.j.r.Summariser: summary =     96 in 00:08:00 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:    96 (100.00%)
+2020-02-03 12:59:31,697 INFO o.a.j.r.Summariser: summary +      5 in 00:00:31 =    0.2/s Avg: 21001 Min: 20999 Max: 21004 Err:     5 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 12:59:31,698 INFO o.a.j.r.Summariser: summary =    101 in 00:08:31 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   101 (100.00%)
+2020-02-03 13:00:05,295 INFO o.a.j.r.Summariser: summary +      6 in 00:00:34 =    0.2/s Avg: 21002 Min: 20996 Max: 21008 Err:     6 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 13:00:05,296 INFO o.a.j.r.Summariser: summary =    107 in 00:09:04 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   107 (100.00%)
+2020-02-03 13:00:35,198 INFO o.a.j.r.Summariser: summary +      6 in 00:00:30 =    0.2/s Avg: 20999 Min: 20995 Max: 21005 Err:     6 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 13:00:35,199 INFO o.a.j.r.Summariser: summary =    113 in 00:09:34 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   113 (100.00%)
+2020-02-03 13:01:03,162 INFO o.a.j.r.Summariser: summary +      7 in 00:00:28 =    0.3/s Avg: 20999 Min: 20995 Max: 21006 Err:     7 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 13:01:03,162 INFO o.a.j.r.Summariser: summary =    120 in 00:10:02 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   120 (100.00%)
+2020-02-03 13:02:00,302 INFO o.a.j.r.Summariser: summary +     11 in 00:00:57 =    0.2/s Avg: 21000 Min: 20995 Max: 21006 Err:    11 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 13:02:00,303 INFO o.a.j.r.Summariser: summary =    131 in 00:10:59 =    0.2/s Avg: 21002 Min: 20994 Max: 21106 Err:   131 (100.00%)
+2020-02-03 13:03:03,304 INFO o.a.j.r.Summariser: summary +     14 in 00:01:03 =    0.2/s Avg: 21000 Min: 20994 Max: 21008 Err:    14 (100.00%) Active: 5 Started: 5 Finished: 0
+2020-02-03 13:03:03,305 INFO o.a.j.r.Summariser: summary =    145 in 00:12:02 =    0.2/s Avg: 21002 Min: 20994 Max: 21106 Err:   145 (100.00%)
+2020-02-03 13:03:11,155 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-02-03 13:03:11,155 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-02-03 13:03:17,854 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-02-03 13:03:17,854 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-02-03 13:03:49,095 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-02-03 13:03:49,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-02-03 13:03:49,605 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-02-03 13:03:49,605 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-02-03 13:03:50,995 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-02-03 13:03:50,995 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-02-03 13:03:50,995 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-02-03 13:03:50,996 INFO o.a.j.r.Summariser: summary +      5 in 00:00:48 =    0.1/s Avg: 21002 Min: 21001 Max: 21005 Err:     5 (100.00%) Active: 0 Started: 5 Finished: 5
+2020-02-03 13:03:50,996 INFO o.a.j.r.Summariser: summary =    150 in 00:12:50 =    0.2/s Avg: 21002 Min: 20994 Max: 21106 Err:   150 (100.00%)

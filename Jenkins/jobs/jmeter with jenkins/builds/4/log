@@ -1,0 +1,17 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\t
+[t] $ cmd /c call C:\Windows\TEMP\jenkins1484157009453321497.bat
+
+C:\Program Files (x86)\Jenkins\workspace\t>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Test.jmx -l Test1.jtl 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Test.jmx
+Starting the test @ Tue Jan 14 15:04:43 IST 2020 (1578994483223)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     30 in 00:00:03 =    9.4/s Avg:   228 Min:   101 Max:   346 Err:     2 (6.67%)
+Tidying up ...    @ Tue Jan 14 15:04:46 IST 2020 (1578994486792)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Cannot detect file type because of error: Failed to copy C:\Program Files (x86)\Jenkins\workspace\t\Reg1.csv to C:\Program Files (x86)\Jenkins\jobs\t\builds\4\temp\Reg1.csv
+Build step 'Publish Performance test result report' changed build result to FAILURE
+Finished: FAILURE

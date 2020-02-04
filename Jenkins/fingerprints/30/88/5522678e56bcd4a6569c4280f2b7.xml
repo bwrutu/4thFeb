@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-26 12:54:03.28 UTC</timestamp>
+  <md5sum>30885522678e56bcd4a6569c4280f2b7</md5sum>
+  <fileName>net.bytebuddy:byte-buddy-1.8.15.jar</fileName>
+  <usages>
+    <entry>
+      <string>cucumber/cucumberkiran:cucumberkiran</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>cucumber</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>maven1/maven_practise1:maven_practise1</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>maven1</string>
+      <ranges>2-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

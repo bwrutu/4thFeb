@@ -1,0 +1,90 @@
+Started by user [8mha:////4Bn6yNTAdL/X9uWVZKaQRtikpVfUQvDsTTUBEy3QADjxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mTejaswini
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\blazemeter
+[2020-02-03 12:26:28]: BlazemeterJenkins plugin v.null
+[2020-02-03 12:26:29]: CiBuild is started.
+[2020-02-03 12:26:31]: Start test id : 6693202, name : March_18_3:42 PM
+[2020-02-03 12:26:32]: Test has been started successfully at Mon Feb 03 12:26:32 IST 2020. Master id=25416914
+[2020-02-03 12:26:33]: Test report will be available at https://a.blazemeter.com/app/?public-token=e4yZsg1RUu6XChuV1k0CNCuYDBoSftqrON4Vl94ewzJeRVMujs#/masters/25416914/summary
+[2020-02-03 12:27:46]: Check if the test is still running. Time passed since start: 1 minutes.
+[2020-02-03 12:28:48]: Check if the test is still running. Time passed since start: 2 minutes.
+[2020-02-03 12:29:51]: Check if the test is still running. Time passed since start: 3 minutes.
+[2020-02-03 12:30:54]: Check if the test is still running. Time passed since start: 4 minutes.
+[2020-02-03 12:31:56]: Check if the test is still running. Time passed since start: 5 minutes.
+[2020-02-03 12:32:59]: Check if the test is still running. Time passed since start: 6 minutes.
+[2020-02-03 12:34:01]: Check if the test is still running. Time passed since start: 7 minutes.
+[2020-02-03 12:35:04]: Check if the test is still running. Time passed since start: 8 minutes.
+[2020-02-03 12:36:06]: Check if the test is still running. Time passed since start: 9 minutes.
+[2020-02-03 12:37:09]: Check if the test is still running. Time passed since start: 10 minutes.
+[2020-02-03 12:38:11]: Check if the test is still running. Time passed since start: 11 minutes.
+[2020-02-03 12:39:14]: Check if the test is still running. Time passed since start: 12 minutes.
+[2020-02-03 12:40:16]: Check if the test is still running. Time passed since start: 13 minutes.
+[2020-02-03 12:41:18]: Check if the test is still running. Time passed since start: 14 minutes.
+[2020-02-03 12:42:21]: Check if the test is still running. Time passed since start: 15 minutes.
+[2020-02-03 12:43:23]: Check if the test is still running. Time passed since start: 16 minutes.
+[2020-02-03 12:44:27]: Check if the test is still running. Time passed since start: 17 minutes.
+[2020-02-03 12:45:29]: Check if the test is still running. Time passed since start: 18 minutes.
+[2020-02-03 12:46:32]: Check if the test is still running. Time passed since start: 19 minutes.
+[2020-02-03 12:47:34]: Check if the test is still running. Time passed since start: 20 minutes.
+[2020-02-03 12:48:36]: Check if the test is still running. Time passed since start: 21 minutes.
+[2020-02-03 12:49:39]: Check if the test is still running. Time passed since start: 22 minutes.
+[2020-02-03 12:50:41]: Check if the test is still running. Time passed since start: 23 minutes.
+[2020-02-03 12:50:52]: No errors/failures while validating CIStatus: setting SUCCESS
+[2020-02-03 12:50:52]: Trying to get functional summary from server
+[2020-02-03 12:50:52]: Trying to get aggregate summary from server
+[2020-02-03 12:50:53]: Got aggregated report from server
+[2020-02-03 12:50:53]: {"avg":127234.41,"min":126976,"max":127487,"tp90":127487,"errorPercentage":100,"hits":139,"avgthrpt":0.17}
+Build step 'BlazeMeter' changed build result to SUCCESS
+[blazemeter] $ cmd /c call C:\Windows\TEMP\jenkins7162779810690051528.bat
+
+C:\Program Files (x86)\Jenkins\workspace\blazemeter>C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx -l Pending_Live_Campaign.csv 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Trigen\Downloads\apache-jmeter-5.1.1\apache-jmeter-5.1.1\extras\Pending_Live_campaign.jmx
+Starting the test @ Mon Feb 03 12:51:00 IST 2020 (1580714460080)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     11 in 00:01:04 =    0.2/s Avg: 21020 Min: 20994 Max: 21106 Err:    11 (100.00%) Active: 5 Started: 5 Finished: 0
+summary +      8 in 00:00:26 =    0.3/s Avg: 20999 Min: 20997 Max: 21003 Err:     8 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     19 in 00:01:30 =    0.2/s Avg: 21011 Min: 20994 Max: 21106 Err:    19 (100.00%)
+summary +     15 in 00:01:29 =    0.2/s Avg: 21001 Min: 20994 Max: 21010 Err:    15 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     34 in 00:03:00 =    0.2/s Avg: 21007 Min: 20994 Max: 21106 Err:    34 (100.00%)
+summary +      7 in 00:00:30 =    0.2/s Avg: 21003 Min: 20994 Max: 21008 Err:     7 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     41 in 00:03:30 =    0.2/s Avg: 21006 Min: 20994 Max: 21106 Err:    41 (100.00%)
+summary +     11 in 00:01:02 =    0.2/s Avg: 21002 Min: 20997 Max: 21007 Err:    11 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     52 in 00:04:32 =    0.2/s Avg: 21005 Min: 20994 Max: 21106 Err:    52 (100.00%)
+summary +      6 in 00:00:29 =    0.2/s Avg: 21000 Min: 20995 Max: 21004 Err:     6 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     58 in 00:05:01 =    0.2/s Avg: 21005 Min: 20994 Max: 21106 Err:    58 (100.00%)
+summary +      7 in 00:00:29 =    0.2/s Avg: 20999 Min: 20995 Max: 21008 Err:     7 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     65 in 00:05:30 =    0.2/s Avg: 21004 Min: 20994 Max: 21106 Err:    65 (100.00%)
+summary +     12 in 00:01:04 =    0.2/s Avg: 21002 Min: 20996 Max: 21007 Err:    12 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     77 in 00:06:34 =    0.2/s Avg: 21004 Min: 20994 Max: 21106 Err:    77 (100.00%)
+summary +      5 in 00:00:26 =    0.2/s Avg: 21006 Min: 21003 Max: 21010 Err:     5 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     82 in 00:07:00 =    0.2/s Avg: 21004 Min: 20994 Max: 21106 Err:    82 (100.00%)
+summary +      9 in 00:00:32 =    0.3/s Avg: 20998 Min: 20994 Max: 21005 Err:     9 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     91 in 00:07:32 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:    91 (100.00%)
+summary +      5 in 00:00:28 =    0.2/s Avg: 21002 Min: 20998 Max: 21007 Err:     5 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =     96 in 00:08:00 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:    96 (100.00%)
+summary +      5 in 00:00:31 =    0.2/s Avg: 21001 Min: 20999 Max: 21004 Err:     5 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =    101 in 00:08:31 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   101 (100.00%)
+summary +      6 in 00:00:34 =    0.2/s Avg: 21002 Min: 20996 Max: 21008 Err:     6 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =    107 in 00:09:04 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   107 (100.00%)
+summary +      6 in 00:00:30 =    0.2/s Avg: 20999 Min: 20995 Max: 21005 Err:     6 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =    113 in 00:09:34 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   113 (100.00%)
+summary +      7 in 00:00:28 =    0.3/s Avg: 20999 Min: 20995 Max: 21006 Err:     7 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =    120 in 00:10:02 =    0.2/s Avg: 21003 Min: 20994 Max: 21106 Err:   120 (100.00%)
+summary +     11 in 00:00:57 =    0.2/s Avg: 21000 Min: 20995 Max: 21006 Err:    11 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =    131 in 00:10:59 =    0.2/s Avg: 21002 Min: 20994 Max: 21106 Err:   131 (100.00%)
+summary +     14 in 00:01:03 =    0.2/s Avg: 21000 Min: 20994 Max: 21008 Err:    14 (100.00%) Active: 5 Started: 5 Finished: 0
+summary =    145 in 00:12:02 =    0.2/s Avg: 21002 Min: 20994 Max: 21106 Err:   145 (100.00%)
+summary +      5 in 00:00:48 =    0.1/s Avg: 21002 Min: 21001 Max: 21005 Err:     5 (100.00%) Active: 0 Started: 5 Finished: 5
+summary =    150 in 00:12:50 =    0.2/s Avg: 21002 Min: 20994 Max: 21106 Err:   150 (100.00%)
+Tidying up ...    @ Mon Feb 03 13:03:50 IST 2020 (1580715230996)
+... end of run
+Creating parser with percentiles:'0,50,90,100,' filterRegex:
+Performance: Recording JMeter reports 'Pending_Live_Campaign.csv'
+Performance: JMeter copying reports to master, files '[C:\Program Files (x86)\Jenkins\workspace\blazemeter\Pending_Live_Campaign.csv]'
+Performance: JMeter parsing local reports '[C:\Program Files (x86)\Jenkins\jobs\blazemeter\builds\10\performance-reports\JMeter\Pending_Live_Campaign.csv]'
+Performance: Parsing report file 'C:\Program Files (x86)\Jenkins\jobs\blazemeter\builds\10\performance-reports\JMeter\Pending_Live_Campaign.csv' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File Pending_Live_Campaign.csv reported 82.796% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

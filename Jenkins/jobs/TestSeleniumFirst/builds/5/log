@@ -1,0 +1,18 @@
+Started by user [8mha:////4PR+8ukyzODA806Ttl18/BcO+E8tsM45NhENnW/8L5aNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace F:\java simple demo
+[java simple demo] $ cmd /c call C:\Windows\TEMP\jenkins7851278064469828855.bat
+
+F:\java simple demo>run.bat
+
+F:\java simple demo>java -cp bin;lib\* org.testng.TestNG testng.xml 
+[TestNG] Running:
+  F:\java simple demo\testng.xml
+
+
+===============================================
+Suite
+Total tests run: 0, Failures: 0, Skips: 0
+===============================================
+
+Finished: SUCCESS
